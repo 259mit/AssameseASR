@@ -1,0 +1,9 @@
+aa_B aan_B ax_B d_B e_B i_B k_B n_B p_B r_B s_B t_B th_B u_B y_B 
+aa_E aan_E ax_E d_E e_E i_E k_E n_E p_E r_E s_E t_E th_E u_E y_E 
+aa_I aan_I ax_I d_I e_I i_I k_I n_I p_I r_I s_I t_I th_I u_I y_I 
+aa_S aan_S ax_S d_S e_S i_S k_S n_S p_S r_S s_S t_S th_S u_S y_S 
+sil 
+sil_B 
+sil_E 
+sil_I 
+sil_S 

@@ -1,0 +1,13 @@
+!SIL !SIL sil_S
+<eps> <eps> sil
+aath aath aa_B th_E
+dui dui d_B u_I i_E
+ek ek e_B k_E
+nax nax n_B ax_E
+paas paas p_B aan_I s_E
+saari saari s_B aa_I r_I i_E
+sil sil sil_S
+soi soi s_B ax_I y_E
+tini tini t_B i_I n_I i_E
+xaat xaat s_B aa_I t_E
+xunnyo xunnyo s_B u_I n_I y_I ax_E
