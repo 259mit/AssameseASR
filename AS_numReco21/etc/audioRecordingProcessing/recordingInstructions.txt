@@ -1,0 +1,68 @@
+		Speech recording	03-MAY-2020
+
+Instructions for recording Assamese digit sequences
+
+1) Move this file and recording_sentences_AS.sh and numbers80_AS.txt
+in "kaldi" directory. Change your directory to kaldi directory.
+In my case, I would do the following
+	cd ~/kaldi/egs/0chief/AS_numReco
+
+2) Wear an earphone or headphone and connect the jack to the laptop.
+   Confirm that recording and playing is OK by doing the following:
+	rec junk.wav trim 0 5
+   Now, speak "hello one two three"
+	play junk.wav
+   If you hear the audio, your audio settings is OK.
+   If not, solve this problem first; seek help from co-interns or me.
+Also, display the wavefile using wavesurfer. Check the the maximum amplitude (on y-scale) is in the range [5000, 30000]. If the maxValue is lower than 5000, increase the input mic gain (after going to settings on Desktop). If the maxValue is greater than 30000, reduce the mic gain. Then, remove the temporary file.
+	rm junk.wav
+
+3) You will read 80 Assamese digit sequences which will be recorded on your PC. The wav files will be stored in a sub-directory called wav.
+
+The process is as follows:
+
+	chmod a+rx recordSentences_AS.sh
+	./recordSentences_AS.sh
+
+When you execute the above two commands,
+  the following line will be displayed:
+"Enter a single letter (M or F) indicating the gender of the speaker:"
+If you are male, enter M  otherwise enter F  .
+
+Then, the following line will be displayed:
+	"Enter the speaker Id (Ex: 5): "
+Type your speaker Id and press ENTER
+
+Then, the following line will be displayed:
+"Enter the serial number (Ex: 11) of the first sentence to be recorded in this recording session: "
+If (you are starting the recording process)
+{  Type 1 and press ENTER
+   The first digit sequence will be displayed on your terminal.
+} else if (you want the restart recording from, say 34th sentence)
+   Type 34 and press ENTER 
+   The  34th digit sequence will be displayed on your terminal.
+}
+Note: you can abort/terminate recording at any time by pressing control-c
+
+while (80th sentence is not recorded)
+{ Read the sentence quietly. Re-read the digit sequence if needed.
+  When you are ready to record this sentence:
+  Press ENTER
+  Now, start SPEAKING the digit sequence. You have 7 seconds to complete reading.
+  Once the 7 seconds is over,
+    the PC will play back the speech file recorded just now.
+  If (you feel that recording is OK) 
+  { 	press ENTER
+	the next sentence will be displayed
+  } else (if you feel that there is error in recording such as
+		you could not complete reading all the digits
+		you made serious errors in reading )
+  {	type  r   and then press ENTER
+	the following line will be displayed
+	  "repeat recording ------------------------"
+	the same sentence will be displayed again
+  } # end of if block
+}   # end of while loop
+
+
+
