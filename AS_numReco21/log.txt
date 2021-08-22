@@ -1,0 +1,183 @@
+Sat Aug 21 19:48:36 IST 2021
+============================================================================
+                   Training 2 -gram LM               	        
+============================================================================
+utils/prepare_lang.sh --num-sil-states 3 data/local/dict !SIL data/local/lang_bigram data/lang_bigram
+Checking data/local/dict/silence_phones.txt ...
+--> reading data/local/dict/silence_phones.txt
+--> text seems to be UTF-8 or ASCII, checking whitespaces
+--> text contains only allowed whitespaces
+--> data/local/dict/silence_phones.txt is OK
+
+Checking data/local/dict/optional_silence.txt ...
+--> reading data/local/dict/optional_silence.txt
+--> text seems to be UTF-8 or ASCII, checking whitespaces
+--> text contains only allowed whitespaces
+--> data/local/dict/optional_silence.txt is OK
+
+Checking data/local/dict/nonsilence_phones.txt ...
+--> reading data/local/dict/nonsilence_phones.txt
+--> text seems to be UTF-8 or ASCII, checking whitespaces
+--> text contains only allowed whitespaces
+--> data/local/dict/nonsilence_phones.txt is OK
+
+Checking disjoint: silence_phones.txt, nonsilence_phones.txt
+--> disjoint property is OK.
+
+Checking data/local/dict/lexicon.txt
+--> reading data/local/dict/lexicon.txt
+--> text seems to be UTF-8 or ASCII, checking whitespaces
+--> text contains only allowed whitespaces
+--> data/local/dict/lexicon.txt is OK
+
+Checking data/local/dict/lexiconp.txt
+--> reading data/local/dict/lexiconp.txt
+--> text seems to be UTF-8 or ASCII, checking whitespaces
+--> text contains only allowed whitespaces
+--> data/local/dict/lexiconp.txt is OK
+
+Checking lexicon pair data/local/dict/lexicon.txt and data/local/dict/lexiconp.txt
+--> lexicon pair data/local/dict/lexicon.txt and data/local/dict/lexiconp.txt match
+
+Checking data/local/dict/extra_questions.txt ...
+--> data/local/dict/extra_questions.txt is empty (this is OK)
+--> SUCCESS [validating dictionary directory data/local/dict]
+
+fstaddselfloops data/lang_bigram/phones/wdisambig_phones.int data/lang_bigram/phones/wdisambig_words.int 
+prepare_lang.sh: validating output directory
+utils/validate_lang.pl data/lang_bigram
+Checking existence of separator file
+separator file data/lang_bigram/subword_separator.txt is empty or does not exist, deal in word case.
+Checking data/lang_bigram/phones.txt ...
+--> text seems to be UTF-8 or ASCII, checking whitespaces
+--> text contains only allowed whitespaces
+--> data/lang_bigram/phones.txt is OK
+
+Checking words.txt: #0 ...
+--> text seems to be UTF-8 or ASCII, checking whitespaces
+--> text contains only allowed whitespaces
+--> data/lang_bigram/words.txt is OK
+
+Checking disjoint: silence.txt, nonsilence.txt, disambig.txt ...
+--> silence.txt and nonsilence.txt are disjoint
+--> silence.txt and disambig.txt are disjoint
+--> disambig.txt and nonsilence.txt are disjoint
+--> disjoint property is OK
+
+Checking sumation: silence.txt, nonsilence.txt, disambig.txt ...
+--> found no unexplainable phones in phones.txt
+
+Checking data/lang_bigram/phones/context_indep.{txt, int, csl} ...
+--> text seems to be UTF-8 or ASCII, checking whitespaces
+--> text contains only allowed whitespaces
+--> 5 entry/entries in data/lang_bigram/phones/context_indep.txt
+--> data/lang_bigram/phones/context_indep.int corresponds to data/lang_bigram/phones/context_indep.txt
+--> data/lang_bigram/phones/context_indep.csl corresponds to data/lang_bigram/phones/context_indep.txt
+--> data/lang_bigram/phones/context_indep.{txt, int, csl} are OK
+
+Checking data/lang_bigram/phones/nonsilence.{txt, int, csl} ...
+--> text seems to be UTF-8 or ASCII, checking whitespaces
+--> text contains only allowed whitespaces
+--> 60 entry/entries in data/lang_bigram/phones/nonsilence.txt
+--> data/lang_bigram/phones/nonsilence.int corresponds to data/lang_bigram/phones/nonsilence.txt
+--> data/lang_bigram/phones/nonsilence.csl corresponds to data/lang_bigram/phones/nonsilence.txt
+--> data/lang_bigram/phones/nonsilence.{txt, int, csl} are OK
+
+Checking data/lang_bigram/phones/silence.{txt, int, csl} ...
+--> text seems to be UTF-8 or ASCII, checking whitespaces
+--> text contains only allowed whitespaces
+--> 5 entry/entries in data/lang_bigram/phones/silence.txt
+--> data/lang_bigram/phones/silence.int corresponds to data/lang_bigram/phones/silence.txt
+--> data/lang_bigram/phones/silence.csl corresponds to data/lang_bigram/phones/silence.txt
+--> data/lang_bigram/phones/silence.{txt, int, csl} are OK
+
+Checking data/lang_bigram/phones/optional_silence.{txt, int, csl} ...
+--> text seems to be UTF-8 or ASCII, checking whitespaces
+--> text contains only allowed whitespaces
+--> 1 entry/entries in data/lang_bigram/phones/optional_silence.txt
+--> data/lang_bigram/phones/optional_silence.int corresponds to data/lang_bigram/phones/optional_silence.txt
+--> data/lang_bigram/phones/optional_silence.csl corresponds to data/lang_bigram/phones/optional_silence.txt
+--> data/lang_bigram/phones/optional_silence.{txt, int, csl} are OK
+
+Checking data/lang_bigram/phones/disambig.{txt, int, csl} ...
+--> text seems to be UTF-8 or ASCII, checking whitespaces
+--> text contains only allowed whitespaces
+--> 4 entry/entries in data/lang_bigram/phones/disambig.txt
+--> data/lang_bigram/phones/disambig.int corresponds to data/lang_bigram/phones/disambig.txt
+--> data/lang_bigram/phones/disambig.csl corresponds to data/lang_bigram/phones/disambig.txt
+--> data/lang_bigram/phones/disambig.{txt, int, csl} are OK
+
+Checking data/lang_bigram/phones/roots.{txt, int} ...
+--> text seems to be UTF-8 or ASCII, checking whitespaces
+--> text contains only allowed whitespaces
+--> 16 entry/entries in data/lang_bigram/phones/roots.txt
+--> data/lang_bigram/phones/roots.int corresponds to data/lang_bigram/phones/roots.txt
+--> data/lang_bigram/phones/roots.{txt, int} are OK
+
+Checking data/lang_bigram/phones/sets.{txt, int} ...
+--> text seems to be UTF-8 or ASCII, checking whitespaces
+--> text contains only allowed whitespaces
+--> 16 entry/entries in data/lang_bigram/phones/sets.txt
+--> data/lang_bigram/phones/sets.int corresponds to data/lang_bigram/phones/sets.txt
+--> data/lang_bigram/phones/sets.{txt, int} are OK
+
+Checking data/lang_bigram/phones/extra_questions.{txt, int} ...
+--> text seems to be UTF-8 or ASCII, checking whitespaces
+--> text contains only allowed whitespaces
+--> 9 entry/entries in data/lang_bigram/phones/extra_questions.txt
+--> data/lang_bigram/phones/extra_questions.int corresponds to data/lang_bigram/phones/extra_questions.txt
+--> data/lang_bigram/phones/extra_questions.{txt, int} are OK
+
+Checking data/lang_bigram/phones/word_boundary.{txt, int} ...
+--> text seems to be UTF-8 or ASCII, checking whitespaces
+--> text contains only allowed whitespaces
+--> 65 entry/entries in data/lang_bigram/phones/word_boundary.txt
+--> data/lang_bigram/phones/word_boundary.int corresponds to data/lang_bigram/phones/word_boundary.txt
+--> data/lang_bigram/phones/word_boundary.{txt, int} are OK
+
+Checking optional_silence.txt ...
+--> reading data/lang_bigram/phones/optional_silence.txt
+--> data/lang_bigram/phones/optional_silence.txt is OK
+
+Checking disambiguation symbols: #0 and #1
+--> data/lang_bigram/phones/disambig.txt has "#0" and "#1"
+--> data/lang_bigram/phones/disambig.txt is OK
+
+Checking topo ...
+
+Checking word_boundary.txt: silence.txt, nonsilence.txt, disambig.txt ...
+--> data/lang_bigram/phones/word_boundary.txt doesn't include disambiguation symbols
+--> data/lang_bigram/phones/word_boundary.txt is the union of nonsilence.txt and silence.txt
+--> data/lang_bigram/phones/word_boundary.txt is OK
+
+Checking word-level disambiguation symbols...
+--> data/lang_bigram/phones/wdisambig.txt exists (newer prepare_lang.sh)
+Checking word_boundary.int and disambig.int
+--> generating a 91 word/subword sequence
+--> resulting phone sequence from L.fst corresponds to the word sequence
+--> L.fst is OK
+--> generating a 87 word/subword sequence
+--> resulting phone sequence from L_disambig.fst corresponds to the word sequence
+--> L_disambig.fst is OK
+
+Checking data/lang_bigram/oov.{txt, int} ...
+--> text seems to be UTF-8 or ASCII, checking whitespaces
+--> text contains only allowed whitespaces
+--> 1 entry/entries in data/lang_bigram/oov.txt
+--> data/lang_bigram/oov.int corresponds to data/lang_bigram/oov.txt
+--> data/lang_bigram/oov.{txt, int} are OK
+
+--> data/lang_bigram/L.fst is olabel sorted
+--> data/lang_bigram/L_disambig.fst is olabel sorted
+--> SUCCESS [validating lang directory data/lang_bigram]
+LOGFILE:/dev/null
+$bin/ngt -i="$inpfile" -n=$order -gooout=y -o="$gzip -c > $tmpdir/ngram.${sdict}.gz" -fd="$tmpdir/$sdict" $dictionary $additional_parameters >> $logfile 2>&1
+$scr/build-sublm.pl $verbose $prune $prune_thr_str $smoothing "$additional_smoothing_parameters" --size $order --ngrams "$gunzip -c $tmpdir/ngram.${sdict}.gz" -sublm $tmpdir/lm.$sdict $additional_parameters >> $logfile 2>&1
+arpa2fst - 
+LOG (arpa2fst[5.5]:Read():arpa-file-parser.cc:94) Reading \data\ section.
+LOG (arpa2fst[5.5]:Read():arpa-file-parser.cc:149) Reading \1-grams: section.
+LOG (arpa2fst[5.5]:Read():arpa-file-parser.cc:149) Reading \2-grams: section.
+remove_oovs.pl: removed 1 lines.
+fstisstochastic data/lang_bigram/G.fst 
+0.00306773 -4.50586e-07
+Sat Aug 21 19:48:38 IST 2021
