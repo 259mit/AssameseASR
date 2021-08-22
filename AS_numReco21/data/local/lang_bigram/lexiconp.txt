@@ -1,0 +1,12 @@
+!SIL 1.0 sil_S
+aath 1.0 aa_B th_E
+dui 1.0 d_B u_I i_E
+ek 1.0 e_B k_E
+nax 1.0 n_B ax_E
+paas 1.0 p_B aan_I s_E
+saari 1.0 s_B aa_I r_I i_E
+sil 1.0 sil_S
+soi 1.0 s_B ax_I y_E
+tini 1.0 t_B i_I n_I i_E
+xaat 1.0 s_B aa_I t_E
+xunnyo 1.0 s_B u_I n_I y_I ax_E

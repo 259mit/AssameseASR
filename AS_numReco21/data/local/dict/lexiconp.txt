@@ -1,0 +1,12 @@
+!SIL	1.0	sil
+aath	1.0	aa th 
+dui	1.0	d u i
+ek	1.0	e k 
+nax	1.0	n ax
+paas	1.0	p aan s 
+saari	1.0	s aa r i
+sil	1.0	sil
+soi	1.0	s ax y
+tini	1.0	t i n i
+xaat	1.0	s aa t
+xunnyo	1.0	s u n y ax
