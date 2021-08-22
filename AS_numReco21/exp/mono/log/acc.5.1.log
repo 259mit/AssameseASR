@@ -1,0 +1,19 @@
+# gmm-acc-stats-ali exp/mono/5.mdl "ark,s,cs:apply-cmvn  --utt2spk=ark:data/train/split2/1/utt2spk scp:data/train/split2/1/cmvn.scp scp:data/train/split2/1/feats.scp ark:- | add-deltas  ark:- ark:- |" "ark:gunzip -c exp/mono/ali.1.gz|" exp/mono/5.1.acc 
+# Started at Sun Aug 22 17:28:25 IST 2021
+#
+gmm-acc-stats-ali exp/mono/5.mdl 'ark,s,cs:apply-cmvn  --utt2spk=ark:data/train/split2/1/utt2spk scp:data/train/split2/1/cmvn.scp scp:data/train/split2/1/feats.scp ark:- | add-deltas  ark:- ark:- |' 'ark:gunzip -c exp/mono/ali.1.gz|' exp/mono/5.1.acc 
+apply-cmvn --utt2spk=ark:data/train/split2/1/utt2spk scp:data/train/split2/1/cmvn.scp scp:data/train/split2/1/feats.scp ark:- 
+add-deltas ark:- ark:- 
+LOG (gmm-acc-stats-ali[5.5]:main():gmm-acc-stats-ali.cc:105) Processed 50 utterances; for utterance AS011M0050 avg. like is -97.8082 over 698 frames.
+LOG (gmm-acc-stats-ali[5.5]:main():gmm-acc-stats-ali.cc:105) Processed 100 utterances; for utterance AS012M0020 avg. like is -97.2226 over 698 frames.
+LOG (gmm-acc-stats-ali[5.5]:main():gmm-acc-stats-ali.cc:105) Processed 150 utterances; for utterance AS012M0070 avg. like is -97.3608 over 698 frames.
+LOG (gmm-acc-stats-ali[5.5]:main():gmm-acc-stats-ali.cc:105) Processed 200 utterances; for utterance AS013M0040 avg. like is -81.9693 over 498 frames.
+WARNING (gmm-acc-stats-ali[5.5]:main():gmm-acc-stats-ali.cc:79) No alignment for utterance AS014M0005
+LOG (gmm-acc-stats-ali[5.5]:main():gmm-acc-stats-ali.cc:105) Processed 250 utterances; for utterance AS014M0011 avg. like is -87.6904 over 498 frames.
+LOG (gmm-acc-stats-ali[5.5]:main():gmm-acc-stats-ali.cc:105) Processed 300 utterances; for utterance AS014M0061 avg. like is -84.1796 over 498 frames.
+LOG (apply-cmvn[5.5]:main():apply-cmvn.cc:162) Applied cepstral mean normalization to 320 utterances, errors on 0
+LOG (gmm-acc-stats-ali[5.5]:main():gmm-acc-stats-ali.cc:112) Done 319 files, 1 with errors.
+LOG (gmm-acc-stats-ali[5.5]:main():gmm-acc-stats-ali.cc:115) Overall avg like per frame (Gaussian only) = -91.776 over 191862 frames.
+LOG (gmm-acc-stats-ali[5.5]:main():gmm-acc-stats-ali.cc:123) Written accs.
+# Accounting: time=1 threads=1
+# Ended (code 0) at Sun Aug 22 17:28:26 IST 2021, elapsed time 1 seconds
