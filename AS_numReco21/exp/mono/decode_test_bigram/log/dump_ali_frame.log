@@ -1,0 +1,7 @@
+# ali-to-phones --per-frame=true exp/mono/decode_test_bigram/../final.mdl "ark:gunzip -c exp/mono/decode_test_bigram/ali_tmp.*.gz|" "ark,t:|gzip -c >exp/mono/decode_test_bigram/ali_frame_tmp.gz" 
+# Started at Sun Aug 22 17:32:04 IST 2021
+#
+ali-to-phones --per-frame=true exp/mono/decode_test_bigram/../final.mdl 'ark:gunzip -c exp/mono/decode_test_bigram/ali_tmp.*.gz|' 'ark,t:|gzip -c >exp/mono/decode_test_bigram/ali_frame_tmp.gz' 
+LOG (ali-to-phones[5.5]:main():ali-to-phones.cc:134) Done 640 utterances.
+# Accounting: time=0 threads=1
+# Ended (code 0) at Sun Aug 22 17:32:04 IST 2021, elapsed time 0 seconds
