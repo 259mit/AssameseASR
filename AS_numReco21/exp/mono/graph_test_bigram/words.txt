@@ -1,0 +1,16 @@
+<eps> 0
+!SIL 1
+aath 2
+dui 3
+ek 4
+nax 5
+paas 6
+saari 7
+sil 8
+soi 9
+tini 10
+xaat 11
+xunnyo 12
+#0 13
+<s> 14
+</s> 15
