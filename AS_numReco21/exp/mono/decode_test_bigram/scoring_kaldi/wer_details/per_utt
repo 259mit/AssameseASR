@@ -1,0 +1,2560 @@
+AS011M0001 ref  xunnyo  xunnyo  nax  aath  xaat  soi  paas
+AS011M0001 hyp  xunnyo  xunnyo  nax  aath  xaat  soi  paas
+AS011M0001 op      C       C     C     C     C    C     C 
+AS011M0001 #csid 7 0 0 0
+AS011M0002 ref  paas  saari  tini  dui  ek  xunnyo  ek
+AS011M0002 hyp  paas  saari  tini  dui  ek  xunnyo  ek
+AS011M0002 op     C     C      C    C    C     C     C
+AS011M0002 #csid 7 0 0 0
+AS011M0003 ref  ek  nax  xaat  paas  tini   ek  dui
+AS011M0003 hyp  ek  nax  xaat  paas  tini  dui   ek
+AS011M0003 op    C   C     C     C     C    S    S 
+AS011M0003 #csid 5 2 0 0
+AS011M0004 ref  dui  nax  soi  saari  dui  xunnyo  tini
+AS011M0004 hyp  dui  nax  soi  saari  dui  xunnyo  tini
+AS011M0004 op    C    C    C     C     C      C      C 
+AS011M0004 #csid 7 0 0 0
+AS011M0005 ref  tini  nax  paas  dui  saari  nax  saari
+AS011M0005 hyp  tini  nax  paas  dui  saari  nax   *** 
+AS011M0005 op     C    C     C    C     C     C     D  
+AS011M0005 #csid 6 0 0 1
+AS011M0006 ref  saari  ek  paas  nax  tini  xunnyo    soi 
+AS011M0006 hyp  saari  ek  paas  nax  tini    dui   xunnyo
+AS011M0006 op     C     C    C    C     C      S       S  
+AS011M0006 #csid 5 2 0 0
+AS011M0007 ref  soi  nax  dui  xaat  nax  ek  aath
+AS011M0007 hyp  soi  nax  dui  xaat  nax  ek  aath
+AS011M0007 op    C    C    C     C    C    C    C 
+AS011M0007 #csid 7 0 0 0
+AS011M0008 ref  aath  nax  xunnyo  aath  soi  tini  saari
+AS011M0008 hyp  aath  soi  xunnyo  aath  soi  tini  saari
+AS011M0008 op     C    S      C      C    C     C     C  
+AS011M0008 #csid 6 1 0 0
+AS011M0009 ref  saari  xunnyo  xaat  saari  aath  paas  ek
+AS011M0009 hyp   xaat  xunnyo  xaat  saari  aath  paas  ek
+AS011M0009 op     S       C      C     C      C     C    C
+AS011M0009 #csid 6 1 0 0
+AS011M0010 ref  ek  xaat  tini  tini  aath  saari  saari
+AS011M0010 hyp  ek  xaat  tini  tini  aath  saari  saari
+AS011M0010 op    C    C     C     C     C     C      C  
+AS011M0010 #csid 7 0 0 0
+AS011M0011 ref  saari  xaat  dui  paas  aath  tini  soi
+AS011M0011 hyp  saari  xaat  dui  paas  aath  tini  soi
+AS011M0011 op     C      C    C     C     C     C    C 
+AS011M0011 #csid 7 0 0 0
+AS011M0012 ref  soi  aath  dui  aath  ek  soi  dui
+AS011M0012 hyp  soi  aath  dui  aath  ek  soi  dui
+AS011M0012 op    C     C    C     C    C   C    C 
+AS011M0012 #csid 7 0 0 0
+AS011M0013 ref  dui  soi  ek  dui  tini  xaat  ek
+AS011M0013 hyp  dui  soi  ek  dui  tini  xaat  ek
+AS011M0013 op    C    C    C   C     C     C    C
+AS011M0013 #csid 7 0 0 0
+AS011M0014 ref  ek  saari  soi  xunnyo  saari  paas  xunnyo
+AS011M0014 hyp  ek  saari  soi  xunnyo  saari  paas  xunnyo
+AS011M0014 op    C    C     C      C      C      C      C  
+AS011M0014 #csid 7 0 0 0
+AS011M0015 ref  xunnyo  paas  xaat  xunnyo  dui  dui  tini
+AS011M0015 hyp  xunnyo  paas  xaat  xunnyo  dui  dui  tini
+AS011M0015 op      C      C     C      C     C    C     C 
+AS011M0015 #csid 7 0 0 0
+AS011M0016 ref  tini  paas  soi  xaat  aath  xunnyo  ***  ek
+AS011M0016 hyp  tini  paas  soi  xaat  aath  xunnyo   ek  ek
+AS011M0016 op     C     C    C     C     C      C     I    C
+AS011M0016 #csid 7 0 1 0
+AS011M0017 ref   ***  ek  tini  saari  paas  paas  soi  soi
+AS011M0017 hyp  xaat  ek  tini  saari  paas  paas  soi  soi
+AS011M0017 op     I    C    C     C      C     C    C    C 
+AS011M0017 #csid 7 0 1 0
+AS011M0018 ref  soi  xaat  xaat  aath  aath  nax  nax
+AS011M0018 hyp  soi  xaat  xaat  aath  aath  nax  nax
+AS011M0018 op    C     C     C     C     C    C    C 
+AS011M0018 #csid 7 0 0 0
+AS011M0019 ref  nax  xunnyo  ek  ek  dui  ek  xaat
+AS011M0019 hyp  nax  xunnyo  ek  ek  dui  ek  xaat
+AS011M0019 op    C      C     C   C   C    C    C 
+AS011M0019 #csid 7 0 0 0
+AS011M0020 ref  xaat  nax  ek  tini  paas  xaat  nax
+AS011M0020 hyp  xaat  soi  ek  tini  paas  xaat  soi
+AS011M0020 op     C    S    C    C     C     C    S 
+AS011M0020 #csid 5 2 0 0
+AS011M0021 ref  xunnyo  xunnyo  ek  dui  tini  saari  paas
+AS011M0021 hyp  xunnyo  xunnyo  ek  dui  tini  saari  paas
+AS011M0021 op      C       C     C   C     C     C      C 
+AS011M0021 #csid 7 0 0 0
+AS011M0022 ref  paas  soi  xaat  aath  nax  ek  xunnyo   ***
+AS011M0022 hyp  paas  soi  xaat  aath  nax  ek  xunnyo  aath
+AS011M0022 op     C    C     C     C    C    C     C      I 
+AS011M0022 #csid 7 0 1 0
+AS011M0023 ref  xunnyo  dui  saari  soi  aath  dui  xunnyo
+AS011M0023 hyp  xunnyo  dui  saari  soi  xaat  dui  xunnyo
+AS011M0023 op      C     C     C     C     S    C      C  
+AS011M0023 #csid 6 1 0 0
+AS011M0024 ref  xunnyo  tini  paas  xaat  nax  tini  xunnyo
+AS011M0024 hyp  xunnyo  tini  paas  xaat  soi  tini  xunnyo
+AS011M0024 op      C      C     C     C    S     C      C  
+AS011M0024 #csid 6 1 0 0
+AS011M0025 ref  xunnyo  saari  xaat  saari  xunnyo  paas  aath
+AS011M0025 hyp  xunnyo  saari  xaat  saari  xunnyo  paas  aath
+AS011M0025 op      C      C      C     C       C      C     C 
+AS011M0025 #csid 7 0 0 0
+AS011M0026 ref  aath  paas  xunnyo  soi  nax  soi  xunnyo
+AS011M0026 hyp  aath  paas  xunnyo  soi  soi  soi  xunnyo
+AS011M0026 op     C     C      C     C    S    C      C  
+AS011M0026 #csid 6 1 0 0
+AS011M0027 ref  xunnyo  xaat  xaat  xunnyo  aath  aath  xunnyo
+AS011M0027 hyp  xunnyo  xaat  xaat  xunnyo  aath  aath  xunnyo
+AS011M0027 op      C      C     C      C      C     C      C  
+AS011M0027 #csid 7 0 0 0
+AS011M0028 ref  xunnyo  nax  nax  xunnyo  ek  ek  tini
+AS011M0028 hyp  xunnyo  nax  nax  xunnyo  ek  ek  tini
+AS011M0028 op      C     C    C      C     C   C    C 
+AS011M0028 #csid 7 0 0 0
+AS011M0029 ref  tini  soi  ek  saari  aath  ek  paas
+AS011M0029 hyp  tini  soi  ek  saari  aath  ek  paas
+AS011M0029 op     C    C    C    C      C    C    C 
+AS011M0029 #csid 7 0 0 0
+AS011M0030 ref  paas  nax  dui  paas  saari  ek  soi
+AS011M0030 hyp  paas  nax  dui  paas  saari  ek  soi
+AS011M0030 op     C    C    C     C     C     C   C 
+AS011M0030 #csid 7 0 0 0
+AS011M0031 ref  soi  paas  ek  xaat  soi  dui  soi   ***
+AS011M0031 hyp  soi  paas  ek  xaat  soi  dui  soi  xaat
+AS011M0031 op    C     C    C    C    C    C    C     I 
+AS011M0031 #csid 7 0 1 0
+AS011M0032 ref  soi  tini  xaat  ek  aath  tini  aath
+AS011M0032 hyp  soi  tini  xaat  ek  xaat  tini  aath
+AS011M0032 op    C     C     C    C    S     C     C 
+AS011M0032 #csid 6 1 0 0
+AS011M0033 ref  aath  nax  saari  nax  paas  dui  ek   ***
+AS011M0033 hyp  aath  nax  saari  nax  paas  dui  ek  aath
+AS011M0033 op     C    C     C     C     C    C    C    I 
+AS011M0033 #csid 7 0 1 0
+AS011M0034 ref  ek  nax  xaat  dui  xaat  paas  tini
+AS011M0034 hyp  ek  nax  xaat  dui  xaat  paas  tini
+AS011M0034 op    C   C     C    C     C     C     C 
+AS011M0034 #csid 7 0 0 0
+AS011M0035 ref  tini  nax  aath  xaat  tini  ek  dui
+AS011M0035 hyp  tini  nax  aath  xaat  tini  ek  dui
+AS011M0035 op     C    C     C     C     C    C   C 
+AS011M0035 #csid 7 0 0 0
+AS011M0036 ref  ***  dui  dui  aath  saari  dui  nax  xunnyo
+AS011M0036 hyp   ek  dui  dui  xaat  saari  dui  nax  xunnyo
+AS011M0036 op    I    C    C     S     C     C    C      C  
+AS011M0036 #csid 6 1 1 0
+AS011M0037 ref  xunnyo  ek  dui  tini  dui  tini  tini   ***
+AS011M0037 hyp  xunnyo  ek  dui  tini  dui  tini  tini  xaat
+AS011M0037 op      C     C   C     C    C     C     C     I 
+AS011M0037 #csid 7 0 1 0
+AS011M0038 ref  tini  saari  tini  saari  saari  paas  paas
+AS011M0038 hyp  tini  saari  tini  saari  saari  paas  paas
+AS011M0038 op     C     C      C     C      C      C     C 
+AS011M0038 #csid 7 0 0 0
+AS011M0039 ref  paas  soi  saari  paas  soi  soi  xaat
+AS011M0039 hyp  paas  soi  saari  paas  soi  soi  xaat
+AS011M0039 op     C    C     C      C    C    C     C 
+AS011M0039 #csid 7 0 0 0
+AS011M0040 ref    ***   xaat  aath  soi  xaat  ek  dui  saari
+AS011M0040 hyp  xunnyo  xaat  aath  soi  xaat  ek  dui  saari
+AS011M0040 op      I      C     C    C     C    C   C     C  
+AS011M0040 #csid 7 0 1 0
+AS011M0041 ref  xunnyo  nax  xunnyo  ek  dui  tini  saari
+AS011M0041 hyp  xunnyo  nax  xunnyo  ek  dui  tini  saari
+AS011M0041 op      C     C      C     C   C     C     C  
+AS011M0041 #csid 7 0 0 0
+AS011M0042 ref  saari  paas  soi  xaat  aath  nax  aath
+AS011M0042 hyp  saari  paas  soi  xaat  aath  nax  aath
+AS011M0042 op     C      C    C     C     C    C     C 
+AS011M0042 #csid 7 0 0 0
+AS011M0043 ref  aath  xunnyo  dui  saari  soi  aath  xaat
+AS011M0043 hyp  aath  xunnyo  dui  saari  soi  aath  xaat
+AS011M0043 op     C      C     C     C     C     C     C 
+AS011M0043 #csid 7 0 0 0
+AS011M0044 ref  xaat  xunnyo  tini  paas  xaat  nax  soi
+AS011M0044 hyp  xaat  xunnyo  tini  paas  xaat  nax  soi
+AS011M0044 op     C      C      C     C     C    C    C 
+AS011M0044 #csid 7 0 0 0
+AS011M0045 ref  soi  xunnyo  saari  xaat  paas  xunnyo  paas
+AS011M0045 hyp  soi  xunnyo  saari  xaat  paas  xunnyo  paas
+AS011M0045 op    C      C      C      C     C      C      C 
+AS011M0045 #csid 7 0 0 0
+AS011M0046 ref  paas  aath  saari  xunnyo  soi  nax  tini
+AS011M0046 hyp  paas  xaat  saari  xunnyo  soi  nax  tini
+AS011M0046 op     C     S     C       C     C    C     C 
+AS011M0046 #csid 6 1 0 0
+AS011M0047 ref  tini  xunnyo  xaat  dui  xunnyo   ***  aath  ek
+AS011M0047 hyp  tini    soi   xaat  dui  xunnyo  xaat  aath  ek
+AS011M0047 op     C      S      C    C      C      I     C    C
+AS011M0047 #csid 6 1 1 0
+AS011M0048 ref  ek  xunnyo  xunnyo  ek  nax  ek  tini
+AS011M0048 hyp  ek  xunnyo  xunnyo  ek  soi  ek  tini
+AS011M0048 op    C     C       C     C   S    C    C 
+AS011M0048 #csid 6 1 0 0
+AS011M0049 ref  tini  soi  ek  saari  aath  dui  paas
+AS011M0049 hyp  tini  soi  ek  saari  aath  dui  paas
+AS011M0049 op     C    C    C    C      C    C     C 
+AS011M0049 #csid 7 0 0 0
+AS011M0050 ref  paas  nax  dui  soi  paas  ek  paas
+AS011M0050 hyp  paas  nax  dui  soi  paas  ek  paas
+AS011M0050 op     C    C    C    C     C    C    C 
+AS011M0050 #csid 7 0 0 0
+AS011M0051 ref  paas  saari  ek  soi  tini  ek  xaat
+AS011M0051 hyp  paas  saari  ek  soi  tini  ek  xaat
+AS011M0051 op     C     C     C   C     C    C    C 
+AS011M0051 #csid 7 0 0 0
+AS011M0052 ref  xaat  ek  aath  tini  xaat  tini  aath
+AS011M0052 hyp  xaat  ek  xaat  tini  xaat  tini  aath
+AS011M0052 op     C    C    S     C     C     C     C 
+AS011M0052 #csid 6 1 0 0
+AS011M0053 ref  aath  nax  nax  saari  nax  paas  dui
+AS011M0053 hyp  aath  nax  nax  saari  nax  paas  dui
+AS011M0053 op     C    C    C     C     C     C    C 
+AS011M0053 #csid 7 0 0 0
+AS011M0054 ref  dui  xaat  soi  dui  aath  paas  tini
+AS011M0054 hyp  dui  xaat  soi  dui  aath  paas  tini
+AS011M0054 op    C     C    C    C     C     C     C 
+AS011M0054 #csid 7 0 0 0
+AS011M0055 ref  tini  nax  xaat  saari  dui  ek  ek
+AS011M0055 hyp  tini  nax  xaat  saari  dui  ek  ek
+AS011M0055 op     C    C     C     C     C    C   C
+AS011M0055 #csid 7 0 0 0
+AS011M0056 ref  ek  dui  nax  xunnyo  ek  dui  dui
+AS011M0056 hyp  ek  dui  nax  xunnyo  ek  dui  dui
+AS011M0056 op    C   C    C      C     C   C    C 
+AS011M0056 #csid 7 0 0 0
+AS011M0057 ref  dui  tini  dui  tini  tini  saari  tini
+AS011M0057 hyp  dui  tini  dui  tini  tini  saari  tini
+AS011M0057 op    C     C    C     C     C     C      C 
+AS011M0057 #csid 7 0 0 0
+AS011M0058 ref  tini  saari  saari  paas  paas  soi  saari
+AS011M0058 hyp  tini  saari  saari  paas  paas  soi  saari
+AS011M0058 op     C     C      C      C     C    C     C  
+AS011M0058 #csid 7 0 0 0
+AS011M0059 ref  aath  aath  aath  xunnyo  xunnyo  xunnyo  xunnyo
+AS011M0059 hyp  aath  aath  aath  xunnyo  xunnyo  xunnyo  xunnyo
+AS011M0059 op     C     C     C      C       C       C       C  
+AS011M0059 #csid 7 0 0 0
+AS011M0060 ref  aath  soi  xaat  aath  aath  nax  xunnyo
+AS011M0060 hyp  aath  soi  xaat  aath  aath  nax  xunnyo
+AS011M0060 op     C    C     C     C     C    C      C  
+AS011M0060 #csid 7 0 0 0
+AS011M0061 ref  xunnyo  nax  nax  aath  xaat  soi  paas
+AS011M0061 hyp  xunnyo  nax  nax  aath  xaat  soi  paas
+AS011M0061 op      C     C    C     C     C    C     C 
+AS011M0061 #csid 7 0 0 0
+AS011M0062 ref  paas  saari  tini  dui  ek  xunnyo  aath
+AS011M0062 hyp  paas  saari  tini  dui  ek  xunnyo  aath
+AS011M0062 op     C     C      C    C    C     C      C 
+AS011M0062 #csid 7 0 0 0
+AS011M0063 ref  aath  nax  xaat  paas  tini  ek  xaat
+AS011M0063 hyp  aath  nax  xaat  paas  tini  ek  xaat
+AS011M0063 op     C    C     C     C     C    C    C 
+AS011M0063 #csid 7 0 0 0
+AS011M0064 ref  xaat  nax  soi  saari  dui  xunnyo  soi
+AS011M0064 hyp  xaat  nax  soi  saari  dui  xunnyo  soi
+AS011M0064 op     C    C    C     C     C      C     C 
+AS011M0064 #csid 7 0 0 0
+AS011M0065 ref  soi  nax  paas  dui  paas    nax   saari
+AS011M0065 hyp  soi  nax  paas  dui  paas  xunnyo  saari
+AS011M0065 op    C    C     C    C     C      S      C  
+AS011M0065 #csid 6 1 0 0
+AS011M0066 ref  saari  ek  saari  nax  tini  xunnyo  tini
+AS011M0066 hyp  saari  ek  saari  nax  tini  xunnyo  tini
+AS011M0066 op     C     C    C     C     C      C      C 
+AS011M0066 #csid 7 0 0 0
+AS011M0067 ref  tini  nax  dui  dui  nax  ek  ek
+AS011M0067 hyp  tini  nax  dui  dui  nax  ek  ek
+AS011M0067 op     C    C    C    C    C    C   C
+AS011M0067 #csid 7 0 0 0
+AS011M0068 ref  ek  nax  xunnyo  xunnyo  xaat  saari  xunnyo
+AS011M0068 hyp  ek  nax  xunnyo  xunnyo  xaat  saari  xunnyo
+AS011M0068 op    C   C      C       C      C     C       C  
+AS011M0068 #csid 7 0 0 0
+AS011M0069 ref  xunnyo  ek  aath  soi  tini  aath  aath
+AS011M0069 hyp  xunnyo  ek  aath  soi  tini  aath  aath
+AS011M0069 op      C     C    C    C     C     C     C 
+AS011M0069 #csid 7 0 0 0
+AS011M0070 ref  aath  paas  ek  soi  dui  soi  aath
+AS011M0070 hyp  aath  paas  ek  soi  dui  soi  aath
+AS011M0070 op     C     C    C   C    C    C     C 
+AS011M0070 #csid 7 0 0 0
+AS011M0071 ref  aath  saari  paas  aath  tini  saari  aath
+AS011M0071 hyp  aath  saari  paas  aath  tini  saari  aath
+AS011M0071 op     C     C      C     C     C     C      C 
+AS011M0071 #csid 7 0 0 0
+AS011M0072 ref  aath  dui  tini   xaat  tini  soi  ek
+AS011M0072 hyp  aath  dui  tini  saari  tini  soi  ek
+AS011M0072 op     C    C     C     S      C    C    C
+AS011M0072 #csid 6 1 0 0
+AS011M0073 ref  ek  paas  xunnyo  paas  soi  xaat  dui
+AS011M0073 hyp  ek  paas  xunnyo  paas  soi  xaat  dui
+AS011M0073 op    C    C      C      C    C     C    C 
+AS011M0073 #csid 7 0 0 0
+AS011M0074 ref  dui  aath  ek  tini  paas  paas  xaat
+AS011M0074 hyp  dui  aath  ek  tini  paas  paas  xaat
+AS011M0074 op    C     C    C    C     C     C     C 
+AS011M0074 #csid 7 0 0 0
+AS011M0075 ref  xaat  ek  dui  xaat  xunnyo  dui  saari
+AS011M0075 hyp  xaat  ek  dui  xaat  xunnyo  dui  saari
+AS011M0075 op     C    C   C     C      C     C     C  
+AS011M0075 #csid 7 0 0 0
+AS011M0076 ref  saari  xaat  aath  xunnyo  ek  dui  tini
+AS011M0076 hyp  saari  xaat  aath  xunnyo  ek  dui  tini
+AS011M0076 op     C      C     C      C     C   C     C 
+AS011M0076 #csid 7 0 0 0
+AS011M0077 ref  tini  tini  saari  soi  xunnyo  saari  saari
+AS011M0077 hyp  tini  tini  saari  soi  xunnyo  saari  saari
+AS011M0077 op     C     C     C     C      C      C      C  
+AS011M0077 #csid 7 0 0 0
+AS011M0078 ref  saari  paas  soi  soi  xaat  xaat  aath
+AS011M0078 hyp  saari  paas  soi  soi  xaat  xaat  aath
+AS011M0078 op     C      C    C    C     C     C     C 
+AS011M0078 #csid 7 0 0 0
+AS011M0079 ref   ***  nax  nax  ek  tini  paas  xaat  nax
+AS011M0079 hyp  xaat  nax  nax  ek  tini  paas  xaat  nax
+AS011M0079 op     I    C    C    C    C     C     C    C 
+AS011M0079 #csid 7 0 1 0
+AS011M0080 ref  dui  soi  nax  ek  dui  saari  tini   ***
+AS011M0080 hyp  dui  soi  nax  ek  dui  saari  tini  xaat
+AS011M0080 op    C    C    C    C   C     C      C     I 
+AS011M0080 #csid 7 0 1 0
+AS012M0001 ref  xunnyo  xunnyo  nax  aath  xaat  soi  paas
+AS012M0001 hyp  xunnyo  xunnyo  nax  aath  xaat  soi  paas
+AS012M0001 op      C       C     C     C     C    C     C 
+AS012M0001 #csid 7 0 0 0
+AS012M0002 ref  paas  saari  tini  dui  ek  xunnyo  ek
+AS012M0002 hyp  paas  saari  tini  dui  ek  xunnyo  ek
+AS012M0002 op     C     C      C    C    C     C     C
+AS012M0002 #csid 7 0 0 0
+AS012M0003 ref  ek  nax  xaat  paas  tini  ek   dui
+AS012M0003 hyp  ek  nax  xaat  paas  tini  ek  tini
+AS012M0003 op    C   C     C     C     C    C    S 
+AS012M0003 #csid 6 1 0 0
+AS012M0004 ref  dui  nax  soi  saari  dui  xunnyo  tini   ***
+AS012M0004 hyp  dui  nax  soi  saari  dui  xunnyo  tini  xaat
+AS012M0004 op    C    C    C     C     C      C      C     I 
+AS012M0004 #csid 7 0 1 0
+AS012M0005 ref  tini  nax  paas  dui  saari  nax  saari
+AS012M0005 hyp  tini  nax  paas  dui  saari  nax  saari
+AS012M0005 op     C    C     C    C     C     C     C  
+AS012M0005 #csid 7 0 0 0
+AS012M0006 ref  saari  ek  paas  nax  tini  xunnyo  soi
+AS012M0006 hyp  saari  ek  paas  nax  tini  xunnyo  soi
+AS012M0006 op     C     C    C    C     C      C     C 
+AS012M0006 #csid 7 0 0 0
+AS012M0007 ref  soi  nax  dui  xaat  nax  ek  aath
+AS012M0007 hyp  soi  nax  dui  xaat  nax  ek  aath
+AS012M0007 op    C    C    C     C    C    C    C 
+AS012M0007 #csid 7 0 0 0
+AS012M0008 ref  aath  nax  xunnyo  aath  soi  tini  saari
+AS012M0008 hyp  aath  nax  xunnyo  aath  soi  tini  saari
+AS012M0008 op     C    C      C      C    C     C     C  
+AS012M0008 #csid 7 0 0 0
+AS012M0009 ref  saari  xunnyo  xaat  saari  aath  paas  ek
+AS012M0009 hyp  saari  xunnyo  xaat  saari  aath  paas  ek
+AS012M0009 op     C       C      C     C      C     C    C
+AS012M0009 #csid 7 0 0 0
+AS012M0010 ref  ek  xaat  tini  tini  aath  saari  saari
+AS012M0010 hyp  ek  aath  tini  tini  aath  saari   xaat
+AS012M0010 op    C    S     C     C     C     C      S  
+AS012M0010 #csid 5 2 0 0
+AS012M0011 ref  saari  xaat  dui  paas  aath  tini  soi
+AS012M0011 hyp  saari  xaat  dui  paas  aath  tini  soi
+AS012M0011 op     C      C    C     C     C     C    C 
+AS012M0011 #csid 7 0 0 0
+AS012M0012 ref  soi  aath  dui  aath  ek  soi  dui
+AS012M0012 hyp  soi  aath  dui  aath  ek  soi  dui
+AS012M0012 op    C     C    C     C    C   C    C 
+AS012M0012 #csid 7 0 0 0
+AS012M0013 ref  dui  soi  ek  dui  tini  xaat  ek
+AS012M0013 hyp  dui  soi  ek  dui  tini   ***  ek
+AS012M0013 op    C    C    C   C     C     D    C
+AS012M0013 #csid 6 0 0 1
+AS012M0014 ref  ek  saari  soi  xunnyo  saari  paas  xunnyo
+AS012M0014 hyp  ek  saari  soi    nax   saari  paas    nax 
+AS012M0014 op    C    C     C      S      C      C      S  
+AS012M0014 #csid 5 2 0 0
+AS012M0015 ref  xunnyo  paas  xaat  xunnyo  dui  dui  tini
+AS012M0015 hyp  xunnyo  paas  xaat  xunnyo  dui  dui  tini
+AS012M0015 op      C      C     C      C     C    C     C 
+AS012M0015 #csid 7 0 0 0
+AS012M0016 ref  tini  paas  soi  xaat  aath  xunnyo  ek
+AS012M0016 hyp  tini  paas  soi  aath  aath  xunnyo  ek
+AS012M0016 op     C     C    C     S     C      C     C
+AS012M0016 #csid 6 1 0 0
+AS012M0017 ref  ek  tini  saari  paas  paas  soi  soi
+AS012M0017 hyp  ek  tini  saari  paas  paas  soi  soi
+AS012M0017 op    C    C     C      C     C    C    C 
+AS012M0017 #csid 7 0 0 0
+AS012M0018 ref  soi  xaat  xaat  aath  aath  nax  nax
+AS012M0018 hyp  soi  xaat  aath  aath  aath  nax  soi
+AS012M0018 op    C     C     S     C     C    C    S 
+AS012M0018 #csid 5 2 0 0
+AS012M0019 ref  nax  xunnyo  ek  ek  dui  ek  xaat
+AS012M0019 hyp  nax  xunnyo  ek  ek  dui  ek  aath
+AS012M0019 op    C      C     C   C   C    C    S 
+AS012M0019 #csid 6 1 0 0
+AS012M0020 ref  xaat  nax  ek  tini  paas  xaat  nax
+AS012M0020 hyp  xaat  nax  ek  tini  paas  xaat  nax
+AS012M0020 op     C    C    C    C     C     C    C 
+AS012M0020 #csid 7 0 0 0
+AS012M0021 ref  xunnyo  xunnyo  ek  dui  tini  saari  paas
+AS012M0021 hyp  xunnyo  xunnyo  ek  dui  tini  saari  paas
+AS012M0021 op      C       C     C   C     C     C      C 
+AS012M0021 #csid 7 0 0 0
+AS012M0022 ref  paas  soi  xaat  aath  nax  ek  xunnyo
+AS012M0022 hyp  paas  soi  aath  aath  nax  ek  xunnyo
+AS012M0022 op     C    C     S     C    C    C     C  
+AS012M0022 #csid 6 1 0 0
+AS012M0023 ref  xunnyo  dui  saari  soi  aath  dui  xunnyo
+AS012M0023 hyp  xunnyo  dui  saari  soi  aath  dui  xunnyo
+AS012M0023 op      C     C     C     C     C    C      C  
+AS012M0023 #csid 7 0 0 0
+AS012M0024 ref  xunnyo  tini  paas  xaat  nax  tini  xunnyo
+AS012M0024 hyp  xunnyo  tini  paas  xaat  nax  tini  xunnyo
+AS012M0024 op      C      C     C     C    C     C      C  
+AS012M0024 #csid 7 0 0 0
+AS012M0025 ref  xunnyo  saari  xaat  saari  xunnyo  paas  aath
+AS012M0025 hyp  xunnyo  saari  aath  saari    nax   paas  xaat
+AS012M0025 op      C      C      S     C       S      C     S 
+AS012M0025 #csid 4 3 0 0
+AS012M0026 ref  aath  paas  xunnyo  soi  nax  soi  xunnyo
+AS012M0026 hyp  aath  paas  xunnyo  soi  nax  soi  xunnyo
+AS012M0026 op     C     C      C     C    C    C      C  
+AS012M0026 #csid 7 0 0 0
+AS012M0027 ref  xunnyo  xaat  xaat  xunnyo  aath  aath  xunnyo
+AS012M0027 hyp  xunnyo  xaat  xaat   tini   xaat  aath  xunnyo
+AS012M0027 op      C      C     C      S      S     C      C  
+AS012M0027 #csid 5 2 0 0
+AS012M0028 ref  xunnyo  nax  nax  xunnyo  ek  ek  tini
+AS012M0028 hyp  xunnyo  nax  nax  xunnyo  ek  ek  tini
+AS012M0028 op      C     C    C      C     C   C    C 
+AS012M0028 #csid 7 0 0 0
+AS012M0029 ref  tini  soi  ek  saari  aath  ek  paas
+AS012M0029 hyp  tini  soi  ek  saari  aath  ek  paas
+AS012M0029 op     C    C    C    C      C    C    C 
+AS012M0029 #csid 7 0 0 0
+AS012M0030 ref  paas  nax  dui  paas  saari  ek  soi
+AS012M0030 hyp  paas  nax  dui  paas  saari  ek  soi
+AS012M0030 op     C    C    C     C     C     C   C 
+AS012M0030 #csid 7 0 0 0
+AS012M0031 ref  soi  paas  ek  xaat  soi  dui  soi
+AS012M0031 hyp  soi  paas  ek  xaat  soi  dui  soi
+AS012M0031 op    C     C    C    C    C    C    C 
+AS012M0031 #csid 7 0 0 0
+AS012M0032 ref  soi  tini  xaat  ek  aath  tini  aath
+AS012M0032 hyp  soi  tini  xaat  ek  aath  tini  aath
+AS012M0032 op    C     C     C    C    C     C     C 
+AS012M0032 #csid 7 0 0 0
+AS012M0033 ref  aath  nax  saari  nax  paas  dui  ek
+AS012M0033 hyp  aath  nax  saari  nax  paas  dui  ek
+AS012M0033 op     C    C     C     C     C    C    C
+AS012M0033 #csid 7 0 0 0
+AS012M0034 ref  ek  nax  xaat  dui  xaat  paas  tini
+AS012M0034 hyp  ek  nax  xaat  dui  xaat  paas  tini
+AS012M0034 op    C   C     C    C     C     C     C 
+AS012M0034 #csid 7 0 0 0
+AS012M0035 ref  tini  nax  aath  xaat  tini  ek  dui
+AS012M0035 hyp  tini  nax  aath  aath  tini  ek  dui
+AS012M0035 op     C    C     C     S     C    C   C 
+AS012M0035 #csid 6 1 0 0
+AS012M0036 ref  dui  dui  aath  saari  dui  nax  xunnyo
+AS012M0036 hyp  dui  dui  xaat  saari  dui  nax  xunnyo
+AS012M0036 op    C    C     S     C     C    C      C  
+AS012M0036 #csid 6 1 0 0
+AS012M0037 ref  xunnyo  ek  dui  tini  dui  tini  tini
+AS012M0037 hyp  xunnyo  ek  dui  tini  dui  tini  tini
+AS012M0037 op      C     C   C     C    C     C     C 
+AS012M0037 #csid 7 0 0 0
+AS012M0038 ref  tini  saari  tini  saari  saari  paas  paas
+AS012M0038 hyp  tini  saari  tini  saari  saari  paas  paas
+AS012M0038 op     C     C      C     C      C      C     C 
+AS012M0038 #csid 7 0 0 0
+AS012M0039 ref  paas  soi  saari  paas  soi  soi  xaat
+AS012M0039 hyp  paas  soi  saari  paas  soi  soi  xaat
+AS012M0039 op     C    C     C      C    C    C     C 
+AS012M0039 #csid 7 0 0 0
+AS012M0040 ref  xaat  aath  soi  xaat  ek  dui  saari
+AS012M0040 hyp  xaat  aath  soi  aath  ek  dui  saari
+AS012M0040 op     C     C    C     S    C   C     C  
+AS012M0040 #csid 6 1 0 0
+AS012M0041 ref  xunnyo  nax  xunnyo  ek  dui  tini  saari
+AS012M0041 hyp  xunnyo  nax  xunnyo  ek  dui  tini  saari
+AS012M0041 op      C     C      C     C   C     C     C  
+AS012M0041 #csid 7 0 0 0
+AS012M0042 ref  saari  paas  soi  xaat  aath  nax  aath
+AS012M0042 hyp  saari  paas  soi  xaat  aath  nax  aath
+AS012M0042 op     C      C    C     C     C    C     C 
+AS012M0042 #csid 7 0 0 0
+AS012M0043 ref  aath  xunnyo  dui  saari  soi  aath  xaat
+AS012M0043 hyp  aath  xunnyo  dui  saari  soi  xaat  aath
+AS012M0043 op     C      C     C     C     C     S     S 
+AS012M0043 #csid 5 2 0 0
+AS012M0044 ref  xaat  xunnyo  tini  paas  xaat  nax  soi
+AS012M0044 hyp  xaat  xunnyo  tini  paas  xaat  nax  soi
+AS012M0044 op     C      C      C     C     C    C    C 
+AS012M0044 #csid 7 0 0 0
+AS012M0045 ref  soi  xunnyo  saari  xaat  paas  xunnyo  paas
+AS012M0045 hyp  soi  xunnyo  saari  xaat  paas  xunnyo  paas
+AS012M0045 op    C      C      C      C     C      C      C 
+AS012M0045 #csid 7 0 0 0
+AS012M0046 ref  paas  aath  saari  xunnyo  soi  nax  tini
+AS012M0046 hyp  paas  xaat  saari  xunnyo  soi  nax  tini
+AS012M0046 op     C     S     C       C     C    C     C 
+AS012M0046 #csid 6 1 0 0
+AS012M0047 ref  tini  xunnyo  xaat  dui  xunnyo  aath  ek
+AS012M0047 hyp  tini  xunnyo  xaat  dui  xunnyo  aath  ek
+AS012M0047 op     C      C      C    C      C      C    C
+AS012M0047 #csid 7 0 0 0
+AS012M0048 ref  ek  xunnyo  xunnyo  ek  nax  ek  tini
+AS012M0048 hyp  ek  xunnyo  xunnyo  ek  nax  ek  tini
+AS012M0048 op    C     C       C     C   C    C    C 
+AS012M0048 #csid 7 0 0 0
+AS012M0049 ref  tini  soi  ek  saari  aath  dui  paas
+AS012M0049 hyp  tini  soi  ek  saari  aath  dui  paas
+AS012M0049 op     C    C    C    C      C    C     C 
+AS012M0049 #csid 7 0 0 0
+AS012M0050 ref  paas  nax  dui  soi  paas  ek  paas
+AS012M0050 hyp  paas  nax  dui  soi  paas  ek  paas
+AS012M0050 op     C    C    C    C     C    C    C 
+AS012M0050 #csid 7 0 0 0
+AS012M0051 ref  paas  saari  ek  soi  tini  ek  xaat
+AS012M0051 hyp  paas  saari  ek  soi  tini  ek  aath
+AS012M0051 op     C     C     C   C     C    C    S 
+AS012M0051 #csid 6 1 0 0
+AS012M0052 ref  xaat  ek  aath  tini  xaat  tini  aath
+AS012M0052 hyp  xaat  ek  aath  tini  xaat  tini  aath
+AS012M0052 op     C    C    C     C     C     C     C 
+AS012M0052 #csid 7 0 0 0
+AS012M0053 ref  aath  nax  nax  saari  nax  paas  dui
+AS012M0053 hyp  aath  nax  nax  saari  nax  paas  dui
+AS012M0053 op     C    C    C     C     C     C    C 
+AS012M0053 #csid 7 0 0 0
+AS012M0054 ref  dui  xaat  soi  dui  aath  paas  tini
+AS012M0054 hyp  dui  xaat  soi  dui  aath  paas  tini
+AS012M0054 op    C     C    C    C     C     C     C 
+AS012M0054 #csid 7 0 0 0
+AS012M0055 ref  tini  nax  xaat  saari  dui  ek  ek
+AS012M0055 hyp  tini  nax  xaat  saari  dui  ek  ek
+AS012M0055 op     C    C     C     C     C    C   C
+AS012M0055 #csid 7 0 0 0
+AS012M0056 ref  ek  dui  nax  xunnyo  ek  dui  dui
+AS012M0056 hyp  ek  dui  nax  xunnyo  ek  dui  dui
+AS012M0056 op    C   C    C      C     C   C    C 
+AS012M0056 #csid 7 0 0 0
+AS012M0057 ref  dui  tini  dui  tini  tini  saari  tini
+AS012M0057 hyp  dui  tini  dui  tini  tini  saari  tini
+AS012M0057 op    C     C    C     C     C     C      C 
+AS012M0057 #csid 7 0 0 0
+AS012M0058 ref  tini  saari  saari  paas  paas  soi  saari
+AS012M0058 hyp  tini  saari  saari  paas  paas  soi  saari
+AS012M0058 op     C     C      C      C     C    C     C  
+AS012M0058 #csid 7 0 0 0
+AS012M0059 ref  aath  aath  aath  xunnyo  xunnyo  xunnyo  xunnyo
+AS012M0059 hyp  aath  aath  aath  xunnyo  xunnyo  xunnyo   tini 
+AS012M0059 op     C     C     C      C       C       C       S  
+AS012M0059 #csid 6 1 0 0
+AS012M0060 ref  aath  soi  xaat  aath  aath  nax  xunnyo
+AS012M0060 hyp  aath  soi  xaat  aath  aath  nax  xunnyo
+AS012M0060 op     C    C     C     C     C    C      C  
+AS012M0060 #csid 7 0 0 0
+AS012M0061 ref  xunnyo  nax  nax  aath  xaat  soi  paas
+AS012M0061 hyp  xunnyo  nax  nax  xaat  xaat  soi  paas
+AS012M0061 op      C     C    C     S     C    C     C 
+AS012M0061 #csid 6 1 0 0
+AS012M0062 ref  paas  saari  tini  dui  ek  xunnyo  aath
+AS012M0062 hyp  paas  saari  tini  dui  ek  xunnyo  aath
+AS012M0062 op     C     C      C    C    C     C      C 
+AS012M0062 #csid 7 0 0 0
+AS012M0063 ref  aath  nax  xaat  paas  tini  ek  xaat
+AS012M0063 hyp  aath  nax  xaat  paas  tini  ek  aath
+AS012M0063 op     C    C     C     C     C    C    S 
+AS012M0063 #csid 6 1 0 0
+AS012M0064 ref  xaat  nax  soi  saari  dui  xunnyo  soi
+AS012M0064 hyp  xaat  nax  soi  saari  dui  xunnyo  soi
+AS012M0064 op     C    C    C     C     C      C     C 
+AS012M0064 #csid 7 0 0 0
+AS012M0065 ref  soi  nax  paas  dui  paas  nax  saari
+AS012M0065 hyp  soi  nax  paas  dui  paas  nax  saari
+AS012M0065 op    C    C     C    C     C    C     C  
+AS012M0065 #csid 7 0 0 0
+AS012M0066 ref  saari  ek  saari  nax  tini  xunnyo  tini
+AS012M0066 hyp  saari  ek  saari  nax  tini  xunnyo  tini
+AS012M0066 op     C     C    C     C     C      C      C 
+AS012M0066 #csid 7 0 0 0
+AS012M0067 ref  tini  nax  dui  dui  nax  ek  ek
+AS012M0067 hyp  tini  nax  dui  dui  nax  ek  ek
+AS012M0067 op     C    C    C    C    C    C   C
+AS012M0067 #csid 7 0 0 0
+AS012M0068 ref  ek  nax  xunnyo  xunnyo  xaat  saari  xunnyo
+AS012M0068 hyp  ek  nax  xunnyo  xunnyo  xaat  saari   tini 
+AS012M0068 op    C   C      C       C      C     C       S  
+AS012M0068 #csid 6 1 0 0
+AS012M0069 ref  xunnyo  ek  aath  soi  tini  aath  aath
+AS012M0069 hyp  xunnyo  ek  aath  soi  tini  aath  aath
+AS012M0069 op      C     C    C    C     C     C     C 
+AS012M0069 #csid 7 0 0 0
+AS012M0070 ref  aath  paas  ek  soi  dui  soi  aath
+AS012M0070 hyp  aath  paas  ek  soi  dui  soi  aath
+AS012M0070 op     C     C    C   C    C    C     C 
+AS012M0070 #csid 7 0 0 0
+AS012M0071 ref  aath  saari  paas  aath  tini  saari  aath
+AS012M0071 hyp  aath  saari  paas  aath  tini  saari  aath
+AS012M0071 op     C     C      C     C     C     C      C 
+AS012M0071 #csid 7 0 0 0
+AS012M0072 ref  aath  dui  tini  xaat  tini  soi  ek
+AS012M0072 hyp  aath  dui  tini  xaat  tini  soi  ek
+AS012M0072 op     C    C     C     C     C    C    C
+AS012M0072 #csid 7 0 0 0
+AS012M0073 ref  ek  paas  xunnyo  paas  soi  xaat  dui
+AS012M0073 hyp  ek  paas  xunnyo  paas  soi  xaat  dui
+AS012M0073 op    C    C      C      C    C     C    C 
+AS012M0073 #csid 7 0 0 0
+AS012M0074 ref  dui  aath  ek  tini  paas  paas  xaat
+AS012M0074 hyp  dui  xaat  ek  tini  paas  paas  xaat
+AS012M0074 op    C     S    C    C     C     C     C 
+AS012M0074 #csid 6 1 0 0
+AS012M0075 ref  xaat  ek  dui  xaat  xunnyo  dui  saari
+AS012M0075 hyp  xaat  ek  dui  xaat  xunnyo  dui  saari
+AS012M0075 op     C    C   C     C      C     C     C  
+AS012M0075 #csid 7 0 0 0
+AS012M0076 ref  saari  xaat  aath  xunnyo  ek  dui  tini
+AS012M0076 hyp  saari  xaat  aath  xunnyo  ek  dui  tini
+AS012M0076 op     C      C     C      C     C   C     C 
+AS012M0076 #csid 7 0 0 0
+AS012M0077 ref  tini  tini  saari  soi  xunnyo  saari  saari
+AS012M0077 hyp  tini  tini  saari  soi  xunnyo  saari  saari
+AS012M0077 op     C     C     C     C      C      C      C  
+AS012M0077 #csid 7 0 0 0
+AS012M0078 ref  saari  paas  soi  soi  xaat  xaat  aath
+AS012M0078 hyp  saari  paas  soi  soi  xaat  xaat  aath
+AS012M0078 op     C      C    C    C     C     C     C 
+AS012M0078 #csid 7 0 0 0
+AS012M0079 ref  nax  nax  ek  tini  paas  xaat  nax
+AS012M0079 hyp  nax  nax  ek  tini  paas  xaat  nax
+AS012M0079 op    C    C    C    C     C     C    C 
+AS012M0079 #csid 7 0 0 0
+AS012M0080 ref  dui  soi  nax  ek  dui  saari  tini
+AS012M0080 hyp  dui  soi  nax  ek  dui  saari  tini
+AS012M0080 op    C    C    C    C   C     C      C 
+AS012M0080 #csid 7 0 0 0
+AS013M0001 ref  xunnyo  xunnyo  nax  aath  xaat  soi  paas
+AS013M0001 hyp  xunnyo  xunnyo  nax  aath  xaat  soi  paas
+AS013M0001 op      C       C     C     C     C    C     C 
+AS013M0001 #csid 7 0 0 0
+AS013M0002 ref  paas  saari  tini  dui  ek  xunnyo  ek
+AS013M0002 hyp  paas  saari  tini  dui  ek  xunnyo  ek
+AS013M0002 op     C     C      C    C    C     C     C
+AS013M0002 #csid 7 0 0 0
+AS013M0003 ref  ek  nax  xaat  paas  tini   ek  dui
+AS013M0003 hyp  ek  nax  xaat  paas  tini  dui   ek
+AS013M0003 op    C   C     C     C     C    S    S 
+AS013M0003 #csid 5 2 0 0
+AS013M0004 ref  dui  nax  soi  saari  dui  xunnyo  tini
+AS013M0004 hyp  dui  nax  soi  saari  dui  xunnyo  tini
+AS013M0004 op    C    C    C     C     C      C      C 
+AS013M0004 #csid 7 0 0 0
+AS013M0005 ref  tini  nax  paas  dui  saari  nax  saari
+AS013M0005 hyp  tini  nax  paas  dui  saari  nax  saari
+AS013M0005 op     C    C     C    C     C     C     C  
+AS013M0005 #csid 7 0 0 0
+AS013M0006 ref  saari  ek  paas  nax  tini  xunnyo  soi
+AS013M0006 hyp  saari  ek  paas  nax  tini  xunnyo  soi
+AS013M0006 op     C     C    C    C     C      C     C 
+AS013M0006 #csid 7 0 0 0
+AS013M0007 ref  soi  nax  dui  xaat  nax  ek  aath
+AS013M0007 hyp  soi  nax  dui  xaat  nax  ek  aath
+AS013M0007 op    C    C    C     C    C    C    C 
+AS013M0007 #csid 7 0 0 0
+AS013M0008 ref  aath  nax  xunnyo  aath  soi  tini  saari
+AS013M0008 hyp  aath  nax  xunnyo  aath  soi  tini  saari
+AS013M0008 op     C    C      C      C    C     C     C  
+AS013M0008 #csid 7 0 0 0
+AS013M0009 ref  saari  xunnyo  xaat  saari  aath  paas  ek
+AS013M0009 hyp  saari  xunnyo  xaat  saari  aath  paas  ek
+AS013M0009 op     C       C      C     C      C     C    C
+AS013M0009 #csid 7 0 0 0
+AS013M0010 ref  ek  xaat  tini  tini  aath  saari  saari
+AS013M0010 hyp  ek  xaat  tini  tini  aath  saari  saari
+AS013M0010 op    C    C     C     C     C     C      C  
+AS013M0010 #csid 7 0 0 0
+AS013M0011 ref  saari  xaat  dui  paas  aath  tini  soi
+AS013M0011 hyp  saari  xaat  dui  paas  aath  tini  soi
+AS013M0011 op     C      C    C     C     C     C    C 
+AS013M0011 #csid 7 0 0 0
+AS013M0012 ref  soi  aath  dui  aath  ek  soi  dui
+AS013M0012 hyp  soi  aath  dui  aath  ek  soi  dui
+AS013M0012 op    C     C    C     C    C   C    C 
+AS013M0012 #csid 7 0 0 0
+AS013M0013 ref  dui  soi  ek  dui  tini  xaat  ek
+AS013M0013 hyp  dui  soi  ek  dui  tini  xaat  ek
+AS013M0013 op    C    C    C   C     C     C    C
+AS013M0013 #csid 7 0 0 0
+AS013M0014 ref  ek  saari  soi  xunnyo  saari  paas  xunnyo
+AS013M0014 hyp  ek  saari  soi  xunnyo  saari  paas  xunnyo
+AS013M0014 op    C    C     C      C      C      C      C  
+AS013M0014 #csid 7 0 0 0
+AS013M0015 ref  xunnyo  paas  xaat  xunnyo  dui  dui  tini
+AS013M0015 hyp  xunnyo  paas  xaat  xunnyo  dui  dui  tini
+AS013M0015 op      C      C     C      C     C    C     C 
+AS013M0015 #csid 7 0 0 0
+AS013M0016 ref  tini  paas  soi  xaat  aath  xunnyo  ek
+AS013M0016 hyp  tini  paas  soi  xaat  aath  xunnyo  ek
+AS013M0016 op     C     C    C     C     C      C     C
+AS013M0016 #csid 7 0 0 0
+AS013M0017 ref  ek  tini  saari  paas  paas  soi  soi
+AS013M0017 hyp  ek  tini  saari  paas  paas  soi  soi
+AS013M0017 op    C    C     C      C     C    C    C 
+AS013M0017 #csid 7 0 0 0
+AS013M0018 ref  soi  xaat  xaat  aath  aath  nax  nax
+AS013M0018 hyp  soi  xaat  xaat  aath  aath  nax  nax
+AS013M0018 op    C     C     C     C     C    C    C 
+AS013M0018 #csid 7 0 0 0
+AS013M0019 ref  nax  xunnyo  ek  ek  dui  ek  xaat
+AS013M0019 hyp  nax  xunnyo  ek  ek  dui  ek  xaat
+AS013M0019 op    C      C     C   C   C    C    C 
+AS013M0019 #csid 7 0 0 0
+AS013M0020 ref  xaat  nax  ek  tini  paas  xaat  nax
+AS013M0020 hyp  xaat  nax  ek  tini  paas  xaat  nax
+AS013M0020 op     C    C    C    C     C     C    C 
+AS013M0020 #csid 7 0 0 0
+AS013M0021 ref  xunnyo  xunnyo  ek  dui  tini  saari  paas
+AS013M0021 hyp  xunnyo  xunnyo  ek  dui  tini  saari  paas
+AS013M0021 op      C       C     C   C     C     C      C 
+AS013M0021 #csid 7 0 0 0
+AS013M0022 ref  paas  soi  xaat  aath  nax  ek  xunnyo
+AS013M0022 hyp  paas  soi  xaat  aath  nax  ek  xunnyo
+AS013M0022 op     C    C     C     C    C    C     C  
+AS013M0022 #csid 7 0 0 0
+AS013M0023 ref  xunnyo  dui  saari  soi  aath  dui  xunnyo
+AS013M0023 hyp  xunnyo  dui  saari  soi  aath  dui  xunnyo
+AS013M0023 op      C     C     C     C     C    C      C  
+AS013M0023 #csid 7 0 0 0
+AS013M0024 ref  xunnyo  tini  paas  xaat  nax  tini  xunnyo
+AS013M0024 hyp  xunnyo  tini  paas  xaat  nax  tini  xunnyo
+AS013M0024 op      C      C     C     C    C     C      C  
+AS013M0024 #csid 7 0 0 0
+AS013M0025 ref  xunnyo  saari  xaat  saari  xunnyo  paas  aath
+AS013M0025 hyp  xunnyo  saari  xaat  saari  xunnyo  paas  aath
+AS013M0025 op      C      C      C     C       C      C     C 
+AS013M0025 #csid 7 0 0 0
+AS013M0026 ref  aath  paas  xunnyo  soi  nax  soi  xunnyo
+AS013M0026 hyp  aath  paas  xunnyo  soi  nax  soi  xunnyo
+AS013M0026 op     C     C      C     C    C    C      C  
+AS013M0026 #csid 7 0 0 0
+AS013M0027 ref  xunnyo  xaat  xaat  xunnyo  aath  aath  xunnyo
+AS013M0027 hyp  xunnyo  xaat  xaat  xunnyo  aath  aath  xunnyo
+AS013M0027 op      C      C     C      C      C     C      C  
+AS013M0027 #csid 7 0 0 0
+AS013M0028 ref  xunnyo  nax  nax  xunnyo  ek  ek  tini
+AS013M0028 hyp  xunnyo  nax  nax  xunnyo  ek  ek  tini
+AS013M0028 op      C     C    C      C     C   C    C 
+AS013M0028 #csid 7 0 0 0
+AS013M0029 ref  tini  soi  ek  saari  aath  ek  paas
+AS013M0029 hyp  tini  soi  ek  saari  aath  ek  paas
+AS013M0029 op     C    C    C    C      C    C    C 
+AS013M0029 #csid 7 0 0 0
+AS013M0030 ref  paas  nax  dui  paas  saari   ek  soi
+AS013M0030 hyp  paas  nax  dui  paas  saari  ***  soi
+AS013M0030 op     C    C    C     C     C     D    C 
+AS013M0030 #csid 6 0 0 1
+AS013M0031 ref  soi  paas  ek  xaat  soi  dui  soi
+AS013M0031 hyp  soi  paas  ek  xaat  soi  dui  soi
+AS013M0031 op    C     C    C    C    C    C    C 
+AS013M0031 #csid 7 0 0 0
+AS013M0032 ref  soi  tini  xaat  ek  aath  tini  aath
+AS013M0032 hyp  soi  tini  xaat  ek  aath  tini  aath
+AS013M0032 op    C     C     C    C    C     C     C 
+AS013M0032 #csid 7 0 0 0
+AS013M0033 ref  aath  nax  saari  nax  paas  dui  ek
+AS013M0033 hyp  aath  nax  saari  nax  paas  dui  ek
+AS013M0033 op     C    C     C     C     C    C    C
+AS013M0033 #csid 7 0 0 0
+AS013M0034 ref  ek  nax  xaat  dui  xaat  paas  tini
+AS013M0034 hyp  ek  nax  xaat  dui  xaat  paas  tini
+AS013M0034 op    C   C     C    C     C     C     C 
+AS013M0034 #csid 7 0 0 0
+AS013M0035 ref  tini  nax  aath  xaat  tini  ek  dui
+AS013M0035 hyp  tini  nax  aath  xaat  tini  ek  dui
+AS013M0035 op     C    C     C     C     C    C   C 
+AS013M0035 #csid 7 0 0 0
+AS013M0036 ref  dui  dui  aath  saari  dui  nax  xunnyo
+AS013M0036 hyp  dui  dui  aath  saari  dui  nax  xunnyo
+AS013M0036 op    C    C     C     C     C    C      C  
+AS013M0036 #csid 7 0 0 0
+AS013M0037 ref  xunnyo  ek  dui  tini  dui  tini  tini
+AS013M0037 hyp  xunnyo  ek  dui  tini  dui  tini  tini
+AS013M0037 op      C     C   C     C    C     C     C 
+AS013M0037 #csid 7 0 0 0
+AS013M0038 ref  tini  saari  tini  saari  saari  paas  paas
+AS013M0038 hyp  tini  saari  tini  saari  saari  paas  paas
+AS013M0038 op     C     C      C     C      C      C     C 
+AS013M0038 #csid 7 0 0 0
+AS013M0039 ref  paas  soi  saari  paas  soi  soi  xaat
+AS013M0039 hyp  paas  soi  saari  paas  soi  soi  xaat
+AS013M0039 op     C    C     C      C    C    C     C 
+AS013M0039 #csid 7 0 0 0
+AS013M0040 ref  xaat  aath  soi  xaat  ek  dui  saari
+AS013M0040 hyp  xaat  aath  soi  xaat  ek  dui  saari
+AS013M0040 op     C     C    C     C    C   C     C  
+AS013M0040 #csid 7 0 0 0
+AS013M0041 ref  xunnyo  nax  xunnyo  ek  dui  tini  saari
+AS013M0041 hyp  xunnyo  nax  xunnyo  ek  dui  tini  saari
+AS013M0041 op      C     C      C     C   C     C     C  
+AS013M0041 #csid 7 0 0 0
+AS013M0042 ref  saari  paas  soi  xaat  aath  nax  aath
+AS013M0042 hyp  saari  paas  soi  xaat  aath  nax  aath
+AS013M0042 op     C      C    C     C     C    C     C 
+AS013M0042 #csid 7 0 0 0
+AS013M0043 ref  aath  xunnyo  dui  saari  soi  aath  xaat
+AS013M0043 hyp  aath  xunnyo  dui  saari  soi  aath  xaat
+AS013M0043 op     C      C     C     C     C     C     C 
+AS013M0043 #csid 7 0 0 0
+AS013M0044 ref  xaat  xunnyo  tini  paas  xaat  nax  soi
+AS013M0044 hyp  xaat  xunnyo  tini  paas  xaat  nax  soi
+AS013M0044 op     C      C      C     C     C    C    C 
+AS013M0044 #csid 7 0 0 0
+AS013M0045 ref  soi  xunnyo  saari  xaat  paas  xunnyo  paas
+AS013M0045 hyp  soi  xunnyo  saari  xaat  paas  xunnyo  paas
+AS013M0045 op    C      C      C      C     C      C      C 
+AS013M0045 #csid 7 0 0 0
+AS013M0046 ref  paas  aath  saari  xunnyo  soi  nax  tini
+AS013M0046 hyp  paas  aath  saari  xunnyo  soi  nax  tini
+AS013M0046 op     C     C     C       C     C    C     C 
+AS013M0046 #csid 7 0 0 0
+AS013M0047 ref  tini  xunnyo  xaat  dui  xunnyo  aath  ek
+AS013M0047 hyp  tini  xunnyo  xaat  dui  xunnyo  aath  ek
+AS013M0047 op     C      C      C    C      C      C    C
+AS013M0047 #csid 7 0 0 0
+AS013M0048 ref  ek  xunnyo  xunnyo  ek  nax  ek  tini
+AS013M0048 hyp  ek  xunnyo  xunnyo  ek  nax  ek  tini
+AS013M0048 op    C     C       C     C   C    C    C 
+AS013M0048 #csid 7 0 0 0
+AS013M0049 ref  tini  soi  ek  saari  aath  dui  paas
+AS013M0049 hyp  tini  soi  ek  saari  aath  dui  paas
+AS013M0049 op     C    C    C    C      C    C     C 
+AS013M0049 #csid 7 0 0 0
+AS013M0050 ref  paas  nax  dui  soi  paas    ek   paas
+AS013M0050 hyp  paas  nax  dui  soi  paas  saari  paas
+AS013M0050 op     C    C    C    C     C     S      C 
+AS013M0050 #csid 6 1 0 0
+AS013M0051 ref  paas  saari  ek  soi  tini  ek  xaat
+AS013M0051 hyp  paas  saari  ek  soi  tini  ek  xaat
+AS013M0051 op     C     C     C   C     C    C    C 
+AS013M0051 #csid 7 0 0 0
+AS013M0052 ref  xaat  ek  aath  tini  xaat  tini  aath
+AS013M0052 hyp  xaat  ek  xaat  tini  xaat  tini  aath
+AS013M0052 op     C    C    S     C     C     C     C 
+AS013M0052 #csid 6 1 0 0
+AS013M0053 ref  aath  nax  nax  saari  nax  paas  dui
+AS013M0053 hyp  aath  nax  nax  saari  nax  paas  dui
+AS013M0053 op     C    C    C     C     C     C    C 
+AS013M0053 #csid 7 0 0 0
+AS013M0054 ref  dui  xaat  soi  dui  aath  paas  tini
+AS013M0054 hyp  dui  xaat  soi  dui  aath  paas  tini
+AS013M0054 op    C     C    C    C     C     C     C 
+AS013M0054 #csid 7 0 0 0
+AS013M0055 ref  tini  nax  xaat  saari  dui  ek  ek
+AS013M0055 hyp  tini  nax  xaat  saari  dui  ek  ek
+AS013M0055 op     C    C     C     C     C    C   C
+AS013M0055 #csid 7 0 0 0
+AS013M0056 ref  ek  dui  nax  xunnyo  ek  dui  dui
+AS013M0056 hyp  ek  dui  nax  xunnyo  ek  dui  dui
+AS013M0056 op    C   C    C      C     C   C    C 
+AS013M0056 #csid 7 0 0 0
+AS013M0057 ref  dui  tini  dui  tini  tini  saari  tini
+AS013M0057 hyp  dui  tini  dui  tini  tini  saari  tini
+AS013M0057 op    C     C    C     C     C     C      C 
+AS013M0057 #csid 7 0 0 0
+AS013M0058 ref  tini  saari  saari  paas  paas  soi  saari
+AS013M0058 hyp  tini  saari  saari  paas  paas  soi  saari
+AS013M0058 op     C     C      C      C     C    C     C  
+AS013M0058 #csid 7 0 0 0
+AS013M0059 ref  aath  aath  aath  xunnyo  xunnyo  xunnyo  xunnyo
+AS013M0059 hyp  aath  aath  aath  xunnyo  xunnyo  xunnyo  xunnyo
+AS013M0059 op     C     C     C      C       C       C       C  
+AS013M0059 #csid 7 0 0 0
+AS013M0060 ref  aath  soi  xaat  aath  aath  nax  xunnyo
+AS013M0060 hyp  aath  soi  xaat  aath  aath  nax  xunnyo
+AS013M0060 op     C    C     C     C     C    C      C  
+AS013M0060 #csid 7 0 0 0
+AS013M0061 ref  xunnyo  nax  nax  aath  xaat  soi  paas
+AS013M0061 hyp  xunnyo  nax  nax  aath  aath  soi  paas
+AS013M0061 op      C     C    C     C     S    C     C 
+AS013M0061 #csid 6 1 0 0
+AS013M0062 ref  paas  saari  tini  dui  ek  xunnyo  aath
+AS013M0062 hyp  paas  saari  tini  dui  ek  xunnyo  aath
+AS013M0062 op     C     C      C    C    C     C      C 
+AS013M0062 #csid 7 0 0 0
+AS013M0063 ref  aath  nax  xaat  paas  tini  ek  xaat
+AS013M0063 hyp  aath  nax  xaat  paas  tini  ek  xaat
+AS013M0063 op     C    C     C     C     C    C    C 
+AS013M0063 #csid 7 0 0 0
+AS013M0064 ref  xaat  nax  soi  saari  dui  xunnyo  soi
+AS013M0064 hyp  xaat  nax  soi  saari  dui  xunnyo  soi
+AS013M0064 op     C    C    C     C     C      C     C 
+AS013M0064 #csid 7 0 0 0
+AS013M0065 ref  soi  nax  paas  dui  paas  nax  saari
+AS013M0065 hyp  soi  nax  paas  dui  paas  nax  saari
+AS013M0065 op    C    C     C    C     C    C     C  
+AS013M0065 #csid 7 0 0 0
+AS013M0066 ref  saari  ek  saari  nax  tini  xunnyo  tini
+AS013M0066 hyp  saari  ek  saari  nax  tini  xunnyo  tini
+AS013M0066 op     C     C    C     C     C      C      C 
+AS013M0066 #csid 7 0 0 0
+AS013M0067 ref  tini  nax  dui  dui  nax  ek  ek
+AS013M0067 hyp  tini  nax  dui  dui  nax  ek  ek
+AS013M0067 op     C    C    C    C    C    C   C
+AS013M0067 #csid 7 0 0 0
+AS013M0068 ref  ek  nax  xunnyo  xunnyo  xaat  saari  xunnyo
+AS013M0068 hyp  ek  nax  xunnyo  xunnyo  xaat  saari  xunnyo
+AS013M0068 op    C   C      C       C      C     C       C  
+AS013M0068 #csid 7 0 0 0
+AS013M0069 ref  xunnyo  ek  aath  soi  tini  aath  aath
+AS013M0069 hyp  xunnyo  ek  xaat  soi  tini  aath  aath
+AS013M0069 op      C     C    S    C     C     C     C 
+AS013M0069 #csid 6 1 0 0
+AS013M0070 ref  aath  paas  ek  soi  dui  soi  aath
+AS013M0070 hyp  aath  paas  ek  soi  dui  soi  aath
+AS013M0070 op     C     C    C   C    C    C     C 
+AS013M0070 #csid 7 0 0 0
+AS013M0071 ref  aath  saari  paas  aath  tini  saari  aath
+AS013M0071 hyp  aath  saari  paas  aath  tini  saari  aath
+AS013M0071 op     C     C      C     C     C     C      C 
+AS013M0071 #csid 7 0 0 0
+AS013M0072 ref  aath  dui  tini  xaat  tini  soi  ek
+AS013M0072 hyp  aath  dui  tini  xaat  tini  soi  ek
+AS013M0072 op     C    C     C     C     C    C    C
+AS013M0072 #csid 7 0 0 0
+AS013M0073 ref  ek  paas  xunnyo  paas  soi  xaat  dui
+AS013M0073 hyp  ek  paas  xunnyo  paas  soi  xaat  dui
+AS013M0073 op    C    C      C      C    C     C    C 
+AS013M0073 #csid 7 0 0 0
+AS013M0074 ref  dui  aath  ek  tini  paas  paas  xaat
+AS013M0074 hyp  dui  aath  ek  tini  paas  paas  xaat
+AS013M0074 op    C     C    C    C     C     C     C 
+AS013M0074 #csid 7 0 0 0
+AS013M0075 ref  xaat  ek  dui  xaat  xunnyo  dui  saari
+AS013M0075 hyp  xaat  ek  dui  xaat  xunnyo  dui  saari
+AS013M0075 op     C    C   C     C      C     C     C  
+AS013M0075 #csid 7 0 0 0
+AS013M0076 ref  saari  xaat  aath  xunnyo  ek  dui  tini
+AS013M0076 hyp  saari  xaat  aath  xunnyo  ek  dui  tini
+AS013M0076 op     C      C     C      C     C   C     C 
+AS013M0076 #csid 7 0 0 0
+AS013M0077 ref  tini  tini  saari  soi  xunnyo  saari  saari
+AS013M0077 hyp  tini  tini  saari  soi  xunnyo  saari  saari
+AS013M0077 op     C     C     C     C      C      C      C  
+AS013M0077 #csid 7 0 0 0
+AS013M0078 ref  saari  paas  soi  soi  xaat  xaat  aath
+AS013M0078 hyp  saari  paas  soi  soi  xaat  xaat  aath
+AS013M0078 op     C      C    C    C     C     C     C 
+AS013M0078 #csid 7 0 0 0
+AS013M0079 ref  nax  nax  ek  tini  paas  xaat  nax
+AS013M0079 hyp  nax  nax  ek  tini  paas  xaat  nax
+AS013M0079 op    C    C    C    C     C     C    C 
+AS013M0079 #csid 7 0 0 0
+AS013M0080 ref  dui  soi  nax  ek  dui  saari  tini
+AS013M0080 hyp  dui  soi  nax  ek  dui  saari  tini
+AS013M0080 op    C    C    C    C   C     C      C 
+AS013M0080 #csid 7 0 0 0
+AS014M0001 ref  xunnyo  xunnyo  nax  aath  xaat  soi  paas
+AS014M0001 hyp  xunnyo  xunnyo  nax  aath  xaat  soi  paas
+AS014M0001 op      C       C     C     C     C    C     C 
+AS014M0001 #csid 7 0 0 0
+AS014M0002 ref  paas  saari  tini  dui  ek  xunnyo  ek
+AS014M0002 hyp  paas  saari  tini  dui  ek  xunnyo  ek
+AS014M0002 op     C     C      C    C    C     C     C
+AS014M0002 #csid 7 0 0 0
+AS014M0003 ref  ek  nax  xaat  paas  tini  ek  dui
+AS014M0003 hyp  ek  nax  xaat  paas  tini  ek  dui
+AS014M0003 op    C   C     C     C     C    C   C 
+AS014M0003 #csid 7 0 0 0
+AS014M0004 ref  dui  nax  soi  saari  dui  xunnyo  tini
+AS014M0004 hyp  dui  nax  soi  saari  dui    nax   tini
+AS014M0004 op    C    C    C     C     C      S      C 
+AS014M0004 #csid 6 1 0 0
+AS014M0005 ref  tini  nax  paas  dui  saari  nax  saari
+AS014M0005 hyp   ***  ***   ***  ***   ***   ***   aath
+AS014M0005 op     D    D     D    D     D     D     S  
+AS014M0005 #csid 0 1 0 6
+AS014M0006 ref  saari  ek  paas  nax  tini  xunnyo  soi
+AS014M0006 hyp  saari  ek  paas  nax  tini  xunnyo  soi
+AS014M0006 op     C     C    C    C     C      C     C 
+AS014M0006 #csid 7 0 0 0
+AS014M0007 ref  soi  nax  dui  xaat  nax  ek  aath
+AS014M0007 hyp  soi  nax  dui  xaat  nax  ek  aath
+AS014M0007 op    C    C    C     C    C    C    C 
+AS014M0007 #csid 7 0 0 0
+AS014M0008 ref  aath  nax  xunnyo  aath  soi  tini  saari
+AS014M0008 hyp  aath  nax  xunnyo  aath  soi  tini  saari
+AS014M0008 op     C    C      C      C    C     C     C  
+AS014M0008 #csid 7 0 0 0
+AS014M0009 ref  saari  xunnyo  xaat  saari  aath  paas  ek
+AS014M0009 hyp  saari  xunnyo  xaat  saari  aath  paas  ek
+AS014M0009 op     C       C      C     C      C     C    C
+AS014M0009 #csid 7 0 0 0
+AS014M0010 ref  ek  xaat  tini  tini  aath  saari  saari
+AS014M0010 hyp  ek  xaat  tini  tini  aath  saari  saari
+AS014M0010 op    C    C     C     C     C     C      C  
+AS014M0010 #csid 7 0 0 0
+AS014M0011 ref  saari  xaat  dui  paas  aath  tini  soi
+AS014M0011 hyp  saari  xaat  dui  paas  aath  tini  soi
+AS014M0011 op     C      C    C     C     C     C    C 
+AS014M0011 #csid 7 0 0 0
+AS014M0012 ref  soi  aath  dui  aath  ek  soi  dui
+AS014M0012 hyp  soi  aath  dui  aath  ek  soi  dui
+AS014M0012 op    C     C    C     C    C   C    C 
+AS014M0012 #csid 7 0 0 0
+AS014M0013 ref  dui  soi  ek  dui  tini  xaat  ek
+AS014M0013 hyp  dui  soi  ek  dui  tini  xaat  ek
+AS014M0013 op    C    C    C   C     C     C    C
+AS014M0013 #csid 7 0 0 0
+AS014M0014 ref  ek  saari  soi  xunnyo  saari  paas  xunnyo
+AS014M0014 hyp  ek  saari  soi  xunnyo  saari  paas  xunnyo
+AS014M0014 op    C    C     C      C      C      C      C  
+AS014M0014 #csid 7 0 0 0
+AS014M0015 ref  xunnyo  paas  xaat  xunnyo  dui  dui  tini
+AS014M0015 hyp  xunnyo  paas  xaat  xunnyo  dui  dui  tini
+AS014M0015 op      C      C     C      C     C    C     C 
+AS014M0015 #csid 7 0 0 0
+AS014M0016 ref  tini  paas  soi  xaat  aath  xunnyo  ek
+AS014M0016 hyp  tini  paas  soi  xaat  aath  xunnyo  ek
+AS014M0016 op     C     C    C     C     C      C     C
+AS014M0016 #csid 7 0 0 0
+AS014M0017 ref  ek  tini  saari  paas  paas  soi  soi
+AS014M0017 hyp  ek  tini  saari  paas  paas  soi  soi
+AS014M0017 op    C    C     C      C     C    C    C 
+AS014M0017 #csid 7 0 0 0
+AS014M0018 ref  soi  xaat  xaat  aath  aath  nax  nax
+AS014M0018 hyp  soi  xaat  xaat  aath  aath  nax  nax
+AS014M0018 op    C     C     C     C     C    C    C 
+AS014M0018 #csid 7 0 0 0
+AS014M0019 ref  nax  xunnyo  ek  ek  dui  ek  xaat
+AS014M0019 hyp  nax  xunnyo  ek  ek  dui  ek  xaat
+AS014M0019 op    C      C     C   C   C    C    C 
+AS014M0019 #csid 7 0 0 0
+AS014M0020 ref  xaat  nax  ek  tini  paas  xaat  nax
+AS014M0020 hyp  xaat  nax  ek  tini  paas  xaat  nax
+AS014M0020 op     C    C    C    C     C     C    C 
+AS014M0020 #csid 7 0 0 0
+AS014M0021 ref  xunnyo  xunnyo  ek  dui  tini  saari  paas
+AS014M0021 hyp  xunnyo  xunnyo  ek  dui  tini  saari  paas
+AS014M0021 op      C       C     C   C     C     C      C 
+AS014M0021 #csid 7 0 0 0
+AS014M0022 ref  paas  soi  xaat  aath  nax  ek  xunnyo
+AS014M0022 hyp  paas  soi  xaat  aath  nax  ek  xunnyo
+AS014M0022 op     C    C     C     C    C    C     C  
+AS014M0022 #csid 7 0 0 0
+AS014M0023 ref  xunnyo  dui  saari  soi  aath  dui  xunnyo
+AS014M0023 hyp  xunnyo  dui  saari  soi  aath  dui  xunnyo
+AS014M0023 op      C     C     C     C     C    C      C  
+AS014M0023 #csid 7 0 0 0
+AS014M0024 ref  xunnyo  tini  paas  xaat  nax  tini  xunnyo
+AS014M0024 hyp  xunnyo  tini  paas  xaat  nax  tini  xunnyo
+AS014M0024 op      C      C     C     C    C     C      C  
+AS014M0024 #csid 7 0 0 0
+AS014M0025 ref  xunnyo  saari  xaat  saari  xunnyo  paas  aath
+AS014M0025 hyp  xunnyo  saari  xaat  saari  xunnyo  paas  aath
+AS014M0025 op      C      C      C     C       C      C     C 
+AS014M0025 #csid 7 0 0 0
+AS014M0026 ref  aath  paas  xunnyo  soi  nax  soi  xunnyo
+AS014M0026 hyp  aath  paas  xunnyo  soi  nax  soi  xunnyo
+AS014M0026 op     C     C      C     C    C    C      C  
+AS014M0026 #csid 7 0 0 0
+AS014M0027 ref  xunnyo  xaat  xaat  xunnyo  aath  aath  xunnyo
+AS014M0027 hyp  xunnyo  xaat  xaat  xunnyo  aath  aath  xunnyo
+AS014M0027 op      C      C     C      C      C     C      C  
+AS014M0027 #csid 7 0 0 0
+AS014M0028 ref  xunnyo  nax  nax  xunnyo  ek  ek  tini
+AS014M0028 hyp  xunnyo  nax  nax  xunnyo  ek  ek  tini
+AS014M0028 op      C     C    C      C     C   C    C 
+AS014M0028 #csid 7 0 0 0
+AS014M0029 ref  tini  soi  ek  saari  aath  ek  paas   ***
+AS014M0029 hyp  tini  soi  ek  saari  aath  ek  paas  xaat
+AS014M0029 op     C    C    C    C      C    C    C     I 
+AS014M0029 #csid 7 0 1 0
+AS014M0030 ref  paas  nax  dui  paas  saari  ek  soi
+AS014M0030 hyp  paas  nax  dui  paas  saari  ek  soi
+AS014M0030 op     C    C    C     C     C     C   C 
+AS014M0030 #csid 7 0 0 0
+AS014M0031 ref  soi  paas  ek  xaat  soi  dui  soi
+AS014M0031 hyp  soi  paas  ek  xaat  soi  dui  soi
+AS014M0031 op    C     C    C    C    C    C    C 
+AS014M0031 #csid 7 0 0 0
+AS014M0032 ref  soi  tini  xaat  ek  aath  tini  aath
+AS014M0032 hyp  soi  tini  xaat  ek  aath  tini  aath
+AS014M0032 op    C     C     C    C    C     C     C 
+AS014M0032 #csid 7 0 0 0
+AS014M0033 ref  aath  nax  saari  nax  paas  dui  ek
+AS014M0033 hyp  aath  nax  saari  nax  paas  dui  ek
+AS014M0033 op     C    C     C     C     C    C    C
+AS014M0033 #csid 7 0 0 0
+AS014M0034 ref  ek  nax  xaat  dui  xaat  paas  tini
+AS014M0034 hyp  ek  nax  xaat  dui  xaat  paas  tini
+AS014M0034 op    C   C     C    C     C     C     C 
+AS014M0034 #csid 7 0 0 0
+AS014M0035 ref  tini  nax  aath  xaat  tini  ek  dui  ***
+AS014M0035 hyp  tini  nax  aath  xaat  tini  ek  dui   ek
+AS014M0035 op     C    C     C     C     C    C   C    I 
+AS014M0035 #csid 7 0 1 0
+AS014M0036 ref  dui  dui  aath  saari  dui  nax  xunnyo
+AS014M0036 hyp  dui  dui  aath  saari  dui  nax  xunnyo
+AS014M0036 op    C    C     C     C     C    C      C  
+AS014M0036 #csid 7 0 0 0
+AS014M0037 ref  xunnyo  ek  dui  tini  dui  tini  tini
+AS014M0037 hyp  xunnyo  ek  dui  tini  dui  tini  tini
+AS014M0037 op      C     C   C     C    C     C     C 
+AS014M0037 #csid 7 0 0 0
+AS014M0038 ref  tini  saari  tini  saari  saari  paas  paas
+AS014M0038 hyp  tini  saari  tini  saari  saari  paas  paas
+AS014M0038 op     C     C      C     C      C      C     C 
+AS014M0038 #csid 7 0 0 0
+AS014M0039 ref  paas  soi  saari  paas  soi  soi  xaat
+AS014M0039 hyp  paas  soi  saari  paas  soi  soi  xaat
+AS014M0039 op     C    C     C      C    C    C     C 
+AS014M0039 #csid 7 0 0 0
+AS014M0040 ref  xaat  aath  soi  xaat  ek  dui  saari
+AS014M0040 hyp  xaat  aath  soi  xaat  ek  dui  saari
+AS014M0040 op     C     C    C     C    C   C     C  
+AS014M0040 #csid 7 0 0 0
+AS014M0041 ref  xunnyo  nax  xunnyo  ek  dui  tini  saari
+AS014M0041 hyp  xunnyo  nax  xunnyo  ek  dui  tini  saari
+AS014M0041 op      C     C      C     C   C     C     C  
+AS014M0041 #csid 7 0 0 0
+AS014M0042 ref  saari  paas  soi  xaat  aath  nax  aath
+AS014M0042 hyp  saari  paas  soi  xaat  aath  nax  aath
+AS014M0042 op     C      C    C     C     C    C     C 
+AS014M0042 #csid 7 0 0 0
+AS014M0043 ref  aath  xunnyo  dui  saari  soi  aath  xaat
+AS014M0043 hyp  aath    nax   dui  saari  soi  xaat  xaat
+AS014M0043 op     C      S     C     C     C     S     C 
+AS014M0043 #csid 5 2 0 0
+AS014M0044 ref  xaat  xunnyo  tini  paas  xaat  nax  soi
+AS014M0044 hyp  xaat  xunnyo  tini  paas  xaat  nax  soi
+AS014M0044 op     C      C      C     C     C    C    C 
+AS014M0044 #csid 7 0 0 0
+AS014M0045 ref  soi  xunnyo  saari  xaat  paas  xunnyo  paas
+AS014M0045 hyp  soi  xunnyo  saari  xaat  paas  xunnyo  paas
+AS014M0045 op    C      C      C      C     C      C      C 
+AS014M0045 #csid 7 0 0 0
+AS014M0046 ref  paas  aath  saari  xunnyo  soi  nax  tini
+AS014M0046 hyp  paas  aath  saari  xunnyo  soi  nax  tini
+AS014M0046 op     C     C     C       C     C    C     C 
+AS014M0046 #csid 7 0 0 0
+AS014M0047 ref  tini  xunnyo  xaat  dui  xunnyo  aath  ek
+AS014M0047 hyp  tini  xunnyo  xaat  dui  xunnyo  aath  ek
+AS014M0047 op     C      C      C    C      C      C    C
+AS014M0047 #csid 7 0 0 0
+AS014M0048 ref  ek  xunnyo  xunnyo  ek  nax  ek  tini
+AS014M0048 hyp  ek  xunnyo  xunnyo  ek  nax  ek  tini
+AS014M0048 op    C     C       C     C   C    C    C 
+AS014M0048 #csid 7 0 0 0
+AS014M0049 ref  tini  soi  ek  saari  aath  dui  paas
+AS014M0049 hyp  tini  soi  ek  saari  aath  dui  paas
+AS014M0049 op     C    C    C    C      C    C     C 
+AS014M0049 #csid 7 0 0 0
+AS014M0050 ref  paas  nax  dui  soi  paas  ek  paas
+AS014M0050 hyp  paas  nax  dui  soi  paas  ek  paas
+AS014M0050 op     C    C    C    C     C    C    C 
+AS014M0050 #csid 7 0 0 0
+AS014M0051 ref  paas  saari  ek  soi  tini  ek  xaat
+AS014M0051 hyp  paas  saari  ek  soi  tini  ek  xaat
+AS014M0051 op     C     C     C   C     C    C    C 
+AS014M0051 #csid 7 0 0 0
+AS014M0052 ref  xaat  ek  aath  tini  xaat  tini  aath   ***
+AS014M0052 hyp  xaat  ek  aath  tini  xaat  tini  aath  xaat
+AS014M0052 op     C    C    C     C     C     C     C     I 
+AS014M0052 #csid 7 0 1 0
+AS014M0053 ref  aath  nax  nax  saari  nax  paas  dui
+AS014M0053 hyp  aath  nax  nax  saari  nax  paas  dui
+AS014M0053 op     C    C    C     C     C     C    C 
+AS014M0053 #csid 7 0 0 0
+AS014M0054 ref  dui  xaat  soi  dui  aath  paas  tini
+AS014M0054 hyp  dui  xaat  soi  dui  aath  paas  tini
+AS014M0054 op    C     C    C    C     C     C     C 
+AS014M0054 #csid 7 0 0 0
+AS014M0055 ref  tini  nax  xaat  saari  dui  ***  ek  ek
+AS014M0055 hyp  tini  nax  xaat  saari  dui   ek  ek  ek
+AS014M0055 op     C    C     C     C     C    I    C   C
+AS014M0055 #csid 7 0 1 0
+AS014M0056 ref  ek  dui  nax  xunnyo  ek  dui  dui
+AS014M0056 hyp  ek  dui  nax  xunnyo  ek  dui  dui
+AS014M0056 op    C   C    C      C     C   C    C 
+AS014M0056 #csid 7 0 0 0
+AS014M0057 ref  dui  tini  dui  tini  tini  saari  tini
+AS014M0057 hyp  dui  tini  dui  tini  tini  saari  tini
+AS014M0057 op    C     C    C     C     C     C      C 
+AS014M0057 #csid 7 0 0 0
+AS014M0058 ref  tini  saari  saari  paas  paas  soi  saari
+AS014M0058 hyp  tini  saari  saari  paas  paas  soi  saari
+AS014M0058 op     C     C      C      C     C    C     C  
+AS014M0058 #csid 7 0 0 0
+AS014M0059 ref  aath  aath  aath  xunnyo  xunnyo  xunnyo  xunnyo
+AS014M0059 hyp  aath  aath  aath  xunnyo  xunnyo    nax   xunnyo
+AS014M0059 op     C     C     C      C       C       S       C  
+AS014M0059 #csid 6 1 0 0
+AS014M0060 ref  aath  soi  xaat  aath  aath  nax  xunnyo
+AS014M0060 hyp  aath  soi  xaat  aath  aath  nax  xunnyo
+AS014M0060 op     C    C     C     C     C    C      C  
+AS014M0060 #csid 7 0 0 0
+AS014M0061 ref  xunnyo  nax  nax  aath  xaat  soi  paas
+AS014M0061 hyp  xunnyo  nax  nax  aath  xaat  soi  paas
+AS014M0061 op      C     C    C     C     C    C     C 
+AS014M0061 #csid 7 0 0 0
+AS014M0062 ref  paas  saari  tini  dui  ek  xunnyo  aath
+AS014M0062 hyp  paas  saari  tini  dui  ek  xunnyo  aath
+AS014M0062 op     C     C      C    C    C     C      C 
+AS014M0062 #csid 7 0 0 0
+AS014M0063 ref  aath  nax  xaat  paas  tini  ek  xaat
+AS014M0063 hyp  aath  nax  xaat  paas  tini  ek  xaat
+AS014M0063 op     C    C     C     C     C    C    C 
+AS014M0063 #csid 7 0 0 0
+AS014M0064 ref  xaat  nax  soi  saari  dui  xunnyo  soi
+AS014M0064 hyp  xaat  nax  soi  saari  dui  xunnyo  soi
+AS014M0064 op     C    C    C     C     C      C     C 
+AS014M0064 #csid 7 0 0 0
+AS014M0065 ref  soi  nax  paas  dui  paas  nax  saari
+AS014M0065 hyp  soi  nax  paas  dui  paas  nax  saari
+AS014M0065 op    C    C     C    C     C    C     C  
+AS014M0065 #csid 7 0 0 0
+AS014M0066 ref  saari  ek  saari  nax  tini  xunnyo  tini
+AS014M0066 hyp  saari  ek  saari  nax  tini  xunnyo  tini
+AS014M0066 op     C     C    C     C     C      C      C 
+AS014M0066 #csid 7 0 0 0
+AS014M0067 ref  tini  nax  dui  dui  nax  ek  ek
+AS014M0067 hyp  tini  nax  dui  dui  nax  ek  ek
+AS014M0067 op     C    C    C    C    C    C   C
+AS014M0067 #csid 7 0 0 0
+AS014M0068 ref  ek  nax  xunnyo  xunnyo  xaat  saari  xunnyo
+AS014M0068 hyp  ek  nax  xunnyo  xunnyo  xaat  saari  xunnyo
+AS014M0068 op    C   C      C       C      C     C       C  
+AS014M0068 #csid 7 0 0 0
+AS014M0069 ref  xunnyo  ek  aath  soi  tini  aath  aath
+AS014M0069 hyp  xunnyo  ek  aath  soi  tini  aath  aath
+AS014M0069 op      C     C    C    C     C     C     C 
+AS014M0069 #csid 7 0 0 0
+AS014M0070 ref  aath  paas  ek  soi  dui  soi  aath
+AS014M0070 hyp  aath  paas  ek  soi  dui  soi  aath
+AS014M0070 op     C     C    C   C    C    C     C 
+AS014M0070 #csid 7 0 0 0
+AS014M0071 ref  aath  saari  paas  aath  tini  saari  aath
+AS014M0071 hyp  aath  saari  paas  aath  tini  saari  aath
+AS014M0071 op     C     C      C     C     C     C      C 
+AS014M0071 #csid 7 0 0 0
+AS014M0072 ref  aath  dui  tini  xaat  tini  soi  ek
+AS014M0072 hyp  aath  dui  tini  xaat  tini  soi  ek
+AS014M0072 op     C    C     C     C     C    C    C
+AS014M0072 #csid 7 0 0 0
+AS014M0073 ref  ek  paas  xunnyo  paas  soi  xaat  dui
+AS014M0073 hyp  ek  paas    nax   paas  soi  xaat  dui
+AS014M0073 op    C    C      S      C    C     C    C 
+AS014M0073 #csid 6 1 0 0
+AS014M0074 ref  dui  aath  ek  tini  paas  paas  xaat
+AS014M0074 hyp  dui  aath  ek  tini  paas  paas  xaat
+AS014M0074 op    C     C    C    C     C     C     C 
+AS014M0074 #csid 7 0 0 0
+AS014M0075 ref  xaat  ek  dui  xaat  xunnyo  dui  saari
+AS014M0075 hyp  xaat  ek  dui  xaat  xunnyo  dui  saari
+AS014M0075 op     C    C   C     C      C     C     C  
+AS014M0075 #csid 7 0 0 0
+AS014M0076 ref  saari  xaat  aath  xunnyo  ek  dui  tini
+AS014M0076 hyp  saari  xaat  aath  xunnyo  ek  dui  tini
+AS014M0076 op     C      C     C      C     C   C     C 
+AS014M0076 #csid 7 0 0 0
+AS014M0077 ref  tini  tini  saari  soi  xunnyo  saari  saari
+AS014M0077 hyp  tini  tini  saari  soi  xunnyo  saari  saari
+AS014M0077 op     C     C     C     C      C      C      C  
+AS014M0077 #csid 7 0 0 0
+AS014M0078 ref  saari  paas  soi  soi  xaat  xaat  aath
+AS014M0078 hyp  saari  paas  soi  soi  xaat  xaat  aath
+AS014M0078 op     C      C    C    C     C     C     C 
+AS014M0078 #csid 7 0 0 0
+AS014M0079 ref  nax  nax  ek  tini  paas  xaat  nax
+AS014M0079 hyp  nax  nax  ek  tini  paas  xaat  nax
+AS014M0079 op    C    C    C    C     C     C    C 
+AS014M0079 #csid 7 0 0 0
+AS014M0080 ref  dui  soi  nax  ek  dui  saari  tini
+AS014M0080 hyp  dui  soi  nax  ek  dui  saari  tini
+AS014M0080 op    C    C    C    C   C     C      C 
+AS014M0080 #csid 7 0 0 0
+AS015M0001 ref  xunnyo  xunnyo  nax  aath  xaat  soi  paas
+AS015M0001 hyp  xunnyo    nax   nax  aath  xaat  soi  paas
+AS015M0001 op      C       S     C     C     C    C     C 
+AS015M0001 #csid 6 1 0 0
+AS015M0002 ref  paas  saari  tini  dui  ek  xunnyo  ek
+AS015M0002 hyp  paas  saari  tini  dui  ek  xunnyo  ek
+AS015M0002 op     C     C      C    C    C     C     C
+AS015M0002 #csid 7 0 0 0
+AS015M0003 ref  ek  nax  xaat  paas  tini  ek  dui
+AS015M0003 hyp  ek  nax  xaat  paas  tini  ek  dui
+AS015M0003 op    C   C     C     C     C    C   C 
+AS015M0003 #csid 7 0 0 0
+AS015M0004 ref  dui  nax  soi  saari  dui  xunnyo  tini
+AS015M0004 hyp  dui  nax  soi  saari  dui  xunnyo  tini
+AS015M0004 op    C    C    C     C     C      C      C 
+AS015M0004 #csid 7 0 0 0
+AS015M0005 ref  tini  nax  paas  dui  saari  nax  saari
+AS015M0005 hyp  tini  nax  paas  dui  saari  nax  saari
+AS015M0005 op     C    C     C    C     C     C     C  
+AS015M0005 #csid 7 0 0 0
+AS015M0006 ref  saari  ek  paas  nax  tini  xunnyo  soi
+AS015M0006 hyp  saari  ek  paas  nax  tini  xunnyo  soi
+AS015M0006 op     C     C    C    C     C      C     C 
+AS015M0006 #csid 7 0 0 0
+AS015M0007 ref  soi  nax  dui  xaat  nax  ek  aath
+AS015M0007 hyp  soi  nax  dui  xaat  nax  ek  aath
+AS015M0007 op    C    C    C     C    C    C    C 
+AS015M0007 #csid 7 0 0 0
+AS015M0008 ref  aath  nax  xunnyo  aath  soi  tini  saari
+AS015M0008 hyp  aath  nax    nax   aath  soi  tini  saari
+AS015M0008 op     C    C      S      C    C     C     C  
+AS015M0008 #csid 6 1 0 0
+AS015M0009 ref  saari  xunnyo  xaat  saari  aath  paas  ek
+AS015M0009 hyp  saari    nax   xaat  saari  aath  paas  ek
+AS015M0009 op     C       S      C     C      C     C    C
+AS015M0009 #csid 6 1 0 0
+AS015M0010 ref  ek  xaat  tini  tini  aath  saari  saari
+AS015M0010 hyp  ek  xaat  tini  tini  aath  saari  saari
+AS015M0010 op    C    C     C     C     C     C      C  
+AS015M0010 #csid 7 0 0 0
+AS015M0011 ref  saari  xaat  dui  paas  aath  tini  soi
+AS015M0011 hyp  saari  xaat  dui  paas  aath  tini  soi
+AS015M0011 op     C      C    C     C     C     C    C 
+AS015M0011 #csid 7 0 0 0
+AS015M0012 ref  soi  aath  dui  aath  ek  soi  dui   ***
+AS015M0012 hyp  soi  aath  dui  aath  ek  soi  dui  aath
+AS015M0012 op    C     C    C     C    C   C    C     I 
+AS015M0012 #csid 7 0 1 0
+AS015M0013 ref  dui  soi  ek  dui  tini  xaat  ek
+AS015M0013 hyp  dui  soi  ek  dui  tini  xaat  ek
+AS015M0013 op    C    C    C   C     C     C    C
+AS015M0013 #csid 7 0 0 0
+AS015M0014 ref  ek  saari  soi  xunnyo  saari  paas  xunnyo
+AS015M0014 hyp  ek  saari  soi    nax   saari  paas    nax 
+AS015M0014 op    C    C     C      S      C      C      S  
+AS015M0014 #csid 5 2 0 0
+AS015M0015 ref  xunnyo  paas  xaat  xunnyo  dui  dui  tini
+AS015M0015 hyp  xunnyo  paas  xaat    nax   dui  dui  tini
+AS015M0015 op      C      C     C      S     C    C     C 
+AS015M0015 #csid 6 1 0 0
+AS015M0016 ref  tini  paas  soi  xaat  aath  xunnyo  ek
+AS015M0016 hyp  tini  paas  soi  xaat  aath    nax   ek
+AS015M0016 op     C     C    C     C     C      S     C
+AS015M0016 #csid 6 1 0 0
+AS015M0017 ref  ek  tini  saari  paas  paas  soi  soi
+AS015M0017 hyp  ek  tini  saari  paas  paas  soi  soi
+AS015M0017 op    C    C     C      C     C    C    C 
+AS015M0017 #csid 7 0 0 0
+AS015M0018 ref  soi  xaat  xaat  aath  aath  nax  nax
+AS015M0018 hyp  soi  xaat  xaat  aath  aath  nax  nax
+AS015M0018 op    C     C     C     C     C    C    C 
+AS015M0018 #csid 7 0 0 0
+AS015M0019 ref  nax  xunnyo  ek  ek  dui  ek  xaat
+AS015M0019 hyp  nax    nax   ek  ek  dui  ek  xaat
+AS015M0019 op    C      S     C   C   C    C    C 
+AS015M0019 #csid 6 1 0 0
+AS015M0020 ref  xaat  nax  ek  tini  paas  xaat  nax
+AS015M0020 hyp  aath  nax  ek  tini  paas  xaat  nax
+AS015M0020 op     S    C    C    C     C     C    C 
+AS015M0020 #csid 6 1 0 0
+AS015M0021 ref  xunnyo  xunnyo  ek  dui  tini  saari  paas
+AS015M0021 hyp  xunnyo    nax   ek  dui  tini  saari  paas
+AS015M0021 op      C       S     C   C     C     C      C 
+AS015M0021 #csid 6 1 0 0
+AS015M0022 ref  paas  soi  xaat  aath  nax  ek  xunnyo
+AS015M0022 hyp  paas  soi  xaat  aath  nax  ek  xunnyo
+AS015M0022 op     C    C     C     C    C    C     C  
+AS015M0022 #csid 7 0 0 0
+AS015M0023 ref  xunnyo  dui  saari  soi  aath  dui  ***   ***  xunnyo
+AS015M0023 hyp  xunnyo  dui  saari  soi  aath  dui  nax  xaat    ek  
+AS015M0023 op      C     C     C     C     C    C    I     I      S  
+AS015M0023 #csid 6 1 2 0
+AS015M0024 ref  xunnyo  tini  paas  xaat  nax  tini  xunnyo
+AS015M0024 hyp  xunnyo  tini  paas  xaat  nax  tini    nax 
+AS015M0024 op      C      C     C     C    C     C      S  
+AS015M0024 #csid 6 1 0 0
+AS015M0025 ref  xunnyo  saari  xaat  saari  xunnyo  paas  aath
+AS015M0025 hyp  xunnyo  saari  xaat  saari  xunnyo  paas  aath
+AS015M0025 op      C      C      C     C       C      C     C 
+AS015M0025 #csid 7 0 0 0
+AS015M0026 ref  aath  paas  xunnyo  soi  nax  soi  xunnyo
+AS015M0026 hyp  aath  paas    nax   soi  soi  soi  xunnyo
+AS015M0026 op     C     C      S     C    S    C      C  
+AS015M0026 #csid 5 2 0 0
+AS015M0027 ref  xunnyo  xaat  xaat  xunnyo  aath  aath  xunnyo
+AS015M0027 hyp  xunnyo  xaat  xaat    nax   aath  aath  xunnyo
+AS015M0027 op      C      C     C      S      C     C      C  
+AS015M0027 #csid 6 1 0 0
+AS015M0028 ref  xunnyo  nax  nax  xunnyo  ek  ek  tini
+AS015M0028 hyp  xunnyo  nax  nax  xunnyo  ek  ek  tini
+AS015M0028 op      C     C    C      C     C   C    C 
+AS015M0028 #csid 7 0 0 0
+AS015M0029 ref  tini  soi  ek  saari  aath  ek  paas   ***
+AS015M0029 hyp  tini  soi  ek  saari  aath  ek  paas  xaat
+AS015M0029 op     C    C    C    C      C    C    C     I 
+AS015M0029 #csid 7 0 1 0
+AS015M0030 ref  paas  nax  dui  paas  saari  ek  soi
+AS015M0030 hyp  paas  soi  dui  paas  saari  ek  soi
+AS015M0030 op     C    S    C     C     C     C   C 
+AS015M0030 #csid 6 1 0 0
+AS015M0031 ref  soi  paas  ek  xaat  soi  dui  soi
+AS015M0031 hyp  soi  paas  ek  xaat  soi  dui  soi
+AS015M0031 op    C     C    C    C    C    C    C 
+AS015M0031 #csid 7 0 0 0
+AS015M0032 ref  soi  tini  xaat  ek  aath  tini  aath
+AS015M0032 hyp  soi  tini  xaat  ek  aath  tini  aath
+AS015M0032 op    C     C     C    C    C     C     C 
+AS015M0032 #csid 7 0 0 0
+AS015M0033 ref  aath  nax  saari  nax  paas  dui  ek
+AS015M0033 hyp  aath  nax  saari  nax  paas  dui  ek
+AS015M0033 op     C    C     C     C     C    C    C
+AS015M0033 #csid 7 0 0 0
+AS015M0034 ref  ek  nax  xaat  dui  xaat  paas  tini  ***
+AS015M0034 hyp  ek  nax  xaat  dui  xaat  paas  tini  dui
+AS015M0034 op    C   C     C    C     C     C     C    I 
+AS015M0034 #csid 7 0 1 0
+AS015M0035 ref  tini  nax  aath  xaat  tini  ek  dui
+AS015M0035 hyp  tini  nax  aath  xaat  tini  ek  dui
+AS015M0035 op     C    C     C     C     C    C   C 
+AS015M0035 #csid 7 0 0 0
+AS015M0036 ref  dui  dui  aath  saari  dui  nax  xunnyo
+AS015M0036 hyp  dui  dui  aath  saari  dui  nax    nax 
+AS015M0036 op    C    C     C     C     C    C      S  
+AS015M0036 #csid 6 1 0 0
+AS015M0037 ref  xunnyo  ek  dui  tini  dui  tini  tini
+AS015M0037 hyp  xunnyo  ek  dui  tini  dui  tini  tini
+AS015M0037 op      C     C   C     C    C     C     C 
+AS015M0037 #csid 7 0 0 0
+AS015M0038 ref  tini  saari  tini  saari  saari  paas  paas
+AS015M0038 hyp  tini  saari  tini  saari  saari  paas  paas
+AS015M0038 op     C     C      C     C      C      C     C 
+AS015M0038 #csid 7 0 0 0
+AS015M0039 ref  paas  soi  saari  paas  soi  soi  xaat
+AS015M0039 hyp  paas  soi  saari  paas  soi  soi  xaat
+AS015M0039 op     C    C     C      C    C    C     C 
+AS015M0039 #csid 7 0 0 0
+AS015M0040 ref  xaat  aath  soi  xaat  ek  dui  saari
+AS015M0040 hyp   soi  aath  soi  xaat  ek  dui  saari
+AS015M0040 op     S     C    C     C    C   C     C  
+AS015M0040 #csid 6 1 0 0
+AS015M0041 ref  xunnyo  nax  xunnyo  ek  dui  tini  saari
+AS015M0041 hyp  xunnyo  nax  xunnyo  ek  dui  tini  saari
+AS015M0041 op      C     C      C     C   C     C     C  
+AS015M0041 #csid 7 0 0 0
+AS015M0042 ref  saari  paas  soi  xaat  aath  nax  aath
+AS015M0042 hyp  saari  paas  soi  xaat  aath  nax  aath
+AS015M0042 op     C      C    C     C     C    C     C 
+AS015M0042 #csid 7 0 0 0
+AS015M0043 ref  aath  xunnyo  dui  saari  soi   ***  aath  xaat
+AS015M0043 hyp  aath  xunnyo  dui  saari  soi  aath  aath   ek 
+AS015M0043 op     C      C     C     C     C     I     C     S 
+AS015M0043 #csid 6 1 1 0
+AS015M0044 ref  xaat  xunnyo  tini  paas  xaat  nax  soi
+AS015M0044 hyp  xaat  xunnyo  tini  paas  xaat  nax  soi
+AS015M0044 op     C      C      C     C     C    C    C 
+AS015M0044 #csid 7 0 0 0
+AS015M0045 ref  soi  xunnyo  saari  xaat  paas  xunnyo  paas
+AS015M0045 hyp  soi    nax   saari  xaat  paas    nax   paas
+AS015M0045 op    C      S      C      C     C      S      C 
+AS015M0045 #csid 5 2 0 0
+AS015M0046 ref  paas  aath  saari  xunnyo  soi  nax  tini
+AS015M0046 hyp  paas  aath  saari    nax   soi  nax  tini
+AS015M0046 op     C     C     C       S     C    C     C 
+AS015M0046 #csid 6 1 0 0
+AS015M0047 ref  tini  xunnyo  xaat  dui  xunnyo  aath  ek
+AS015M0047 hyp  tini    nax   xaat  dui  xunnyo  aath  ek
+AS015M0047 op     C      S      C    C      C      C    C
+AS015M0047 #csid 6 1 0 0
+AS015M0048 ref  ek  xunnyo  xunnyo  ek  nax  ek  tini
+AS015M0048 hyp  ek  xunnyo    nax   ek  nax  ek  tini
+AS015M0048 op    C     C       S     C   C    C    C 
+AS015M0048 #csid 6 1 0 0
+AS015M0049 ref  tini  soi  ek  saari  aath  dui  paas
+AS015M0049 hyp  tini  soi  ek  saari  aath  dui  paas
+AS015M0049 op     C    C    C    C      C    C     C 
+AS015M0049 #csid 7 0 0 0
+AS015M0050 ref  paas  nax  dui  soi  paas  ek  paas
+AS015M0050 hyp  paas  nax  dui  soi  paas  ek  paas
+AS015M0050 op     C    C    C    C     C    C    C 
+AS015M0050 #csid 7 0 0 0
+AS015M0051 ref  paas  saari  ek  soi  tini  ek  xaat
+AS015M0051 hyp  paas  saari  ek  soi  tini  ek  xaat
+AS015M0051 op     C     C     C   C     C    C    C 
+AS015M0051 #csid 7 0 0 0
+AS015M0052 ref  xaat  ek  aath  tini  xaat  tini  aath
+AS015M0052 hyp  xaat  ek  aath  tini  xaat  tini  aath
+AS015M0052 op     C    C    C     C     C     C     C 
+AS015M0052 #csid 7 0 0 0
+AS015M0053 ref  aath  nax  nax  saari  nax  paas  dui
+AS015M0053 hyp  aath  nax  nax  saari  nax  paas  dui
+AS015M0053 op     C    C    C     C     C     C    C 
+AS015M0053 #csid 7 0 0 0
+AS015M0054 ref  dui  xaat  soi  dui  aath  paas  tini   ***
+AS015M0054 hyp  dui  xaat  soi  dui  aath  paas  tini  xaat
+AS015M0054 op    C     C    C    C     C     C     C     I 
+AS015M0054 #csid 7 0 1 0
+AS015M0055 ref  tini  nax  xaat  saari  dui  ek  ek
+AS015M0055 hyp  tini  nax  xaat  saari  dui  ek  ek
+AS015M0055 op     C    C     C     C     C    C   C
+AS015M0055 #csid 7 0 0 0
+AS015M0056 ref  ek  dui  nax  xunnyo  ek  dui  dui   ***   ***
+AS015M0056 hyp  ek  dui  nax  xunnyo  ek  dui  dui  aath  tini
+AS015M0056 op    C   C    C      C     C   C    C     I     I 
+AS015M0056 #csid 7 0 2 0
+AS015M0057 ref  dui  tini  dui  tini  tini  saari  tini
+AS015M0057 hyp  dui  tini  dui  tini  tini  saari  tini
+AS015M0057 op    C     C    C     C     C     C      C 
+AS015M0057 #csid 7 0 0 0
+AS015M0058 ref  tini  saari  saari  paas  paas  soi  saari   ***
+AS015M0058 hyp  tini  saari  saari  paas  paas  soi  saari  aath
+AS015M0058 op     C     C      C      C     C    C     C      I 
+AS015M0058 #csid 7 0 1 0
+AS015M0059 ref  aath  aath  aath  xunnyo  ***  xunnyo  xunnyo  xunnyo
+AS015M0059 hyp  aath  aath  aath  xunnyo  nax  xunnyo  xunnyo   aath 
+AS015M0059 op     C     C     C      C     I      C       C       S  
+AS015M0059 #csid 6 1 1 0
+AS015M0060 ref  aath  soi  xaat  aath  aath  ***  nax  xunnyo
+AS015M0060 hyp  aath  soi  xaat  aath  aath  nax  nax   aath 
+AS015M0060 op     C    C     C     C     C    I    C      S  
+AS015M0060 #csid 6 1 1 0
+AS015M0061 ref  xunnyo  nax  nax  aath  xaat  soi  paas   ***
+AS015M0061 hyp  xunnyo  nax  nax  aath  xaat  soi  paas  aath
+AS015M0061 op      C     C    C     C     C    C     C     I 
+AS015M0061 #csid 7 0 1 0
+AS015M0062 ref  paas  saari  tini  dui  ek  xunnyo  aath
+AS015M0062 hyp  paas  saari  tini  dui  ek  xunnyo  aath
+AS015M0062 op     C     C      C    C    C     C      C 
+AS015M0062 #csid 7 0 0 0
+AS015M0063 ref  aath  nax  xaat  paas  tini  ek  xaat
+AS015M0063 hyp  aath  nax  xaat  paas  tini  ek  aath
+AS015M0063 op     C    C     C     C     C    C    S 
+AS015M0063 #csid 6 1 0 0
+AS015M0064 ref  xaat  nax  soi  saari  dui  xunnyo  soi   ***
+AS015M0064 hyp  xaat  nax  soi  saari  dui  xunnyo  soi  aath
+AS015M0064 op     C    C    C     C     C      C     C     I 
+AS015M0064 #csid 7 0 1 0
+AS015M0065 ref  soi  nax  paas  dui  paas  nax  saari
+AS015M0065 hyp  soi  nax  paas  dui  paas  nax   aath
+AS015M0065 op    C    C     C    C     C    C     S  
+AS015M0065 #csid 6 1 0 0
+AS015M0066 ref  saari  ek  saari  nax  tini  xunnyo  tini   ***
+AS015M0066 hyp  saari  ek  saari  nax  tini  xunnyo  tini  aath
+AS015M0066 op     C     C    C     C     C      C      C     I 
+AS015M0066 #csid 7 0 1 0
+AS015M0067 ref  tini  nax  dui  dui  nax  ek  ek   ***
+AS015M0067 hyp  tini  nax  dui  dui  nax  ek  ek  aath
+AS015M0067 op     C    C    C    C    C    C   C    I 
+AS015M0067 #csid 7 0 1 0
+AS015M0068 ref  ek  nax  xunnyo  xunnyo  xaat  saari  ***  xunnyo
+AS015M0068 hyp  ek  nax  xunnyo    nax   xaat  saari  nax   aath 
+AS015M0068 op    C   C      C       S      C     C     I      S  
+AS015M0068 #csid 5 2 1 0
+AS015M0069 ref  xunnyo  ek  aath  soi  tini  aath  aath
+AS015M0069 hyp  xunnyo  ek  aath  soi  tini  aath  aath
+AS015M0069 op      C     C    C    C     C     C     C 
+AS015M0069 #csid 7 0 0 0
+AS015M0070 ref  aath  paas  ek  soi  dui  soi  aath
+AS015M0070 hyp  aath  paas  ek  soi  dui  soi  aath
+AS015M0070 op     C     C    C   C    C    C     C 
+AS015M0070 #csid 7 0 0 0
+AS015M0071 ref  aath  saari  paas  aath  tini  saari  aath
+AS015M0071 hyp  aath  saari  paas  aath  tini  saari  aath
+AS015M0071 op     C     C      C     C     C     C      C 
+AS015M0071 #csid 7 0 0 0
+AS015M0072 ref  aath  dui  tini  xaat  tini  soi  ***  ek
+AS015M0072 hyp  aath  dui  tini  xaat  tini  soi   ek  ek
+AS015M0072 op     C    C     C     C     C    C    I    C
+AS015M0072 #csid 7 0 1 0
+AS015M0073 ref  ek  paas  xunnyo  paas  soi  xaat  dui   ***
+AS015M0073 hyp  ek  paas  xunnyo  paas  soi  xaat  dui  aath
+AS015M0073 op    C    C      C      C    C     C    C     I 
+AS015M0073 #csid 7 0 1 0
+AS015M0074 ref  dui  aath  ek  tini  paas  paas  xaat
+AS015M0074 hyp  dui  aath  ek  tini  paas  paas  xaat
+AS015M0074 op    C     C    C    C     C     C     C 
+AS015M0074 #csid 7 0 0 0
+AS015M0075 ref  xaat  ek  dui  xaat  xunnyo  dui  saari
+AS015M0075 hyp  aath  ek  dui  xaat  xunnyo  dui  saari
+AS015M0075 op     S    C   C     C      C     C     C  
+AS015M0075 #csid 6 1 0 0
+AS015M0076 ref  saari  xaat  aath  xunnyo  ek  dui  tini
+AS015M0076 hyp  saari  xaat  aath  xunnyo  ek  dui  tini
+AS015M0076 op     C      C     C      C     C   C     C 
+AS015M0076 #csid 7 0 0 0
+AS015M0077 ref  tini  tini  saari  soi  xunnyo  saari  saari
+AS015M0077 hyp  tini  tini  saari  soi  xunnyo  saari  saari
+AS015M0077 op     C     C     C     C      C      C      C  
+AS015M0077 #csid 7 0 0 0
+AS015M0078 ref  saari  paas  soi  soi  xaat  xaat  aath
+AS015M0078 hyp  saari  paas  soi  soi  xaat  xaat  aath
+AS015M0078 op     C      C    C    C     C     C     C 
+AS015M0078 #csid 7 0 0 0
+AS015M0079 ref  nax  nax  ek  tini  paas  xaat  nax
+AS015M0079 hyp  ***  nax  ek  tini  paas  xaat  nax
+AS015M0079 op    D    C    C    C     C     C    C 
+AS015M0079 #csid 6 0 0 1
+AS015M0080 ref  dui  soi  nax  ek  dui  saari  tini
+AS015M0080 hyp  dui  soi  nax  ek  dui  saari  tini
+AS015M0080 op    C    C    C    C   C     C      C 
+AS015M0080 #csid 7 0 0 0
+AS016F0001 ref  xunnyo  xunnyo  nax  aath  xaat  soi  paas
+AS016F0001 hyp  xunnyo  xunnyo  nax  aath  xaat  soi  paas
+AS016F0001 op      C       C     C     C     C    C     C 
+AS016F0001 #csid 7 0 0 0
+AS016F0002 ref  paas  saari  tini  dui  ek  xunnyo  ek
+AS016F0002 hyp  paas  saari  tini  dui  ek  xunnyo  ek
+AS016F0002 op     C     C      C    C    C     C     C
+AS016F0002 #csid 7 0 0 0
+AS016F0003 ref  ek  nax  xaat  paas  tini  ek  dui  ***
+AS016F0003 hyp  ek  nax  xaat  paas  tini  ek  dui   ek
+AS016F0003 op    C   C     C     C     C    C   C    I 
+AS016F0003 #csid 7 0 1 0
+AS016F0004 ref  dui  nax  soi  saari  dui  xunnyo  tini
+AS016F0004 hyp  dui  nax  soi  saari  dui  xunnyo  tini
+AS016F0004 op    C    C    C     C     C      C      C 
+AS016F0004 #csid 7 0 0 0
+AS016F0005 ref  tini  nax  paas  dui  saari  nax  saari
+AS016F0005 hyp  tini  nax  paas  dui  saari  nax  saari
+AS016F0005 op     C    C     C    C     C     C     C  
+AS016F0005 #csid 7 0 0 0
+AS016F0006 ref  saari  ek  paas  nax  tini  xunnyo  soi
+AS016F0006 hyp  saari  ek  paas  nax  tini  xunnyo  soi
+AS016F0006 op     C     C    C    C     C      C     C 
+AS016F0006 #csid 7 0 0 0
+AS016F0007 ref  soi  nax  dui  xaat  nax  ek  aath
+AS016F0007 hyp  soi  nax  dui  xaat  nax  ek  aath
+AS016F0007 op    C    C    C     C    C    C    C 
+AS016F0007 #csid 7 0 0 0
+AS016F0008 ref  aath  nax  xunnyo  aath  soi  tini  saari
+AS016F0008 hyp  aath  nax  xunnyo  aath  soi  tini  saari
+AS016F0008 op     C    C      C      C    C     C     C  
+AS016F0008 #csid 7 0 0 0
+AS016F0009 ref  saari  xunnyo  xaat  saari  aath  paas  ek
+AS016F0009 hyp  saari  xunnyo  xaat  saari  xaat  paas  ek
+AS016F0009 op     C       C      C     C      S     C    C
+AS016F0009 #csid 6 1 0 0
+AS016F0010 ref  ek  xaat  tini  tini  aath  saari  saari
+AS016F0010 hyp  ek  xaat  tini  tini  aath  saari  saari
+AS016F0010 op    C    C     C     C     C     C      C  
+AS016F0010 #csid 7 0 0 0
+AS016F0011 ref  saari  xaat  dui  paas  aath  tini  soi
+AS016F0011 hyp  saari  xaat  dui  paas  aath  tini  soi
+AS016F0011 op     C      C    C     C     C     C    C 
+AS016F0011 #csid 7 0 0 0
+AS016F0012 ref  soi  aath  dui  aath  ek  soi  dui
+AS016F0012 hyp  soi  aath  dui  aath  ek  soi  dui
+AS016F0012 op    C     C    C     C    C   C    C 
+AS016F0012 #csid 7 0 0 0
+AS016F0013 ref  dui  soi  ek  dui  tini  xaat  ek
+AS016F0013 hyp  dui  soi  ek  dui  tini  xaat  ek
+AS016F0013 op    C    C    C   C     C     C    C
+AS016F0013 #csid 7 0 0 0
+AS016F0014 ref  ek  saari  soi  xunnyo  saari  paas  xunnyo
+AS016F0014 hyp  ek  saari  soi  xunnyo  saari  paas  xunnyo
+AS016F0014 op    C    C     C      C      C      C      C  
+AS016F0014 #csid 7 0 0 0
+AS016F0015 ref  xunnyo  paas  xaat  xunnyo  dui  dui  tini
+AS016F0015 hyp  xunnyo  paas  xaat  xunnyo  dui  dui  tini
+AS016F0015 op      C      C     C      C     C    C     C 
+AS016F0015 #csid 7 0 0 0
+AS016F0016 ref  tini  paas  soi  xaat  aath  xunnyo  ek
+AS016F0016 hyp  tini  paas  soi  xaat  aath  xunnyo  ek
+AS016F0016 op     C     C    C     C     C      C     C
+AS016F0016 #csid 7 0 0 0
+AS016F0017 ref  ek  tini  saari  paas  paas  soi  soi  ***
+AS016F0017 hyp  ek  tini  saari  paas  paas  soi  soi   ek
+AS016F0017 op    C    C     C      C     C    C    C    I 
+AS016F0017 #csid 7 0 1 0
+AS016F0018 ref  soi  xaat  xaat  aath  aath  nax  nax
+AS016F0018 hyp  soi  xaat  xaat  aath  aath  nax  nax
+AS016F0018 op    C     C     C     C     C    C    C 
+AS016F0018 #csid 7 0 0 0
+AS016F0019 ref  nax  xunnyo  ek  ek  dui  ek  xaat  ***
+AS016F0019 hyp  nax  xunnyo  ek  ek  dui  ek  xaat   ek
+AS016F0019 op    C      C     C   C   C    C    C    I 
+AS016F0019 #csid 7 0 1 0
+AS016F0020 ref  xaat  nax  ek  tini  paas  xaat  nax  ***
+AS016F0020 hyp  xaat  nax  ek  tini  paas  xaat  nax   ek
+AS016F0020 op     C    C    C    C     C     C    C    I 
+AS016F0020 #csid 7 0 1 0
+AS016F0021 ref  xunnyo  xunnyo  ek  dui  tini  saari  paas  ***
+AS016F0021 hyp  xunnyo  xunnyo  ek  dui  tini  saari  paas   ek
+AS016F0021 op      C       C     C   C     C     C      C    I 
+AS016F0021 #csid 7 0 1 0
+AS016F0022 ref  paas  soi  xaat  aath  nax  ek  xunnyo  ***
+AS016F0022 hyp  paas  soi  xaat  aath  nax  ek  xunnyo   ek
+AS016F0022 op     C    C     C     C    C    C     C     I 
+AS016F0022 #csid 7 0 1 0
+AS016F0023 ref  xunnyo  dui  saari  soi  aath  dui  xunnyo
+AS016F0023 hyp  xunnyo  dui  saari  soi  aath  dui  xunnyo
+AS016F0023 op      C     C     C     C     C    C      C  
+AS016F0023 #csid 7 0 0 0
+AS016F0024 ref  xunnyo  tini  paas  xaat  nax  tini  xunnyo  ***
+AS016F0024 hyp  xunnyo  tini  paas  xaat  nax  tini  xunnyo   ek
+AS016F0024 op      C      C     C     C    C     C      C     I 
+AS016F0024 #csid 7 0 1 0
+AS016F0025 ref  xunnyo  saari  xaat  saari  xunnyo  paas  aath  ***
+AS016F0025 hyp  xunnyo  saari  xaat  saari  xunnyo  paas  aath   ek
+AS016F0025 op      C      C      C     C       C      C     C    I 
+AS016F0025 #csid 7 0 1 0
+AS016F0026 ref  aath  paas  xunnyo  soi  nax  soi  xunnyo
+AS016F0026 hyp  aath  paas  xunnyo  soi  nax  soi  xunnyo
+AS016F0026 op     C     C      C     C    C    C      C  
+AS016F0026 #csid 7 0 0 0
+AS016F0027 ref  xunnyo  xaat  xaat  xunnyo  aath  aath  xunnyo
+AS016F0027 hyp  xunnyo  xaat  xaat  xunnyo  aath  aath  xunnyo
+AS016F0027 op      C      C     C      C      C     C      C  
+AS016F0027 #csid 7 0 0 0
+AS016F0028 ref  xunnyo  nax  nax  xunnyo  ek  ek  tini  ***
+AS016F0028 hyp  xunnyo  ***  nax  xunnyo  ek  ek  tini   ek
+AS016F0028 op      C     D    C      C     C   C    C    I 
+AS016F0028 #csid 6 0 1 1
+AS016F0029 ref  tini  soi  ek  saari  aath  ek  paas  ***
+AS016F0029 hyp  tini  soi  ek  saari  aath  ek  paas   ek
+AS016F0029 op     C    C    C    C      C    C    C    I 
+AS016F0029 #csid 7 0 1 0
+AS016F0030 ref  paas  nax  dui  paas  saari  ek  soi  ***
+AS016F0030 hyp  paas  nax  dui  paas  saari  ek  soi   ek
+AS016F0030 op     C    C    C     C     C     C   C    I 
+AS016F0030 #csid 7 0 1 0
+AS016F0031 ref  soi  paas  ek  xaat  soi  dui  soi
+AS016F0031 hyp  soi  paas  ek  xaat  soi  dui  soi
+AS016F0031 op    C     C    C    C    C    C    C 
+AS016F0031 #csid 7 0 0 0
+AS016F0032 ref  soi  tini  xaat  ek  aath  tini  aath  ***
+AS016F0032 hyp  soi  tini  xaat  ek  aath  tini  aath   ek
+AS016F0032 op    C     C     C    C    C     C     C    I 
+AS016F0032 #csid 7 0 1 0
+AS016F0033 ref  aath  nax  saari  nax  paas  dui  ***  ek
+AS016F0033 hyp  aath  nax  saari  nax  paas  dui   ek  ek
+AS016F0033 op     C    C     C     C     C    C    I    C
+AS016F0033 #csid 7 0 1 0
+AS016F0034 ref  ek  nax  xaat  dui  xaat  paas  tini  ***
+AS016F0034 hyp  ek  nax  xaat  dui  xaat  paas  tini   ek
+AS016F0034 op    C   C     C    C     C     C     C    I 
+AS016F0034 #csid 7 0 1 0
+AS016F0035 ref  tini  nax  aath  xaat  tini  ek  dui  ***
+AS016F0035 hyp  tini  nax  aath  xaat  tini  ek  dui   ek
+AS016F0035 op     C    C     C     C     C    C   C    I 
+AS016F0035 #csid 7 0 1 0
+AS016F0036 ref  dui  dui  aath  saari  dui  nax  xunnyo  ***
+AS016F0036 hyp  dui  dui  aath  saari  dui  nax  xunnyo   ek
+AS016F0036 op    C    C     C     C     C    C      C     I 
+AS016F0036 #csid 7 0 1 0
+AS016F0037 ref  xunnyo  ek  dui  tini  dui  tini  tini
+AS016F0037 hyp  xunnyo  ek  dui  tini  dui  tini  tini
+AS016F0037 op      C     C   C     C    C     C     C 
+AS016F0037 #csid 7 0 0 0
+AS016F0038 ref  tini  saari  tini  saari  saari  paas  paas
+AS016F0038 hyp  tini  saari  tini  saari  saari  paas  paas
+AS016F0038 op     C     C      C     C      C      C     C 
+AS016F0038 #csid 7 0 0 0
+AS016F0039 ref  paas  soi  saari  paas  soi  soi  xaat
+AS016F0039 hyp  paas  soi  saari  paas  soi  soi  xaat
+AS016F0039 op     C    C     C      C    C    C     C 
+AS016F0039 #csid 7 0 0 0
+AS016F0040 ref  xaat  aath  soi  xaat  ek  dui  saari
+AS016F0040 hyp  xaat  aath  soi  xaat  ek  dui  saari
+AS016F0040 op     C     C    C     C    C   C     C  
+AS016F0040 #csid 7 0 0 0
+AS016F0041 ref  xunnyo  nax  xunnyo  ek  dui  tini  saari
+AS016F0041 hyp  xunnyo  ***  xunnyo  ek  dui  tini  saari
+AS016F0041 op      C     D      C     C   C     C     C  
+AS016F0041 #csid 6 0 0 1
+AS016F0042 ref  saari  paas  soi  xaat  aath  nax  aath  ***
+AS016F0042 hyp  saari  paas  soi  xaat  aath  nax  aath   ek
+AS016F0042 op     C      C    C     C     C    C     C    I 
+AS016F0042 #csid 7 0 1 0
+AS016F0043 ref  aath  xunnyo  dui  saari  soi  aath  xaat
+AS016F0043 hyp  aath  xunnyo  dui  saari  soi  aath  xaat
+AS016F0043 op     C      C     C     C     C     C     C 
+AS016F0043 #csid 7 0 0 0
+AS016F0044 ref  xaat  xunnyo  tini  paas  xaat  nax  soi
+AS016F0044 hyp  xaat  xunnyo  tini  paas  xaat  nax  soi
+AS016F0044 op     C      C      C     C     C    C    C 
+AS016F0044 #csid 7 0 0 0
+AS016F0045 ref  soi  xunnyo  saari  xaat  paas  xunnyo  paas  ***
+AS016F0045 hyp  soi  xunnyo  saari  xaat  paas  xunnyo  paas   ek
+AS016F0045 op    C      C      C      C     C      C      C    I 
+AS016F0045 #csid 7 0 1 0
+AS016F0046 ref  paas  aath  saari  xunnyo  soi  nax  tini
+AS016F0046 hyp  paas  aath  saari  xunnyo  soi  nax  tini
+AS016F0046 op     C     C     C       C     C    C     C 
+AS016F0046 #csid 7 0 0 0
+AS016F0047 ref  tini  xunnyo  xaat  dui  xunnyo  aath  ek
+AS016F0047 hyp  tini  xunnyo  xaat  dui  xunnyo  aath  ek
+AS016F0047 op     C      C      C    C      C      C    C
+AS016F0047 #csid 7 0 0 0
+AS016F0048 ref  ek  xunnyo  xunnyo  ek  nax  ek  tini  ***
+AS016F0048 hyp  ek  xunnyo  xunnyo  ek  nax  ek  tini   ek
+AS016F0048 op    C     C       C     C   C    C    C    I 
+AS016F0048 #csid 7 0 1 0
+AS016F0049 ref  tini  soi  ek  saari  aath  dui  paas  ***
+AS016F0049 hyp  tini  soi  ek  saari  aath  dui  paas   ek
+AS016F0049 op     C    C    C    C      C    C     C    I 
+AS016F0049 #csid 7 0 1 0
+AS016F0050 ref  paas  nax  dui  soi  paas  ek  paas
+AS016F0050 hyp  paas  nax  dui  soi  paas  ek  paas
+AS016F0050 op     C    C    C    C     C    C    C 
+AS016F0050 #csid 7 0 0 0
+AS016F0051 ref  paas  saari  ek  soi  tini  ek  xaat  ***
+AS016F0051 hyp  paas  saari  ek  soi  tini  ek  xaat   ek
+AS016F0051 op     C     C     C   C     C    C    C    I 
+AS016F0051 #csid 7 0 1 0
+AS016F0052 ref  xaat  ek  aath  tini  xaat  tini  aath  ***
+AS016F0052 hyp  xaat  ek  aath  tini  xaat  tini  aath   ek
+AS016F0052 op     C    C    C     C     C     C     C    I 
+AS016F0052 #csid 7 0 1 0
+AS016F0053 ref  aath  nax  nax  saari  nax  paas  dui  ***
+AS016F0053 hyp  aath  nax  nax  saari  nax  paas  dui   ek
+AS016F0053 op     C    C    C     C     C     C    C    I 
+AS016F0053 #csid 7 0 1 0
+AS016F0054 ref  dui  xaat  soi  dui  aath  paas  tini
+AS016F0054 hyp  dui  xaat  soi  dui  aath  paas  tini
+AS016F0054 op    C     C    C    C     C     C     C 
+AS016F0054 #csid 7 0 0 0
+AS016F0055 ref  tini  nax  xaat  saari  dui  ek  ek
+AS016F0055 hyp  tini  nax  xaat  saari  dui  ek  ek
+AS016F0055 op     C    C     C     C     C    C   C
+AS016F0055 #csid 7 0 0 0
+AS016F0056 ref  ek  dui  nax  xunnyo  ek  dui  dui  ***
+AS016F0056 hyp  ek  dui  nax  xunnyo  ek  dui  dui   ek
+AS016F0056 op    C   C    C      C     C   C    C    I 
+AS016F0056 #csid 7 0 1 0
+AS016F0057 ref  dui  tini  dui  tini  tini  saari  tini  ***
+AS016F0057 hyp  dui  tini  dui  tini  tini  saari  tini   ek
+AS016F0057 op    C     C    C     C     C     C      C    I 
+AS016F0057 #csid 7 0 1 0
+AS016F0058 ref  tini  saari  saari  paas  paas  soi  saari  ***
+AS016F0058 hyp  tini  saari  saari  paas  paas  soi  saari   ek
+AS016F0058 op     C     C      C      C     C    C     C     I 
+AS016F0058 #csid 7 0 1 0
+AS016F0059 ref  aath  aath  aath  xunnyo  xunnyo  xunnyo  xunnyo  ***
+AS016F0059 hyp  aath  aath  aath  xunnyo  xunnyo  xunnyo  xunnyo   ek
+AS016F0059 op     C     C     C      C       C       C       C     I 
+AS016F0059 #csid 7 0 1 0
+AS016F0060 ref  aath  soi  xaat  aath  aath  nax  xunnyo  ***
+AS016F0060 hyp  aath  soi  xaat  aath  aath  nax  xunnyo   ek
+AS016F0060 op     C    C     C     C     C    C      C     I 
+AS016F0060 #csid 7 0 1 0
+AS016F0061 ref  xunnyo  nax  nax  aath  xaat  soi  paas
+AS016F0061 hyp  xunnyo  nax  nax  aath  paas  soi  paas
+AS016F0061 op      C     C    C     C     S    C     C 
+AS016F0061 #csid 6 1 0 0
+AS016F0062 ref  paas  saari  tini  dui  ek  xunnyo  aath  ***
+AS016F0062 hyp  paas  saari  tini  dui  ek  xunnyo  aath   ek
+AS016F0062 op     C     C      C    C    C     C      C    I 
+AS016F0062 #csid 7 0 1 0
+AS016F0063 ref  aath  nax  xaat  paas  tini  ek  xaat  ***
+AS016F0063 hyp  aath  nax  xaat  paas  tini  ek  xaat   ek
+AS016F0063 op     C    C     C     C     C    C    C    I 
+AS016F0063 #csid 7 0 1 0
+AS016F0064 ref  xaat  nax  soi  saari  dui  xunnyo  soi  ***
+AS016F0064 hyp  xaat  nax  soi  saari  dui  xunnyo  soi   ek
+AS016F0064 op     C    C    C     C     C      C     C    I 
+AS016F0064 #csid 7 0 1 0
+AS016F0065 ref  soi  nax  paas  dui  paas  nax  saari  ***
+AS016F0065 hyp  soi  nax  paas  dui  paas  nax  saari   ek
+AS016F0065 op    C    C     C    C     C    C     C     I 
+AS016F0065 #csid 7 0 1 0
+AS016F0066 ref  saari  ek  saari  nax  tini  xunnyo  tini  ***
+AS016F0066 hyp  saari  ek  saari  nax  tini  xunnyo  tini   ek
+AS016F0066 op     C     C    C     C     C      C      C    I 
+AS016F0066 #csid 7 0 1 0
+AS016F0067 ref  tini  nax  dui  dui  nax  ***  ek  ek
+AS016F0067 hyp  tini  nax  dui  dui  nax   ek  ek  ek
+AS016F0067 op     C    C    C    C    C    I    C   C
+AS016F0067 #csid 7 0 1 0
+AS016F0068 ref  ek  nax  xunnyo  xunnyo  xaat  saari  xunnyo  ***
+AS016F0068 hyp  ek  nax  xunnyo  xunnyo  xaat  saari  xunnyo   ek
+AS016F0068 op    C   C      C       C      C     C       C     I 
+AS016F0068 #csid 7 0 1 0
+AS016F0069 ref  xunnyo  ek  aath  soi  tini  aath  aath  ***
+AS016F0069 hyp  xunnyo  ek  aath  soi  tini  aath  aath   ek
+AS016F0069 op      C     C    C    C     C     C     C    I 
+AS016F0069 #csid 7 0 1 0
+AS016F0070 ref  aath  paas  ek  soi  dui  soi  aath  ***
+AS016F0070 hyp  aath  paas  ek  soi  dui  soi  aath   ek
+AS016F0070 op     C     C    C   C    C    C     C    I 
+AS016F0070 #csid 7 0 1 0
+AS016F0071 ref  aath  saari  paas  aath  tini  saari  aath  ***
+AS016F0071 hyp  aath  saari  paas  aath  tini  saari  aath   ek
+AS016F0071 op     C     C      C     C     C     C      C    I 
+AS016F0071 #csid 7 0 1 0
+AS016F0072 ref  aath  dui  tini  xaat  tini  soi  ek
+AS016F0072 hyp  aath  dui  tini  xaat  tini  soi  ek
+AS016F0072 op     C    C     C     C     C    C    C
+AS016F0072 #csid 7 0 0 0
+AS016F0073 ref  ek  paas  xunnyo  paas  soi  xaat  dui  ***
+AS016F0073 hyp  ek  paas  xunnyo  paas  soi  xaat  dui   ek
+AS016F0073 op    C    C      C      C    C     C    C    I 
+AS016F0073 #csid 7 0 1 0
+AS016F0074 ref  dui  aath  ek  tini  paas  paas  xaat  ***
+AS016F0074 hyp  dui  aath  ek  tini  paas  paas  xaat   ek
+AS016F0074 op    C     C    C    C     C     C     C    I 
+AS016F0074 #csid 7 0 1 0
+AS016F0075 ref  ***  xaat  ek  dui  xaat  xunnyo  dui  saari  ***
+AS016F0075 hyp   ek  xaat  ek  dui  xaat  xunnyo  dui  saari   ek
+AS016F0075 op    I     C    C   C     C      C     C     C     I 
+AS016F0075 #csid 7 0 2 0
+AS016F0076 ref  saari  xaat  aath  xunnyo  ek  dui  tini  ***
+AS016F0076 hyp  saari  xaat  aath  xunnyo  ek  dui  tini   ek
+AS016F0076 op     C      C     C      C     C   C     C    I 
+AS016F0076 #csid 7 0 1 0
+AS016F0077 ref  ***  tini  tini  saari  soi  xunnyo  saari  saari  ***
+AS016F0077 hyp   ek  tini  tini  saari  soi  xunnyo  saari  saari   ek
+AS016F0077 op    I     C     C     C     C      C      C      C     I 
+AS016F0077 #csid 7 0 2 0
+AS016F0078 ref  saari  paas  soi  soi  xaat  xaat  aath  ***
+AS016F0078 hyp  saari  paas  soi  soi  xaat  xaat  aath   ek
+AS016F0078 op     C      C    C    C     C     C     C    I 
+AS016F0078 #csid 7 0 1 0
+AS016F0079 ref  nax  nax  ek  tini  paas  xaat  nax  ***
+AS016F0079 hyp  nax  nax  ek  tini  paas  xaat  nax   ek
+AS016F0079 op    C    C    C    C     C     C    C    I 
+AS016F0079 #csid 7 0 1 0
+AS016F0080 ref  dui  soi  nax  ek  dui  saari  tini  ***
+AS016F0080 hyp  dui  soi  nax  ek  dui  saari  tini   ek
+AS016F0080 op    C    C    C    C   C     C      C    I 
+AS016F0080 #csid 7 0 1 0
+AS017M0001 ref  xunnyo  xunnyo  nax  aath  xaat  soi  paas
+AS017M0001 hyp  xunnyo  xunnyo  nax  aath  xaat  soi  paas
+AS017M0001 op      C       C     C     C     C    C     C 
+AS017M0001 #csid 7 0 0 0
+AS017M0002 ref  paas  saari  tini  dui  ek  xunnyo  ek
+AS017M0002 hyp  paas  saari  tini  dui  ek  xunnyo  ek
+AS017M0002 op     C     C      C    C    C     C     C
+AS017M0002 #csid 7 0 0 0
+AS017M0003 ref  ek  nax  xaat  paas  tini  ek  dui
+AS017M0003 hyp  ek  nax  xaat  paas  tini  ek  dui
+AS017M0003 op    C   C     C     C     C    C   C 
+AS017M0003 #csid 7 0 0 0
+AS017M0004 ref  dui  nax  soi  saari  dui  xunnyo  tini
+AS017M0004 hyp  dui  nax  soi  saari  dui  xunnyo  tini
+AS017M0004 op    C    C    C     C     C      C      C 
+AS017M0004 #csid 7 0 0 0
+AS017M0005 ref  tini  nax  paas  dui  saari  nax  saari
+AS017M0005 hyp  tini  nax  paas  dui  saari  nax  saari
+AS017M0005 op     C    C     C    C     C     C     C  
+AS017M0005 #csid 7 0 0 0
+AS017M0006 ref  saari  ek  paas  nax  tini  xunnyo  soi
+AS017M0006 hyp  saari  ek  paas  nax  tini  xunnyo  soi
+AS017M0006 op     C     C    C    C     C      C     C 
+AS017M0006 #csid 7 0 0 0
+AS017M0007 ref  soi  nax  dui  xaat  nax  ek  aath
+AS017M0007 hyp  soi  nax  dui  xaat  nax  ek  aath
+AS017M0007 op    C    C    C     C    C    C    C 
+AS017M0007 #csid 7 0 0 0
+AS017M0008 ref  aath  nax  xunnyo  aath  soi  tini  saari
+AS017M0008 hyp  aath  nax  xunnyo  aath  soi  tini  saari
+AS017M0008 op     C    C      C      C    C     C     C  
+AS017M0008 #csid 7 0 0 0
+AS017M0009 ref  saari  xunnyo  xaat  saari  aath  paas  ek
+AS017M0009 hyp  saari  xunnyo  xaat  saari  aath  paas  ek
+AS017M0009 op     C       C      C     C      C     C    C
+AS017M0009 #csid 7 0 0 0
+AS017M0010 ref  ek  xaat  tini  tini  aath  saari  saari
+AS017M0010 hyp  ek  xaat  tini  tini  aath  saari  saari
+AS017M0010 op    C    C     C     C     C     C      C  
+AS017M0010 #csid 7 0 0 0
+AS017M0011 ref  saari  xaat  dui  paas  aath  tini  soi
+AS017M0011 hyp  saari  xaat  dui  paas  aath  tini  soi
+AS017M0011 op     C      C    C     C     C     C    C 
+AS017M0011 #csid 7 0 0 0
+AS017M0012 ref  soi  aath  dui  aath  ek  soi  dui
+AS017M0012 hyp  soi  aath  dui  aath  ek  soi  dui
+AS017M0012 op    C     C    C     C    C   C    C 
+AS017M0012 #csid 7 0 0 0
+AS017M0013 ref  dui  soi  ek  dui  tini  xaat  ek
+AS017M0013 hyp  dui  soi  ek  dui  tini  xaat  ek
+AS017M0013 op    C    C    C   C     C     C    C
+AS017M0013 #csid 7 0 0 0
+AS017M0014 ref  ek  saari  soi  xunnyo  saari  paas  xunnyo
+AS017M0014 hyp  ek  saari  soi  xunnyo  saari  paas  xunnyo
+AS017M0014 op    C    C     C      C      C      C      C  
+AS017M0014 #csid 7 0 0 0
+AS017M0015 ref  xunnyo  paas  xaat  xunnyo  dui  dui  tini
+AS017M0015 hyp  xunnyo  paas  xaat  xunnyo  dui  dui  tini
+AS017M0015 op      C      C     C      C     C    C     C 
+AS017M0015 #csid 7 0 0 0
+AS017M0016 ref  tini  paas  soi  xaat  aath  xunnyo  ek
+AS017M0016 hyp  tini  paas  soi  xaat  aath  xunnyo  ek
+AS017M0016 op     C     C    C     C     C      C     C
+AS017M0016 #csid 7 0 0 0
+AS017M0017 ref  ek  tini  saari  paas  paas  soi  soi
+AS017M0017 hyp  ek  tini  saari  paas  paas  soi  soi
+AS017M0017 op    C    C     C      C     C    C    C 
+AS017M0017 #csid 7 0 0 0
+AS017M0018 ref  soi  xaat  xaat  aath  aath  nax  nax
+AS017M0018 hyp  soi  xaat  xaat  aath  aath  nax  nax
+AS017M0018 op    C     C     C     C     C    C    C 
+AS017M0018 #csid 7 0 0 0
+AS017M0019 ref  nax  xunnyo  ek  ek  dui  ek  xaat
+AS017M0019 hyp  nax  xunnyo  ek  ek  dui  ek  xaat
+AS017M0019 op    C      C     C   C   C    C    C 
+AS017M0019 #csid 7 0 0 0
+AS017M0020 ref  xaat  nax  ek  tini  paas  xaat  nax
+AS017M0020 hyp  xaat  nax  ek  tini  paas  xaat  nax
+AS017M0020 op     C    C    C    C     C     C    C 
+AS017M0020 #csid 7 0 0 0
+AS017M0021 ref  xunnyo  xunnyo  ek  dui  tini  saari  paas
+AS017M0021 hyp  xunnyo  xunnyo  ek  dui  tini  saari  paas
+AS017M0021 op      C       C     C   C     C     C      C 
+AS017M0021 #csid 7 0 0 0
+AS017M0022 ref  paas  soi  xaat  aath  nax  ek  xunnyo
+AS017M0022 hyp  paas  soi  xaat  aath  nax  ek  xunnyo
+AS017M0022 op     C    C     C     C    C    C     C  
+AS017M0022 #csid 7 0 0 0
+AS017M0023 ref  xunnyo  dui  saari  soi  aath  dui  xunnyo
+AS017M0023 hyp  xunnyo  dui  saari  soi  aath  dui  xunnyo
+AS017M0023 op      C     C     C     C     C    C      C  
+AS017M0023 #csid 7 0 0 0
+AS017M0024 ref  xunnyo  tini  paas  xaat  nax  tini  xunnyo
+AS017M0024 hyp  xunnyo  tini  paas  xaat  nax  tini  xunnyo
+AS017M0024 op      C      C     C     C    C     C      C  
+AS017M0024 #csid 7 0 0 0
+AS017M0025 ref  xunnyo  saari  xaat  saari  xunnyo  paas  aath
+AS017M0025 hyp  xunnyo  saari  xaat  saari  xunnyo  paas  aath
+AS017M0025 op      C      C      C     C       C      C     C 
+AS017M0025 #csid 7 0 0 0
+AS017M0026 ref  aath  paas  xunnyo  soi  nax  soi  xunnyo
+AS017M0026 hyp  aath  paas  xunnyo  soi  nax  soi  xunnyo
+AS017M0026 op     C     C      C     C    C    C      C  
+AS017M0026 #csid 7 0 0 0
+AS017M0027 ref  xunnyo  xaat  xaat  xunnyo  aath  aath  xunnyo
+AS017M0027 hyp  xunnyo  xaat  xaat  xunnyo  aath  aath  xunnyo
+AS017M0027 op      C      C     C      C      C     C      C  
+AS017M0027 #csid 7 0 0 0
+AS017M0028 ref  xunnyo  nax  nax  xunnyo  ek  ek  tini
+AS017M0028 hyp  xunnyo  nax  nax  xunnyo  ek  ek  tini
+AS017M0028 op      C     C    C      C     C   C    C 
+AS017M0028 #csid 7 0 0 0
+AS017M0029 ref  tini  soi  ek  saari  aath  ek  paas
+AS017M0029 hyp  tini  soi  ek  saari  aath  ek  paas
+AS017M0029 op     C    C    C    C      C    C    C 
+AS017M0029 #csid 7 0 0 0
+AS017M0030 ref  paas  nax  dui  paas  saari  ek  soi
+AS017M0030 hyp  paas  nax  dui  paas  saari  ek  soi
+AS017M0030 op     C    C    C     C     C     C   C 
+AS017M0030 #csid 7 0 0 0
+AS017M0031 ref  soi  paas  ek  xaat  soi  dui  soi
+AS017M0031 hyp  soi  paas  ek  xaat  soi  dui  soi
+AS017M0031 op    C     C    C    C    C    C    C 
+AS017M0031 #csid 7 0 0 0
+AS017M0032 ref  soi  tini  xaat  ek  aath  tini  aath
+AS017M0032 hyp  soi  tini  xaat  ek  aath  tini  aath
+AS017M0032 op    C     C     C    C    C     C     C 
+AS017M0032 #csid 7 0 0 0
+AS017M0033 ref  aath  nax  saari  nax  paas  dui  ek
+AS017M0033 hyp  aath  nax  saari  nax  paas  dui  ek
+AS017M0033 op     C    C     C     C     C    C    C
+AS017M0033 #csid 7 0 0 0
+AS017M0034 ref  ek  nax  xaat  dui  xaat  paas  tini
+AS017M0034 hyp  ek  nax  xaat  dui  xaat  paas  tini
+AS017M0034 op    C   C     C    C     C     C     C 
+AS017M0034 #csid 7 0 0 0
+AS017M0035 ref  tini  nax  aath  xaat  tini  ek  dui
+AS017M0035 hyp  tini  nax  aath  xaat  tini  ek  dui
+AS017M0035 op     C    C     C     C     C    C   C 
+AS017M0035 #csid 7 0 0 0
+AS017M0036 ref  dui  dui  aath  saari  dui  nax  xunnyo
+AS017M0036 hyp  dui  dui  aath  saari  dui  nax  xunnyo
+AS017M0036 op    C    C     C     C     C    C      C  
+AS017M0036 #csid 7 0 0 0
+AS017M0037 ref  xunnyo  ek  dui  tini  dui  tini  tini
+AS017M0037 hyp  xunnyo  ek  dui  tini  dui  tini  tini
+AS017M0037 op      C     C   C     C    C     C     C 
+AS017M0037 #csid 7 0 0 0
+AS017M0038 ref  tini  saari  tini  saari  saari  paas  paas
+AS017M0038 hyp  tini  saari  tini  saari  saari  paas  paas
+AS017M0038 op     C     C      C     C      C      C     C 
+AS017M0038 #csid 7 0 0 0
+AS017M0039 ref  paas  soi  saari  paas  soi  soi  xaat
+AS017M0039 hyp  paas  soi  saari  paas  soi  soi  xaat
+AS017M0039 op     C    C     C      C    C    C     C 
+AS017M0039 #csid 7 0 0 0
+AS017M0040 ref  xaat  aath  soi  xaat  ek  dui  saari
+AS017M0040 hyp  xaat  aath  soi  xaat  ek  dui  saari
+AS017M0040 op     C     C    C     C    C   C     C  
+AS017M0040 #csid 7 0 0 0
+AS017M0041 ref  xunnyo  nax  xunnyo  ek  dui  tini  saari
+AS017M0041 hyp  xunnyo  nax  xunnyo  ek  dui  tini  saari
+AS017M0041 op      C     C      C     C   C     C     C  
+AS017M0041 #csid 7 0 0 0
+AS017M0042 ref  saari  paas  soi  xaat  aath  nax  aath
+AS017M0042 hyp  saari  paas  soi  xaat  aath  nax  aath
+AS017M0042 op     C      C    C     C     C    C     C 
+AS017M0042 #csid 7 0 0 0
+AS017M0043 ref  aath  xunnyo  dui  saari  soi  aath  xaat
+AS017M0043 hyp  aath  xunnyo  dui  saari  soi  aath  xaat
+AS017M0043 op     C      C     C     C     C     C     C 
+AS017M0043 #csid 7 0 0 0
+AS017M0044 ref  xaat  xunnyo  tini  paas  xaat  nax  soi
+AS017M0044 hyp  xaat  xunnyo  tini  paas  xaat  nax  soi
+AS017M0044 op     C      C      C     C     C    C    C 
+AS017M0044 #csid 7 0 0 0
+AS017M0045 ref  soi  xunnyo  saari  xaat  paas  xunnyo  paas
+AS017M0045 hyp  soi  xunnyo  saari  xaat  paas  xunnyo  paas
+AS017M0045 op    C      C      C      C     C      C      C 
+AS017M0045 #csid 7 0 0 0
+AS017M0046 ref  paas  aath  saari  xunnyo  soi  nax  tini
+AS017M0046 hyp  paas  aath  saari  xunnyo  soi  nax  tini
+AS017M0046 op     C     C     C       C     C    C     C 
+AS017M0046 #csid 7 0 0 0
+AS017M0047 ref  tini  xunnyo  xaat  dui  xunnyo  aath  ek
+AS017M0047 hyp  tini  xunnyo  xaat  dui  xunnyo  aath  ek
+AS017M0047 op     C      C      C    C      C      C    C
+AS017M0047 #csid 7 0 0 0
+AS017M0048 ref  ek  xunnyo  xunnyo  ek  nax  ek  tini
+AS017M0048 hyp  ek  xunnyo  xunnyo  ek  nax  ek  tini
+AS017M0048 op    C     C       C     C   C    C    C 
+AS017M0048 #csid 7 0 0 0
+AS017M0049 ref  tini  soi  ek  saari  aath  dui  paas
+AS017M0049 hyp  tini  soi  ek  saari  aath  dui  paas
+AS017M0049 op     C    C    C    C      C    C     C 
+AS017M0049 #csid 7 0 0 0
+AS017M0050 ref  paas  nax  dui  soi  paas  ek  paas
+AS017M0050 hyp  paas  nax  dui  soi  paas  ek  paas
+AS017M0050 op     C    C    C    C     C    C    C 
+AS017M0050 #csid 7 0 0 0
+AS017M0051 ref  paas  saari  ek  soi  tini  ek  xaat
+AS017M0051 hyp  paas  saari  ek  soi  tini  ek  xaat
+AS017M0051 op     C     C     C   C     C    C    C 
+AS017M0051 #csid 7 0 0 0
+AS017M0052 ref  xaat  ek  aath  tini  xaat  tini  aath
+AS017M0052 hyp  xaat  ek  aath  tini  xaat  tini  aath
+AS017M0052 op     C    C    C     C     C     C     C 
+AS017M0052 #csid 7 0 0 0
+AS017M0053 ref  aath  nax  nax  saari  nax  paas  dui
+AS017M0053 hyp  aath  nax  nax  saari  nax  paas  dui
+AS017M0053 op     C    C    C     C     C     C    C 
+AS017M0053 #csid 7 0 0 0
+AS017M0054 ref  dui  xaat  soi  dui  aath  paas  tini
+AS017M0054 hyp  dui  xaat  soi  dui  aath  paas  tini
+AS017M0054 op    C     C    C    C     C     C     C 
+AS017M0054 #csid 7 0 0 0
+AS017M0055 ref  tini  nax  xaat  saari  dui  ek  ek
+AS017M0055 hyp  tini  nax  xaat  saari  dui  ek  ek
+AS017M0055 op     C    C     C     C     C    C   C
+AS017M0055 #csid 7 0 0 0
+AS017M0056 ref  ek  dui  nax  xunnyo  ek  dui  dui
+AS017M0056 hyp  ek  dui  nax  xunnyo  ek  dui  dui
+AS017M0056 op    C   C    C      C     C   C    C 
+AS017M0056 #csid 7 0 0 0
+AS017M0057 ref  dui  tini  dui  tini  tini  saari  tini
+AS017M0057 hyp  dui  tini  dui  tini  tini  saari  tini
+AS017M0057 op    C     C    C     C     C     C      C 
+AS017M0057 #csid 7 0 0 0
+AS017M0058 ref  tini  saari  saari  paas  paas  soi  saari
+AS017M0058 hyp  tini  saari  saari  paas  paas  soi  saari
+AS017M0058 op     C     C      C      C     C    C     C  
+AS017M0058 #csid 7 0 0 0
+AS017M0059 ref  aath  aath  aath  xunnyo  xunnyo  xunnyo  xunnyo
+AS017M0059 hyp  aath  aath  aath  xunnyo  xunnyo  xunnyo  xunnyo
+AS017M0059 op     C     C     C      C       C       C       C  
+AS017M0059 #csid 7 0 0 0
+AS017M0060 ref  aath  soi  xaat  aath  aath  nax  xunnyo
+AS017M0060 hyp  aath  soi  xaat  aath  aath  nax  xunnyo
+AS017M0060 op     C    C     C     C     C    C      C  
+AS017M0060 #csid 7 0 0 0
+AS017M0061 ref  xunnyo  nax  nax  aath  xaat  soi  paas
+AS017M0061 hyp  xunnyo  nax  nax  aath  xaat  soi  paas
+AS017M0061 op      C     C    C     C     C    C     C 
+AS017M0061 #csid 7 0 0 0
+AS017M0062 ref  paas  saari  tini  dui  ek  xunnyo  aath
+AS017M0062 hyp  paas  saari  tini  dui  ek  xunnyo  aath
+AS017M0062 op     C     C      C    C    C     C      C 
+AS017M0062 #csid 7 0 0 0
+AS017M0063 ref  aath  nax  xaat  paas  tini  ek  xaat
+AS017M0063 hyp  aath  nax  xaat  paas  tini  ek  xaat
+AS017M0063 op     C    C     C     C     C    C    C 
+AS017M0063 #csid 7 0 0 0
+AS017M0064 ref  xaat  nax  soi  saari  dui  xunnyo  soi
+AS017M0064 hyp  xaat  nax  soi  saari  dui  xunnyo  soi
+AS017M0064 op     C    C    C     C     C      C     C 
+AS017M0064 #csid 7 0 0 0
+AS017M0065 ref  soi  nax  paas  dui  paas  nax  saari
+AS017M0065 hyp  soi  nax  paas  dui  paas  nax  saari
+AS017M0065 op    C    C     C    C     C    C     C  
+AS017M0065 #csid 7 0 0 0
+AS017M0066 ref  saari  ek  saari  nax  tini  xunnyo  tini
+AS017M0066 hyp  saari  ek  saari  nax  tini  xunnyo  tini
+AS017M0066 op     C     C    C     C     C      C      C 
+AS017M0066 #csid 7 0 0 0
+AS017M0067 ref  tini  nax  dui  dui  nax  ek  ek
+AS017M0067 hyp  tini  nax  dui  dui  nax  ek  ek
+AS017M0067 op     C    C    C    C    C    C   C
+AS017M0067 #csid 7 0 0 0
+AS017M0068 ref  ek  nax  xunnyo  xunnyo  xaat  saari  xunnyo
+AS017M0068 hyp  ek  nax  xunnyo  xunnyo  xaat  saari  xunnyo
+AS017M0068 op    C   C      C       C      C     C       C  
+AS017M0068 #csid 7 0 0 0
+AS017M0069 ref  xunnyo  ek  aath  soi  tini  aath  aath
+AS017M0069 hyp  xunnyo  ek  aath  soi  tini  aath  aath
+AS017M0069 op      C     C    C    C     C     C     C 
+AS017M0069 #csid 7 0 0 0
+AS017M0070 ref  aath  paas  ek  soi  dui  soi  aath
+AS017M0070 hyp  aath  paas  ek  soi  dui  soi  aath
+AS017M0070 op     C     C    C   C    C    C     C 
+AS017M0070 #csid 7 0 0 0
+AS017M0071 ref  aath  saari  paas  aath  tini  saari  aath
+AS017M0071 hyp  aath  saari  paas  aath  tini  saari  aath
+AS017M0071 op     C     C      C     C     C     C      C 
+AS017M0071 #csid 7 0 0 0
+AS017M0072 ref  aath  dui  tini  xaat  tini  soi  ek
+AS017M0072 hyp  aath  dui  tini  xaat  tini  soi  ek
+AS017M0072 op     C    C     C     C     C    C    C
+AS017M0072 #csid 7 0 0 0
+AS017M0073 ref  ek  paas  xunnyo  paas  soi  xaat  dui
+AS017M0073 hyp  ek  paas  xunnyo  paas  soi  xaat  dui
+AS017M0073 op    C    C      C      C    C     C    C 
+AS017M0073 #csid 7 0 0 0
+AS017M0074 ref  dui  aath  ek  tini  paas  paas  xaat
+AS017M0074 hyp  dui  aath  ek  tini  paas  paas  xaat
+AS017M0074 op    C     C    C    C     C     C     C 
+AS017M0074 #csid 7 0 0 0
+AS017M0075 ref  xaat  ek  dui  xaat  xunnyo  dui  saari
+AS017M0075 hyp  xaat  ek  dui  xaat  xunnyo  dui  saari
+AS017M0075 op     C    C   C     C      C     C     C  
+AS017M0075 #csid 7 0 0 0
+AS017M0076 ref  saari  xaat  aath  xunnyo  ek  dui  tini
+AS017M0076 hyp  saari  xaat  aath  xunnyo  ek  dui  tini
+AS017M0076 op     C      C     C      C     C   C     C 
+AS017M0076 #csid 7 0 0 0
+AS017M0077 ref  tini  tini  saari  soi  xunnyo  saari  saari
+AS017M0077 hyp  tini  tini  saari  soi  xunnyo  saari  saari
+AS017M0077 op     C     C     C     C      C      C      C  
+AS017M0077 #csid 7 0 0 0
+AS017M0078 ref  saari  paas  soi  soi  xaat  xaat  aath
+AS017M0078 hyp  saari  paas  soi  soi  xaat  xaat  aath
+AS017M0078 op     C      C    C    C     C     C     C 
+AS017M0078 #csid 7 0 0 0
+AS017M0079 ref  nax  nax  ek  tini  paas  xaat  nax
+AS017M0079 hyp  nax  nax  ek  tini  paas  xaat  nax
+AS017M0079 op    C    C    C    C     C     C    C 
+AS017M0079 #csid 7 0 0 0
+AS017M0080 ref  dui  soi  nax  ek  dui  saari  tini
+AS017M0080 hyp  dui  soi  nax  ek  dui  saari  tini
+AS017M0080 op    C    C    C    C   C     C      C 
+AS017M0080 #csid 7 0 0 0
+AS018F0001 ref  xunnyo  xunnyo  nax  ***  aath  xaat  soi  paas
+AS018F0001 hyp  xunnyo  xunnyo  nax   ek  aath  xaat  soi  paas
+AS018F0001 op      C       C     C    I     C     C    C     C 
+AS018F0001 #csid 7 0 1 0
+AS018F0002 ref  paas  saari  tini  dui  ek  xunnyo  ek
+AS018F0002 hyp  paas  saari  tini  dui  ek  xunnyo  ek
+AS018F0002 op     C     C      C    C    C     C     C
+AS018F0002 #csid 7 0 0 0
+AS018F0003 ref  ek  nax  xaat  paas  tini  ek  dui
+AS018F0003 hyp  ek  nax  xaat  paas  tini  ek  dui
+AS018F0003 op    C   C     C     C     C    C   C 
+AS018F0003 #csid 7 0 0 0
+AS018F0004 ref  dui  nax  soi  saari  dui  xunnyo  tini
+AS018F0004 hyp  dui  nax  soi  saari  dui  xunnyo  tini
+AS018F0004 op    C    C    C     C     C      C      C 
+AS018F0004 #csid 7 0 0 0
+AS018F0005 ref  tini  nax  paas  dui  saari  nax  saari
+AS018F0005 hyp  tini  nax  paas  dui  saari  nax  saari
+AS018F0005 op     C    C     C    C     C     C     C  
+AS018F0005 #csid 7 0 0 0
+AS018F0006 ref  saari  ek  paas  nax  tini  xunnyo  soi
+AS018F0006 hyp  saari  ek  paas  nax  tini  xunnyo  soi
+AS018F0006 op     C     C    C    C     C      C     C 
+AS018F0006 #csid 7 0 0 0
+AS018F0007 ref  soi  nax  dui  xaat  nax  ek  aath
+AS018F0007 hyp  soi  nax  dui  xaat  nax  ek  aath
+AS018F0007 op    C    C    C     C    C    C    C 
+AS018F0007 #csid 7 0 0 0
+AS018F0008 ref  aath  nax  xunnyo  aath  soi  tini  saari
+AS018F0008 hyp  aath  nax  xunnyo  aath  soi  tini  saari
+AS018F0008 op     C    C      C      C    C     C     C  
+AS018F0008 #csid 7 0 0 0
+AS018F0009 ref  saari  xunnyo  xaat  saari  aath  paas  ek
+AS018F0009 hyp  saari  xunnyo  xaat  saari  aath  paas  ek
+AS018F0009 op     C       C      C     C      C     C    C
+AS018F0009 #csid 7 0 0 0
+AS018F0010 ref  ek  xaat  tini  tini  aath  saari  saari
+AS018F0010 hyp  ek  xaat  tini  tini  aath  saari  saari
+AS018F0010 op    C    C     C     C     C     C      C  
+AS018F0010 #csid 7 0 0 0
+AS018F0011 ref  saari  xaat  dui  paas  aath  tini  soi
+AS018F0011 hyp  saari  xaat  dui  paas  aath  tini  soi
+AS018F0011 op     C      C    C     C     C     C    C 
+AS018F0011 #csid 7 0 0 0
+AS018F0012 ref  soi  aath  dui  aath  ek  soi  dui
+AS018F0012 hyp  soi  aath  dui  aath  ek  soi  dui
+AS018F0012 op    C     C    C     C    C   C    C 
+AS018F0012 #csid 7 0 0 0
+AS018F0013 ref  dui  soi  ek  dui  tini  xaat  ek
+AS018F0013 hyp  dui  soi  ek  dui  tini  xaat  ek
+AS018F0013 op    C    C    C   C     C     C    C
+AS018F0013 #csid 7 0 0 0
+AS018F0014 ref  ek  saari  soi  xunnyo  saari  paas  xunnyo  ***
+AS018F0014 hyp  ek  saari  soi  xunnyo  saari  paas  xunnyo   ek
+AS018F0014 op    C    C     C      C      C      C      C     I 
+AS018F0014 #csid 7 0 1 0
+AS018F0015 ref  xunnyo  paas  xaat  xunnyo  dui  dui  tini
+AS018F0015 hyp  xunnyo  paas  aath  xunnyo  dui  dui  tini
+AS018F0015 op      C      C     S      C     C    C     C 
+AS018F0015 #csid 6 1 0 0
+AS018F0016 ref  tini  paas  soi  xaat  aath  xunnyo  ek
+AS018F0016 hyp  tini  paas  soi  xaat  aath  xunnyo  ek
+AS018F0016 op     C     C    C     C     C      C     C
+AS018F0016 #csid 7 0 0 0
+AS018F0017 ref  ek  tini  saari  paas  paas  soi  soi
+AS018F0017 hyp  ek  tini  saari  paas  paas  soi  soi
+AS018F0017 op    C    C     C      C     C    C    C 
+AS018F0017 #csid 7 0 0 0
+AS018F0018 ref  soi  xaat  xaat  aath  aath  nax  nax
+AS018F0018 hyp  soi  xaat  xaat  aath  aath  nax  nax
+AS018F0018 op    C     C     C     C     C    C    C 
+AS018F0018 #csid 7 0 0 0
+AS018F0019 ref  nax  xunnyo  ek  ek  dui  ek  xaat
+AS018F0019 hyp  nax  xunnyo  ek  ek  dui  ek  xaat
+AS018F0019 op    C      C     C   C   C    C    C 
+AS018F0019 #csid 7 0 0 0
+AS018F0020 ref  xaat  nax  ek  tini  paas  xaat  nax
+AS018F0020 hyp  xaat  nax  ek  tini  paas  aath  nax
+AS018F0020 op     C    C    C    C     C     S    C 
+AS018F0020 #csid 6 1 0 0
+AS018F0021 ref  xunnyo  xunnyo  ek  dui  tini  saari  paas
+AS018F0021 hyp  xunnyo  xunnyo  ek  dui  tini  saari  paas
+AS018F0021 op      C       C     C   C     C     C      C 
+AS018F0021 #csid 7 0 0 0
+AS018F0022 ref  paas  soi  xaat  aath  nax  ek  xunnyo
+AS018F0022 hyp  paas  soi  xaat  aath  nax  ek  xunnyo
+AS018F0022 op     C    C     C     C    C    C     C  
+AS018F0022 #csid 7 0 0 0
+AS018F0023 ref  xunnyo  dui  saari  soi  aath  dui  xunnyo
+AS018F0023 hyp  xunnyo  dui  saari  soi  aath  dui  xunnyo
+AS018F0023 op      C     C     C     C     C    C      C  
+AS018F0023 #csid 7 0 0 0
+AS018F0024 ref  xunnyo  tini  paas  xaat  nax  tini  xunnyo
+AS018F0024 hyp  xunnyo  tini  paas  aath  nax  tini  xunnyo
+AS018F0024 op      C      C     C     S    C     C      C  
+AS018F0024 #csid 6 1 0 0
+AS018F0025 ref  xunnyo  saari  xaat  saari  xunnyo  paas  aath
+AS018F0025 hyp  xunnyo  saari  xaat  saari  xunnyo  paas  aath
+AS018F0025 op      C      C      C     C       C      C     C 
+AS018F0025 #csid 7 0 0 0
+AS018F0026 ref  aath  paas  xunnyo  soi  nax  soi  xunnyo
+AS018F0026 hyp  aath  paas  xunnyo  soi  nax  soi  xunnyo
+AS018F0026 op     C     C      C     C    C    C      C  
+AS018F0026 #csid 7 0 0 0
+AS018F0027 ref  xunnyo  xaat  xaat  xunnyo  aath  aath  xunnyo  ***
+AS018F0027 hyp  xunnyo  xaat  xaat  xunnyo  aath  aath  xunnyo  dui
+AS018F0027 op      C      C     C      C      C     C      C     I 
+AS018F0027 #csid 7 0 1 0
+AS018F0028 ref  xunnyo  nax  nax  xunnyo  ek  ek  tini
+AS018F0028 hyp  xunnyo  nax  nax  xunnyo  ek  ek  tini
+AS018F0028 op      C     C    C      C     C   C    C 
+AS018F0028 #csid 7 0 0 0
+AS018F0029 ref  tini  soi  ek  saari  aath  ek  paas
+AS018F0029 hyp  tini  soi  ek  saari  aath  ek  paas
+AS018F0029 op     C    C    C    C      C    C    C 
+AS018F0029 #csid 7 0 0 0
+AS018F0030 ref  paas  nax  dui  paas  saari  ek  soi
+AS018F0030 hyp  paas  nax  dui  paas  saari  ek  soi
+AS018F0030 op     C    C    C     C     C     C   C 
+AS018F0030 #csid 7 0 0 0
+AS018F0031 ref  soi  paas  ek  xaat  soi  dui  soi
+AS018F0031 hyp  soi  paas  ek  xaat  soi  dui  soi
+AS018F0031 op    C     C    C    C    C    C    C 
+AS018F0031 #csid 7 0 0 0
+AS018F0032 ref  soi  tini  xaat  ek  aath  tini  aath
+AS018F0032 hyp  soi  tini  xaat  ek  aath  tini  aath
+AS018F0032 op    C     C     C    C    C     C     C 
+AS018F0032 #csid 7 0 0 0
+AS018F0033 ref  aath  nax  saari  nax  paas  dui  ek
+AS018F0033 hyp  aath  nax  saari  nax  paas  dui  ek
+AS018F0033 op     C    C     C     C     C    C    C
+AS018F0033 #csid 7 0 0 0
+AS018F0034 ref  ek  nax  xaat  dui  xaat  paas  tini
+AS018F0034 hyp  ek  nax  xaat  dui  xaat  paas  tini
+AS018F0034 op    C   C     C    C     C     C     C 
+AS018F0034 #csid 7 0 0 0
+AS018F0035 ref  tini  nax  aath  xaat  tini  ek  dui
+AS018F0035 hyp  tini  nax  aath  xaat  tini  ek  dui
+AS018F0035 op     C    C     C     C     C    C   C 
+AS018F0035 #csid 7 0 0 0
+AS018F0036 ref  dui  dui  aath  saari  dui  nax  xunnyo
+AS018F0036 hyp  dui  dui  aath  saari  dui  nax  xunnyo
+AS018F0036 op    C    C     C     C     C    C      C  
+AS018F0036 #csid 7 0 0 0
+AS018F0037 ref  xunnyo  ek  dui  tini  dui  tini  tini  ***
+AS018F0037 hyp  xunnyo  ek  dui  tini  dui  tini  tini   ek
+AS018F0037 op      C     C   C     C    C     C     C    I 
+AS018F0037 #csid 7 0 1 0
+AS018F0038 ref  tini  saari  tini  saari  saari  paas  paas
+AS018F0038 hyp  tini  saari  tini  saari  saari  paas  paas
+AS018F0038 op     C     C      C     C      C      C     C 
+AS018F0038 #csid 7 0 0 0
+AS018F0039 ref  paas  soi  saari  paas  soi  soi  xaat
+AS018F0039 hyp  paas  soi  saari  paas  soi  soi  xaat
+AS018F0039 op     C    C     C      C    C    C     C 
+AS018F0039 #csid 7 0 0 0
+AS018F0040 ref  xaat  aath  soi  xaat  ek  dui  saari
+AS018F0040 hyp  xaat  aath  soi  xaat  ek  dui  saari
+AS018F0040 op     C     C    C     C    C   C     C  
+AS018F0040 #csid 7 0 0 0
+AS018F0041 ref  xunnyo  nax  xunnyo  ek  dui  tini  saari
+AS018F0041 hyp  xunnyo  nax  xunnyo  ek  dui  tini  saari
+AS018F0041 op      C     C      C     C   C     C     C  
+AS018F0041 #csid 7 0 0 0
+AS018F0042 ref  saari  paas  soi  xaat  aath  nax  aath
+AS018F0042 hyp  saari  paas  soi  xaat  aath  nax  aath
+AS018F0042 op     C      C    C     C     C    C     C 
+AS018F0042 #csid 7 0 0 0
+AS018F0043 ref  aath  xunnyo  dui  saari  soi  aath  xaat
+AS018F0043 hyp  aath  xunnyo  dui  saari  soi  aath  xaat
+AS018F0043 op     C      C     C     C     C     C     C 
+AS018F0043 #csid 7 0 0 0
+AS018F0044 ref  xaat  xunnyo  tini  paas  xaat  nax  soi
+AS018F0044 hyp  xaat  xunnyo  tini  paas  xaat  nax  soi
+AS018F0044 op     C      C      C     C     C    C    C 
+AS018F0044 #csid 7 0 0 0
+AS018F0045 ref  soi  xunnyo  saari  xaat  paas  xunnyo  paas
+AS018F0045 hyp  soi  xunnyo  saari  xaat  paas    nax   paas
+AS018F0045 op    C      C      C      C     C      S      C 
+AS018F0045 #csid 6 1 0 0
+AS018F0046 ref  paas  aath  saari  xunnyo  soi  nax  tini
+AS018F0046 hyp  paas  aath  saari  xunnyo  soi  nax  tini
+AS018F0046 op     C     C     C       C     C    C     C 
+AS018F0046 #csid 7 0 0 0
+AS018F0047 ref  tini  xunnyo  xaat  dui  xunnyo  aath  ek
+AS018F0047 hyp  tini  xunnyo  xaat  dui  xunnyo  aath  ek
+AS018F0047 op     C      C      C    C      C      C    C
+AS018F0047 #csid 7 0 0 0
+AS018F0048 ref  ek  xunnyo  xunnyo  ek  nax  ek  tini
+AS018F0048 hyp  ek  xunnyo  xunnyo  ek  nax  ek  tini
+AS018F0048 op    C     C       C     C   C    C    C 
+AS018F0048 #csid 7 0 0 0
+AS018F0049 ref  tini  soi  ek  saari  aath  dui  paas
+AS018F0049 hyp  tini  soi  ek  saari  aath  dui  paas
+AS018F0049 op     C    C    C    C      C    C     C 
+AS018F0049 #csid 7 0 0 0
+AS018F0050 ref  paas  nax  dui  soi  paas  ek  paas
+AS018F0050 hyp  paas  nax  dui  soi  paas  ek  paas
+AS018F0050 op     C    C    C    C     C    C    C 
+AS018F0050 #csid 7 0 0 0
+AS018F0051 ref  paas  saari  ek  soi  tini  ek  xaat
+AS018F0051 hyp  paas  saari  ek  soi  tini  ek  xaat
+AS018F0051 op     C     C     C   C     C    C    C 
+AS018F0051 #csid 7 0 0 0
+AS018F0052 ref  xaat  ek  aath  tini  xaat  tini  aath
+AS018F0052 hyp  xaat  ek  aath  tini  xaat  tini  aath
+AS018F0052 op     C    C    C     C     C     C     C 
+AS018F0052 #csid 7 0 0 0
+AS018F0053 ref  aath  nax  nax  saari  nax  paas  dui
+AS018F0053 hyp  aath  nax  nax  saari  nax  paas  ***
+AS018F0053 op     C    C    C     C     C     C    D 
+AS018F0053 #csid 6 0 0 1
+AS018F0054 ref  dui  xaat  soi  dui  aath  paas  tini
+AS018F0054 hyp  dui  xaat  soi  dui  aath  paas  tini
+AS018F0054 op    C     C    C    C     C     C     C 
+AS018F0054 #csid 7 0 0 0
+AS018F0055 ref  tini  nax  xaat  saari  dui  ***  ek  ek
+AS018F0055 hyp  tini  nax  xaat  saari  dui   ek  ek  ek
+AS018F0055 op     C    C     C     C     C    I    C   C
+AS018F0055 #csid 7 0 1 0
+AS018F0056 ref  ek  dui  nax  xunnyo  ek  dui  dui
+AS018F0056 hyp  ek  dui  nax  xunnyo  ek  dui  dui
+AS018F0056 op    C   C    C      C     C   C    C 
+AS018F0056 #csid 7 0 0 0
+AS018F0057 ref  dui  tini  dui  tini  tini  saari  tini
+AS018F0057 hyp  dui  tini  dui  tini  tini  saari  tini
+AS018F0057 op    C     C    C     C     C     C      C 
+AS018F0057 #csid 7 0 0 0
+AS018F0058 ref  tini  saari  saari  paas  paas  soi  saari
+AS018F0058 hyp  tini  saari  saari  paas  paas  soi  saari
+AS018F0058 op     C     C      C      C     C    C     C  
+AS018F0058 #csid 7 0 0 0
+AS018F0059 ref  aath  aath  aath  xunnyo  xunnyo  xunnyo  xunnyo
+AS018F0059 hyp  aath  aath  aath  xunnyo  xunnyo  xunnyo  xunnyo
+AS018F0059 op     C     C     C      C       C       C       C  
+AS018F0059 #csid 7 0 0 0
+AS018F0060 ref  aath  soi  xaat  aath  aath  nax  xunnyo
+AS018F0060 hyp  aath  soi  xaat  aath  aath  nax  xunnyo
+AS018F0060 op     C    C     C     C     C    C      C  
+AS018F0060 #csid 7 0 0 0
+AS018F0061 ref  xunnyo  nax  nax  aath  xaat  soi  paas
+AS018F0061 hyp  xunnyo  nax  nax  aath  xaat  soi  paas
+AS018F0061 op      C     C    C     C     C    C     C 
+AS018F0061 #csid 7 0 0 0
+AS018F0062 ref  paas  saari  tini  dui  ek  xunnyo  aath
+AS018F0062 hyp  paas  saari  tini  dui  ek  xunnyo   ***
+AS018F0062 op     C     C      C    C    C     C      D 
+AS018F0062 #csid 6 0 0 1
+AS018F0063 ref  aath  nax  xaat  paas  tini  ek  xaat
+AS018F0063 hyp  aath  nax  xaat  paas  tini  ek  xaat
+AS018F0063 op     C    C     C     C     C    C    C 
+AS018F0063 #csid 7 0 0 0
+AS018F0064 ref  xaat  nax  soi  saari  dui  xunnyo  soi
+AS018F0064 hyp  xaat  nax  soi  saari  dui  xunnyo  soi
+AS018F0064 op     C    C    C     C     C      C     C 
+AS018F0064 #csid 7 0 0 0
+AS018F0065 ref  soi  nax  paas  dui  paas  nax  saari
+AS018F0065 hyp  soi  nax  paas  dui  paas  nax  saari
+AS018F0065 op    C    C     C    C     C    C     C  
+AS018F0065 #csid 7 0 0 0
+AS018F0066 ref  saari  ek  saari  nax  tini  xunnyo  tini
+AS018F0066 hyp  saari  ek  saari  nax  tini  xunnyo  tini
+AS018F0066 op     C     C    C     C     C      C      C 
+AS018F0066 #csid 7 0 0 0
+AS018F0067 ref  tini  nax  dui  dui  nax  ek  ek
+AS018F0067 hyp  tini  nax  dui  dui  nax  ek  ek
+AS018F0067 op     C    C    C    C    C    C   C
+AS018F0067 #csid 7 0 0 0
+AS018F0068 ref  ek  nax  xunnyo  xunnyo  xaat  saari  xunnyo
+AS018F0068 hyp  ek  nax  xunnyo  xunnyo  xaat  saari  xunnyo
+AS018F0068 op    C   C      C       C      C     C       C  
+AS018F0068 #csid 7 0 0 0
+AS018F0069 ref  xunnyo  ek  aath  soi  tini  aath  aath
+AS018F0069 hyp  xunnyo  ek  aath  soi  tini  aath  aath
+AS018F0069 op      C     C    C    C     C     C     C 
+AS018F0069 #csid 7 0 0 0
+AS018F0070 ref  aath  paas  ek  soi  dui  soi  aath
+AS018F0070 hyp  aath  paas  ek  soi  dui  soi  aath
+AS018F0070 op     C     C    C   C    C    C     C 
+AS018F0070 #csid 7 0 0 0
+AS018F0071 ref  aath  saari  paas  aath  tini  saari  aath
+AS018F0071 hyp  aath  saari  paas  aath  tini  saari  aath
+AS018F0071 op     C     C      C     C     C     C      C 
+AS018F0071 #csid 7 0 0 0
+AS018F0072 ref  aath  dui  tini  xaat  tini  soi  ek
+AS018F0072 hyp  aath  dui  tini  xaat  tini  soi  ek
+AS018F0072 op     C    C     C     C     C    C    C
+AS018F0072 #csid 7 0 0 0
+AS018F0073 ref  ek  paas  xunnyo  paas   soi  xaat  dui
+AS018F0073 hyp  ek  paas  xunnyo  paas  aath  xaat  dui
+AS018F0073 op    C    C      C      C     S     C    C 
+AS018F0073 #csid 6 1 0 0
+AS018F0074 ref  dui  aath  ek  tini  paas  paas  xaat
+AS018F0074 hyp  dui  aath  ek  tini  paas  paas  aath
+AS018F0074 op    C     C    C    C     C     C     S 
+AS018F0074 #csid 6 1 0 0
+AS018F0075 ref  xaat  ek  dui  xaat  xunnyo  dui  saari
+AS018F0075 hyp  xaat  ek  dui  xaat  xunnyo  dui  saari
+AS018F0075 op     C    C   C     C      C     C     C  
+AS018F0075 #csid 7 0 0 0
+AS018F0076 ref  saari  xaat  aath  xunnyo  ek  dui  tini
+AS018F0076 hyp  saari  xaat  aath  xunnyo  ek  dui  tini
+AS018F0076 op     C      C     C      C     C   C     C 
+AS018F0076 #csid 7 0 0 0
+AS018F0077 ref  tini  tini  saari  soi  xunnyo  saari  saari
+AS018F0077 hyp  tini  tini  saari  soi  xunnyo  saari  saari
+AS018F0077 op     C     C     C     C      C      C      C  
+AS018F0077 #csid 7 0 0 0
+AS018F0078 ref  saari  paas  soi  soi  xaat  xaat  aath
+AS018F0078 hyp  saari  paas  soi  soi  xaat  xaat  aath
+AS018F0078 op     C      C    C    C     C     C     C 
+AS018F0078 #csid 7 0 0 0
+AS018F0079 ref  nax  nax  ek  tini  paas  xaat  nax
+AS018F0079 hyp  nax  nax  ek  tini  paas  aath  nax
+AS018F0079 op    C    C    C    C     C     S    C 
+AS018F0079 #csid 6 1 0 0
+AS018F0080 ref  dui  soi  nax  ek  dui  saari  tini
+AS018F0080 hyp  dui  soi  nax  ek  dui  saari  tini
+AS018F0080 op    C    C    C    C   C     C      C 
+AS018F0080 #csid 7 0 0 0
