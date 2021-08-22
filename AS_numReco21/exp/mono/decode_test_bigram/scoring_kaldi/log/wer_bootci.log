@@ -1,0 +1,6 @@
+# compute-wer-bootci --mode=present ark:exp/mono/decode_test_bigram/scoring_kaldi/test_filt.txt ark:exp/mono/decode_test_bigram/scoring_kaldi/penalty_1.0/15.txt > exp/mono/decode_test_bigram/scoring_kaldi/wer_details/wer_bootci 
+# Started at Sun Aug 22 17:32:25 IST 2021
+#
+compute-wer-bootci --mode=present ark:exp/mono/decode_test_bigram/scoring_kaldi/test_filt.txt ark:exp/mono/decode_test_bigram/scoring_kaldi/penalty_1.0/15.txt 
+# Accounting: time=0 threads=1
+# Ended (code 0) at Sun Aug 22 17:32:25 IST 2021, elapsed time 0 seconds

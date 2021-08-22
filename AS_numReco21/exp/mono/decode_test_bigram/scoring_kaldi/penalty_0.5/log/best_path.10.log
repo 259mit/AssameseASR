@@ -1,0 +1,1292 @@
+# lattice-scale --inv-acoustic-scale=10 "ark:gunzip -c exp/mono/decode_test_bigram/lat.*.gz|" ark:- | lattice-add-penalty --word-ins-penalty=0.5 ark:- ark:- | lattice-best-path --word-symbol-table=exp/mono/graph_test_bigram/words.txt ark:- ark,t:- | utils/int2sym.pl -f 2- exp/mono/graph_test_bigram/words.txt | local/wer_hyp_filter > exp/mono/decode_test_bigram/scoring_kaldi/penalty_0.5/10.txt 
+# Started at Sun Aug 22 17:32:13 IST 2021
+#
+lattice-scale --inv-acoustic-scale=10 'ark:gunzip -c exp/mono/decode_test_bigram/lat.*.gz|' ark:- 
+lattice-add-penalty --word-ins-penalty=0.5 ark:- ark:- 
+lattice-best-path --word-symbol-table=exp/mono/graph_test_bigram/words.txt ark:- ark,t:- 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS011M0001, best cost 48.4745 + 6304.84 = 6353.32 over 698 frames.
+AS011M0001 xunnyo xunnyo nax aath xaat soi paas 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS011M0002, best cost 54.8299 + 6655.14 = 6709.97 over 698 frames.
+AS011M0002 paas saari tini dui ek xunnyo ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS011M0003, best cost 47.4441 + 6392.13 = 6439.57 over 698 frames.
+AS011M0003 ek nax xaat paas tini dui ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS011M0004, best cost 50.7351 + 6316.54 = 6367.28 over 698 frames.
+AS011M0004 dui nax soi saari dui xunnyo tini 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS011M0005, best cost 49.2145 + 6228.46 = 6277.67 over 698 frames.
+AS011M0005 tini nax paas dui saari nax xaat 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS011M0006, best cost 49.4716 + 6247.08 = 6296.55 over 698 frames.
+AS011M0006 saari ek paas nax tini dui xunnyo 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS011M0007, best cost 54.0753 + 6342.48 = 6396.55 over 698 frames.
+AS011M0007 ek soi nax dui xaat nax ek aath 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS011M0008, best cost 52.1246 + 6333.39 = 6385.51 over 698 frames.
+AS011M0008 aath soi xunnyo aath soi tini saari 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS011M0009, best cost 53.9733 + 6506.01 = 6559.99 over 698 frames.
+AS011M0009 xaat xunnyo xaat saari aath paas ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS011M0010, best cost 58.2151 + 6593.07 = 6651.29 over 698 frames.
+AS011M0010 aath ek xaat tini tini aath saari saari 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS011M0011, best cost 58.2053 + 6454.44 = 6512.64 over 698 frames.
+AS011M0011 saari xaat dui paas aath aath tini soi 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS011M0012, best cost 51.9482 + 6389 = 6440.95 over 698 frames.
+AS011M0012 soi aath dui aath ek soi dui 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS011M0013, best cost 46.6803 + 6349.86 = 6396.54 over 698 frames.
+AS011M0013 dui soi ek dui tini xaat ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS011M0014, best cost 50.8827 + 6315.09 = 6365.97 over 698 frames.
+AS011M0014 ek saari soi xunnyo saari paas xunnyo 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS011M0015, best cost 50.6342 + 6539.98 = 6590.62 over 698 frames.
+AS011M0015 xunnyo paas xaat xunnyo dui dui tini 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS011M0016, best cost 50.1473 + 6348.04 = 6398.19 over 698 frames.
+AS011M0016 tini paas soi xaat aath xunnyo ek ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS011M0017, best cost 53.3089 + 6332.99 = 6386.3 over 698 frames.
+AS011M0017 xaat ek tini saari paas paas soi soi 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS011M0018, best cost 47.3497 + 6414.15 = 6461.5 over 698 frames.
+AS011M0018 soi xaat xaat aath aath nax nax 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS011M0019, best cost 47.3471 + 6401.3 = 6448.65 over 698 frames.
+AS011M0019 nax xunnyo ek ek dui ek xaat 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS011M0020, best cost 49.0019 + 6370.41 = 6419.41 over 698 frames.
+AS011M0020 xaat soi ek tini paas xaat soi 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS011M0021, best cost 45.2767 + 6310.62 = 6355.9 over 698 frames.
+AS011M0021 xunnyo xunnyo ek dui tini saari paas 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS011M0022, best cost 50.2904 + 6199.38 = 6249.67 over 698 frames.
+AS011M0022 paas soi xaat aath nax ek xunnyo aath 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS011M0023, best cost 48.2684 + 6275.16 = 6323.43 over 698 frames.
+AS011M0023 xunnyo dui saari soi xaat dui xunnyo 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS011M0024, best cost 50.9789 + 6400.4 = 6451.38 over 698 frames.
+AS011M0024 xunnyo tini paas xaat soi tini xunnyo 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS011M0025, best cost 51.6004 + 6469.71 = 6521.31 over 698 frames.
+AS011M0025 xunnyo saari xaat saari xunnyo paas aath 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS011M0026, best cost 58.3681 + 6209.59 = 6267.96 over 698 frames.
+AS011M0026 aath paas xunnyo soi nax soi soi xunnyo ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS011M0027, best cost 50.5314 + 6211.17 = 6261.7 over 698 frames.
+AS011M0027 xunnyo xaat xaat xunnyo aath aath xunnyo 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS011M0028, best cost 45.4362 + 6027.78 = 6073.21 over 698 frames.
+AS011M0028 xunnyo nax nax xunnyo ek ek tini 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS011M0029, best cost 47.6626 + 6354.59 = 6402.26 over 698 frames.
+AS011M0029 tini soi ek saari aath ek paas 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS011M0030, best cost 47.057 + 6286.69 = 6333.75 over 698 frames.
+AS011M0030 paas nax dui paas saari ek soi 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS011M0031, best cost 53.2441 + 6384.73 = 6437.98 over 698 frames.
+AS011M0031 soi paas ek xaat soi dui soi xaat 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS011M0032, best cost 47.4855 + 6329.5 = 6376.98 over 698 frames.
+AS011M0032 soi tini xaat ek xaat tini aath 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS011M0033, best cost 58.3897 + 6618.97 = 6677.36 over 698 frames.
+AS011M0033 aath nax xaat saari nax paas dui ek aath 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS011M0034, best cost 52.2669 + 6206.69 = 6258.95 over 698 frames.
+AS011M0034 ek nax ek xaat dui xaat paas tini 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS011M0035, best cost 45.2008 + 6001.04 = 6046.24 over 698 frames.
+AS011M0035 tini nax aath xaat tini ek dui 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS011M0036, best cost 52.4425 + 6297.6 = 6350.04 over 698 frames.
+AS011M0036 ek dui dui xaat saari dui nax xunnyo 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS011M0037, best cost 53.1166 + 6477.52 = 6530.63 over 698 frames.
+AS011M0037 xunnyo ek dui tini dui tini tini xaat 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS011M0038, best cost 45.532 + 6136.64 = 6182.17 over 698 frames.
+AS011M0038 tini saari tini saari saari paas paas 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS011M0039, best cost 46.0844 + 6385.49 = 6431.57 over 698 frames.
+AS011M0039 paas soi saari paas soi soi xaat 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS011M0040, best cost 58.0697 + 6795 = 6853.07 over 698 frames.
+AS011M0040 xaat nax nax xaat aath soi xaat ek dui saari 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS011M0041, best cost 44.0632 + 6136.97 = 6181.03 over 698 frames.
+AS011M0041 xunnyo nax xunnyo ek dui tini saari 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS011M0042, best cost 44.976 + 6150.66 = 6195.64 over 698 frames.
+AS011M0042 saari paas soi xaat xaat nax aath 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS011M0043, best cost 49.1689 + 6227.76 = 6276.93 over 698 frames.
+AS011M0043 aath xunnyo dui saari soi aath xaat 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS011M0044, best cost 53.9604 + 6379.47 = 6433.43 over 698 frames.
+AS011M0044 xaat xunnyo tini paas xaat nax soi ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS011M0045, best cost 54.6935 + 6454.17 = 6508.86 over 698 frames.
+AS011M0045 soi xunnyo saari xaat paas xunnyo paas 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS011M0046, best cost 47.09 + 6261.42 = 6308.51 over 698 frames.
+AS011M0046 paas xaat saari xunnyo soi nax tini 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS011M0047, best cost 50.9983 + 6181.08 = 6232.08 over 698 frames.
+AS011M0047 tini soi xaat dui xunnyo xaat aath ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS011M0048, best cost 47.3579 + 6221.11 = 6268.47 over 698 frames.
+AS011M0048 ek xunnyo xunnyo ek soi ek tini 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS011M0049, best cost 49.2877 + 6471.36 = 6520.64 over 698 frames.
+AS011M0049 tini soi ek saari aath dui paas 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS011M0050, best cost 47.0687 + 6227.65 = 6274.72 over 698 frames.
+AS011M0050 paas nax dui soi paas ek paas 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS011M0051, best cost 48.1764 + 6274.66 = 6322.83 over 698 frames.
+AS011M0051 paas saari ek soi tini ek xaat 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS011M0052, best cost 48.8865 + 6210.55 = 6259.43 over 698 frames.
+AS011M0052 xaat ek xaat tini xaat tini aath 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS011M0053, best cost 45.4989 + 6170.33 = 6215.83 over 698 frames.
+AS011M0053 aath nax nax saari nax paas dui 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS011M0054, best cost 50.4553 + 6388.02 = 6438.48 over 698 frames.
+AS011M0054 dui xaat soi dui aath paas tini 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS011M0055, best cost 46.9108 + 6174.91 = 6221.82 over 698 frames.
+AS011M0055 tini nax xaat saari dui ek ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS011M0056, best cost 43.6503 + 6132.22 = 6175.87 over 698 frames.
+AS011M0056 ek dui nax xunnyo ek dui dui 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS011M0057, best cost 46.1424 + 6351.12 = 6397.26 over 698 frames.
+AS011M0057 dui tini dui tini tini saari tini 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS011M0058, best cost 45.772 + 6231.38 = 6277.15 over 698 frames.
+AS011M0058 tini saari saari paas paas soi saari 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS011M0059, best cost 51.5388 + 6395.55 = 6447.09 over 698 frames.
+AS011M0059 aath aath aath xunnyo xunnyo xunnyo xunnyo 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS011M0060, best cost 44.5423 + 6420.43 = 6464.98 over 698 frames.
+AS011M0060 aath soi xaat aath aath nax xunnyo 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS011M0061, best cost 47.5302 + 6069.31 = 6116.84 over 698 frames.
+AS011M0061 xunnyo nax nax aath xaat soi paas 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS011M0062, best cost 48.0349 + 6185.6 = 6233.63 over 698 frames.
+AS011M0062 paas saari tini dui ek xunnyo aath 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS011M0063, best cost 49.4875 + 6353.42 = 6402.91 over 698 frames.
+AS011M0063 aath nax xaat paas tini ek xaat 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS011M0064, best cost 48.086 + 6045.54 = 6093.63 over 698 frames.
+AS011M0064 xaat nax soi saari dui xunnyo soi 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS011M0065, best cost 55.732 + 6394.42 = 6450.15 over 698 frames.
+AS011M0065 soi nax paas dui paas xaat nax saari 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS011M0066, best cost 48.6339 + 6184.34 = 6232.97 over 698 frames.
+AS011M0066 saari ek saari nax tini xunnyo tini 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS011M0067, best cost 44.0712 + 6059.71 = 6103.78 over 698 frames.
+AS011M0067 tini nax dui dui nax ek ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS011M0068, best cost 48.5721 + 6267.53 = 6316.1 over 698 frames.
+AS011M0068 ek nax xunnyo xunnyo xaat saari xunnyo 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS011M0069, best cost 46.8932 + 6262.33 = 6309.22 over 698 frames.
+AS011M0069 xunnyo ek aath soi tini aath aath 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS011M0070, best cost 44.6582 + 6255.56 = 6300.22 over 698 frames.
+AS011M0070 aath paas ek soi dui soi aath 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS011M0071, best cost 45.2676 + 6279.24 = 6324.51 over 698 frames.
+AS011M0071 aath saari paas aath tini saari aath 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS011M0072, best cost 45.2903 + 6032.5 = 6077.79 over 698 frames.
+AS011M0072 aath dui tini saari tini soi ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS011M0073, best cost 55.1976 + 6436.83 = 6492.02 over 698 frames.
+AS011M0073 ek aath paas xunnyo paas soi xaat dui 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS011M0074, best cost 46.8555 + 6218.41 = 6265.26 over 698 frames.
+AS011M0074 dui aath ek tini paas paas xaat 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS011M0075, best cost 46.8117 + 6266.66 = 6313.47 over 698 frames.
+AS011M0075 xaat ek dui xaat xunnyo dui saari 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS011M0076, best cost 44.1164 + 6338.44 = 6382.55 over 698 frames.
+AS011M0076 saari xaat aath xunnyo ek dui tini 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS011M0077, best cost 48.5879 + 6287.34 = 6335.93 over 698 frames.
+AS011M0077 tini tini saari soi xunnyo saari saari 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS011M0078, best cost 43.9006 + 6171.46 = 6215.36 over 698 frames.
+AS011M0078 saari paas soi soi xaat xaat aath 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS011M0079, best cost 52.1747 + 6273.76 = 6325.93 over 698 frames.
+AS011M0079 xaat nax nax ek tini paas xaat nax 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS011M0080, best cost 55.4523 + 6250.51 = 6305.96 over 698 frames.
+AS011M0080 ek dui soi nax ek dui saari tini xaat 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS012M0001, best cost 49.544 + 6691.23 = 6740.77 over 698 frames.
+AS012M0001 xunnyo xunnyo nax aath xaat soi paas 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS012M0002, best cost 49.6428 + 6107.1 = 6156.75 over 698 frames.
+AS012M0002 paas saari tini dui ek xunnyo ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS012M0003, best cost 49.4817 + 6363.57 = 6413.05 over 698 frames.
+AS012M0003 ek nax xaat paas tini ek tini 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS012M0004, best cost 58.014 + 6400.64 = 6458.66 over 698 frames.
+AS012M0004 dui nax soi saari dui xunnyo tini xaat 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS012M0005, best cost 51.2813 + 6280.6 = 6331.88 over 698 frames.
+AS012M0005 tini nax paas dui saari nax saari 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS012M0006, best cost 52.6075 + 6275.78 = 6328.39 over 698 frames.
+AS012M0006 saari ek paas nax tini xunnyo soi 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS012M0007, best cost 50.2471 + 6211.45 = 6261.7 over 698 frames.
+AS012M0007 soi nax dui xaat nax ek aath 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS012M0008, best cost 48.8742 + 6334.48 = 6383.35 over 698 frames.
+AS012M0008 aath nax xunnyo aath soi tini saari 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS012M0009, best cost 51.8875 + 6142.71 = 6194.6 over 698 frames.
+AS012M0009 saari xunnyo xaat saari aath paas ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS012M0010, best cost 49.3889 + 6042.68 = 6092.07 over 698 frames.
+AS012M0010 ek aath tini tini aath saari xaat 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS012M0011, best cost 51.9605 + 6204.83 = 6256.79 over 698 frames.
+AS012M0011 saari xaat dui paas aath tini soi 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS012M0012, best cost 51.6475 + 6192.44 = 6244.09 over 698 frames.
+AS012M0012 soi aath dui aath ek soi dui 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS012M0013, best cost 45.4162 + 5994.33 = 6039.75 over 698 frames.
+AS012M0013 dui soi ek dui tini nax ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS012M0014, best cost 49.5091 + 6014.58 = 6064.09 over 698 frames.
+AS012M0014 ek saari soi nax saari paas nax 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS012M0015, best cost 49.4849 + 5972.24 = 6021.73 over 698 frames.
+AS012M0015 xunnyo paas xaat xunnyo dui dui tini 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS012M0016, best cost 46.2494 + 6057.61 = 6103.86 over 698 frames.
+AS012M0016 tini paas soi aath aath xunnyo ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS012M0017, best cost 47.0346 + 6028.84 = 6075.88 over 698 frames.
+AS012M0017 ek tini saari paas paas soi soi 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS012M0018, best cost 47.979 + 6123.57 = 6171.55 over 698 frames.
+AS012M0018 soi xaat aath aath aath nax soi 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS012M0019, best cost 48.8706 + 6004.06 = 6052.93 over 698 frames.
+AS012M0019 nax xunnyo ek ek dui ek aath 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS012M0020, best cost 48.4014 + 6256.46 = 6304.86 over 698 frames.
+AS012M0020 xaat nax ek tini paas xaat nax 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS012M0021, best cost 44.529 + 6240.23 = 6284.76 over 698 frames.
+AS012M0021 xunnyo xunnyo ek dui tini saari paas 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS012M0022, best cost 47.3364 + 6113.2 = 6160.54 over 698 frames.
+AS012M0022 paas soi aath aath nax ek xunnyo 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS012M0023, best cost 50.6541 + 6236.03 = 6286.68 over 698 frames.
+AS012M0023 xunnyo dui saari soi aath dui xunnyo 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS012M0024, best cost 49.7436 + 6131.36 = 6181.1 over 698 frames.
+AS012M0024 xunnyo tini paas xaat nax tini xunnyo 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS012M0025, best cost 50.8669 + 6074.03 = 6124.9 over 698 frames.
+AS012M0025 xunnyo saari aath saari nax paas xaat 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS012M0026, best cost 49.7045 + 5980.93 = 6030.64 over 698 frames.
+AS012M0026 aath paas xunnyo soi nax soi xunnyo 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS012M0027, best cost 50.6842 + 6072.52 = 6123.21 over 698 frames.
+AS012M0027 xunnyo xaat xaat tini xaat aath xunnyo 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS012M0028, best cost 45.2894 + 6036.11 = 6081.4 over 698 frames.
+AS012M0028 xunnyo nax nax xunnyo ek ek tini 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS012M0029, best cost 48.8452 + 6098.75 = 6147.59 over 698 frames.
+AS012M0029 tini soi ek saari aath ek paas 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS012M0030, best cost 47.9753 + 6324.17 = 6372.14 over 698 frames.
+AS012M0030 paas nax dui paas saari ek soi 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS012M0031, best cost 48.2676 + 6213.57 = 6261.84 over 698 frames.
+AS012M0031 soi paas ek xaat soi dui soi 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS012M0032, best cost 49.2908 + 6270.89 = 6320.18 over 698 frames.
+AS012M0032 soi tini xaat ek aath tini aath 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS012M0033, best cost 45.8582 + 6113.91 = 6159.76 over 698 frames.
+AS012M0033 aath nax saari nax paas dui ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS012M0034, best cost 48.8407 + 6020.75 = 6069.59 over 698 frames.
+AS012M0034 ek nax xaat dui xaat paas tini 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS012M0035, best cost 48.3175 + 6140.39 = 6188.71 over 698 frames.
+AS012M0035 tini nax aath aath tini ek dui 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS012M0036, best cost 48.7631 + 6125.26 = 6174.02 over 698 frames.
+AS012M0036 dui dui xaat saari dui nax xunnyo 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS012M0037, best cost 44.113 + 6363.1 = 6407.21 over 698 frames.
+AS012M0037 xunnyo ek dui tini dui tini tini 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS012M0038, best cost 47.8369 + 6500.76 = 6548.6 over 698 frames.
+AS012M0038 tini saari tini saari saari paas paas 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS012M0039, best cost 46.7266 + 6352.98 = 6399.7 over 698 frames.
+AS012M0039 paas soi saari paas soi soi xaat 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS012M0040, best cost 48.8871 + 5905.53 = 5954.42 over 698 frames.
+AS012M0040 xaat aath soi aath ek dui saari 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS012M0041, best cost 45.9986 + 6179.95 = 6225.95 over 698 frames.
+AS012M0041 xunnyo nax xunnyo ek dui tini saari 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS012M0042, best cost 44.9524 + 6054.86 = 6099.82 over 698 frames.
+AS012M0042 saari paas soi xaat aath nax aath 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS012M0043, best cost 48.4407 + 5991.73 = 6040.17 over 698 frames.
+AS012M0043 xaat xunnyo dui saari soi xaat aath 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS012M0044, best cost 49.2884 + 6071.87 = 6121.16 over 698 frames.
+AS012M0044 xaat xunnyo tini paas xaat nax soi 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS012M0045, best cost 51.305 + 6041.35 = 6092.65 over 698 frames.
+AS012M0045 soi xunnyo saari xaat paas xunnyo paas 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS012M0046, best cost 48.5644 + 6129.4 = 6177.97 over 698 frames.
+AS012M0046 paas aath saari xunnyo soi nax tini 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS012M0047, best cost 48.9305 + 6201.33 = 6250.26 over 698 frames.
+AS012M0047 tini xunnyo xaat dui xunnyo aath ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS012M0048, best cost 46.1685 + 5783.81 = 5829.98 over 698 frames.
+AS012M0048 ek xunnyo xunnyo ek nax ek tini 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS012M0049, best cost 47.9625 + 6229.47 = 6277.43 over 698 frames.
+AS012M0049 tini soi ek saari aath dui paas 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS012M0050, best cost 48.3281 + 5991.55 = 6039.88 over 698 frames.
+AS012M0050 paas nax dui soi paas ek paas 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS012M0051, best cost 48.2754 + 6090.43 = 6138.7 over 698 frames.
+AS012M0051 paas saari ek soi tini ek aath 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS012M0052, best cost 49.7992 + 5919.75 = 5969.55 over 698 frames.
+AS012M0052 xaat ek aath tini xaat tini aath 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS012M0053, best cost 46.8701 + 5747.39 = 5794.26 over 698 frames.
+AS012M0053 aath nax nax saari nax paas dui 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS012M0054, best cost 48.7417 + 5699.4 = 5748.14 over 698 frames.
+AS012M0054 dui xaat soi dui aath paas tini 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS012M0055, best cost 46.8736 + 5842.41 = 5889.28 over 698 frames.
+AS012M0055 tini nax xaat saari dui ek ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS012M0056, best cost 43.1422 + 6036.44 = 6079.58 over 698 frames.
+AS012M0056 ek dui nax xunnyo ek dui dui 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS012M0057, best cost 44.8197 + 6151.83 = 6196.65 over 698 frames.
+AS012M0057 dui tini dui tini tini saari tini 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS012M0058, best cost 46.6836 + 6157.93 = 6204.62 over 698 frames.
+AS012M0058 tini saari saari paas paas soi saari 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS012M0059, best cost 45.7283 + 5988.23 = 6033.96 over 698 frames.
+AS012M0059 aath aath aath xunnyo xunnyo xunnyo tini 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS012M0060, best cost 46.4736 + 6140.78 = 6187.26 over 698 frames.
+AS012M0060 aath soi xaat aath aath nax nax 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS012M0061, best cost 48.3191 + 6098.33 = 6146.65 over 698 frames.
+AS012M0061 xunnyo nax nax aath xaat soi paas 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS012M0062, best cost 48.2203 + 6008.22 = 6056.44 over 698 frames.
+AS012M0062 paas saari tini dui ek xunnyo aath 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS012M0063, best cost 47.6017 + 6134.43 = 6182.03 over 698 frames.
+AS012M0063 aath nax xaat paas tini ek aath 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS012M0064, best cost 54.9352 + 6192.43 = 6247.36 over 698 frames.
+AS012M0064 xaat nax soi saari dui xunnyo soi xaat 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS012M0065, best cost 47.4086 + 6022.46 = 6069.87 over 698 frames.
+AS012M0065 soi nax paas dui paas nax saari 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS012M0066, best cost 49.0636 + 6126.78 = 6175.85 over 698 frames.
+AS012M0066 saari ek saari nax tini xunnyo tini 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS012M0067, best cost 46.1754 + 5883.41 = 5929.59 over 698 frames.
+AS012M0067 tini nax dui dui nax ek ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS012M0068, best cost 48.0813 + 6014.42 = 6062.51 over 698 frames.
+AS012M0068 ek nax xunnyo xunnyo xaat saari tini 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS012M0069, best cost 46.5982 + 6120.67 = 6167.27 over 698 frames.
+AS012M0069 xunnyo ek aath soi tini aath aath 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS012M0070, best cost 46.1819 + 6227.09 = 6273.27 over 698 frames.
+AS012M0070 aath paas ek soi dui soi aath 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS012M0071, best cost 47.8478 + 6124.71 = 6172.55 over 698 frames.
+AS012M0071 aath saari paas aath tini saari aath 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS012M0072, best cost 47.3022 + 5914.07 = 5961.37 over 698 frames.
+AS012M0072 aath dui tini xaat tini soi ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS012M0073, best cost 50.1456 + 6272.44 = 6322.58 over 698 frames.
+AS012M0073 ek paas xunnyo paas soi xaat dui 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS012M0074, best cost 49.0959 + 6223.22 = 6272.32 over 698 frames.
+AS012M0074 dui xaat ek tini paas paas aath 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS012M0075, best cost 48.4858 + 5930.38 = 5978.87 over 698 frames.
+AS012M0075 xaat ek dui xaat xunnyo dui saari 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS012M0076, best cost 45.4126 + 6061.68 = 6107.09 over 698 frames.
+AS012M0076 saari xaat aath xunnyo ek dui tini 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS012M0077, best cost 47.9356 + 6195.73 = 6243.67 over 698 frames.
+AS012M0077 tini tini saari soi xunnyo saari saari 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS012M0078, best cost 45.2925 + 6227.54 = 6272.84 over 698 frames.
+AS012M0078 saari paas soi soi xaat xaat aath 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS012M0079, best cost 46.2081 + 6253.22 = 6299.42 over 698 frames.
+AS012M0079 nax nax ek tini paas xaat nax 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS012M0080, best cost 45.0083 + 6121.58 = 6166.59 over 698 frames.
+AS012M0080 dui soi nax ek dui saari tini 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS013M0001, best cost 45.9814 + 5291.14 = 5337.12 over 698 frames.
+AS013M0001 xunnyo xunnyo nax aath xaat soi paas 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS013M0002, best cost 44.1541 + 5251.61 = 5295.76 over 698 frames.
+AS013M0002 paas saari tini dui ek xunnyo ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS013M0003, best cost 46.0758 + 5088.3 = 5134.38 over 698 frames.
+AS013M0003 ek nax xaat paas tini dui ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS013M0004, best cost 45.9784 + 5134.33 = 5180.3 over 698 frames.
+AS013M0004 dui nax soi saari dui xunnyo tini 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS013M0005, best cost 45.0004 + 5023.66 = 5068.66 over 698 frames.
+AS013M0005 tini nax paas dui saari nax saari 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS013M0006, best cost 46.6049 + 3826.97 = 3873.57 over 498 frames.
+AS013M0006 saari ek paas nax tini xunnyo soi 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS013M0007, best cost 43.9028 + 3689.01 = 3732.91 over 498 frames.
+AS013M0007 soi nax dui xaat nax ek aath 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS013M0008, best cost 43.2074 + 3788.17 = 3831.37 over 498 frames.
+AS013M0008 aath nax xunnyo aath soi tini saari 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS013M0009, best cost 47.688 + 3717.62 = 3765.31 over 498 frames.
+AS013M0009 saari xunnyo xaat saari aath paas ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS013M0010, best cost 47.3881 + 3631.57 = 3678.95 over 498 frames.
+AS013M0010 ek xaat tini tini aath saari saari 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS013M0011, best cost 45.7389 + 3693.84 = 3739.58 over 498 frames.
+AS013M0011 saari xaat dui paas aath tini soi 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS013M0012, best cost 45.1131 + 3749.44 = 3794.55 over 498 frames.
+AS013M0012 soi aath dui aath ek soi dui 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS013M0013, best cost 43.395 + 3704.15 = 3747.55 over 498 frames.
+AS013M0013 dui soi ek dui tini xaat ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS013M0014, best cost 44.8169 + 3667.91 = 3712.73 over 498 frames.
+AS013M0014 ek saari soi xunnyo saari paas xunnyo 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS013M0015, best cost 45.9352 + 3698.73 = 3744.66 over 498 frames.
+AS013M0015 xunnyo paas xaat xunnyo dui dui tini 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS013M0016, best cost 41.813 + 3630.97 = 3672.78 over 498 frames.
+AS013M0016 tini paas soi xaat aath xunnyo ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS013M0017, best cost 43.5745 + 3628.83 = 3672.41 over 498 frames.
+AS013M0017 ek tini saari paas paas soi soi 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS013M0018, best cost 44.2671 + 3667.31 = 3711.58 over 498 frames.
+AS013M0018 soi xaat xaat aath aath nax nax 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS013M0019, best cost 42.3136 + 3677.18 = 3719.49 over 498 frames.
+AS013M0019 nax xunnyo ek ek dui ek xaat 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS013M0020, best cost 43.0758 + 3562.73 = 3605.8 over 498 frames.
+AS013M0020 xaat nax ek tini paas xaat nax 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS013M0021, best cost 40.8516 + 3641.7 = 3682.55 over 498 frames.
+AS013M0021 xunnyo xunnyo ek dui tini saari paas 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS013M0022, best cost 39.8774 + 3613.56 = 3653.44 over 498 frames.
+AS013M0022 paas soi xaat aath nax ek xunnyo 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS013M0023, best cost 46.3954 + 3718.17 = 3764.57 over 498 frames.
+AS013M0023 xunnyo dui saari soi aath dui xunnyo 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS013M0024, best cost 44.6704 + 3623.99 = 3668.66 over 498 frames.
+AS013M0024 xunnyo tini paas xaat nax tini xunnyo 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS013M0025, best cost 47.2202 + 3646.17 = 3693.39 over 498 frames.
+AS013M0025 xunnyo saari xaat saari xunnyo paas aath 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS013M0026, best cost 44.3789 + 3662.18 = 3706.56 over 498 frames.
+AS013M0026 aath paas xunnyo soi nax soi xunnyo 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS013M0027, best cost 46.7019 + 3726.25 = 3772.95 over 498 frames.
+AS013M0027 xunnyo xaat xaat xunnyo aath aath xunnyo 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS013M0028, best cost 47.9279 + 3617.32 = 3665.24 over 498 frames.
+AS013M0028 xunnyo nax nax xunnyo ek ek tini aath 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS013M0029, best cost 44.9086 + 3703.5 = 3748.41 over 498 frames.
+AS013M0029 tini soi ek saari aath ek paas 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS013M0030, best cost 43.5858 + 3626.28 = 3669.87 over 498 frames.
+AS013M0030 paas nax dui paas saari ek soi 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS013M0031, best cost 45.2994 + 3925.23 = 3970.53 over 498 frames.
+AS013M0031 soi paas ek xaat soi dui soi 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS013M0032, best cost 45.4695 + 3926.95 = 3972.42 over 498 frames.
+AS013M0032 soi tini xaat ek aath tini aath 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS013M0033, best cost 43.2351 + 3791.78 = 3835.01 over 498 frames.
+AS013M0033 aath nax saari nax paas dui ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS013M0034, best cost 43.1249 + 3687.86 = 3730.99 over 498 frames.
+AS013M0034 ek nax xaat dui xaat paas tini 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS013M0035, best cost 43.562 + 3681.82 = 3725.38 over 498 frames.
+AS013M0035 tini nax aath xaat tini ek dui 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS013M0036, best cost 45.302 + 3732.5 = 3777.8 over 498 frames.
+AS013M0036 dui dui aath saari dui nax xunnyo 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS013M0037, best cost 42.2135 + 3733.56 = 3775.78 over 498 frames.
+AS013M0037 xunnyo ek dui tini dui tini tini 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS013M0038, best cost 42.6489 + 3721.69 = 3764.34 over 498 frames.
+AS013M0038 tini saari tini saari saari paas paas 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS013M0039, best cost 41.2175 + 3677.06 = 3718.28 over 498 frames.
+AS013M0039 paas soi saari paas soi soi xaat 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS013M0040, best cost 40.9098 + 3689.51 = 3730.42 over 498 frames.
+AS013M0040 xaat aath soi xaat ek dui saari 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS013M0041, best cost 40.6863 + 3683.8 = 3724.49 over 498 frames.
+AS013M0041 xunnyo nax xunnyo ek dui tini saari 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS013M0042, best cost 40.0547 + 3736.73 = 3776.79 over 498 frames.
+AS013M0042 saari paas soi xaat aath nax aath 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS013M0043, best cost 45.0743 + 3738.18 = 3783.25 over 498 frames.
+AS013M0043 aath xunnyo dui saari soi aath xaat 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS013M0044, best cost 43.7153 + 3645.4 = 3689.11 over 498 frames.
+AS013M0044 xaat xunnyo tini paas xaat nax soi 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS013M0045, best cost 47.493 + 3782.89 = 3830.38 over 498 frames.
+AS013M0045 soi xunnyo saari xaat paas xunnyo paas 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS013M0046, best cost 44.8068 + 3677.08 = 3721.89 over 498 frames.
+AS013M0046 paas aath saari xunnyo soi nax tini 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS013M0047, best cost 45.2187 + 3752.05 = 3797.27 over 498 frames.
+AS013M0047 tini xunnyo xaat dui xunnyo aath ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS013M0048, best cost 43.3594 + 3689.39 = 3732.75 over 498 frames.
+AS013M0048 ek xunnyo xunnyo ek nax ek tini 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS013M0049, best cost 44.0479 + 3752.19 = 3796.23 over 498 frames.
+AS013M0049 tini soi ek saari aath dui paas 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS013M0050, best cost 44.942 + 3648.53 = 3693.47 over 498 frames.
+AS013M0050 paas nax dui soi paas saari paas 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS013M0051, best cost 44.4067 + 3693.16 = 3737.56 over 498 frames.
+AS013M0051 paas saari ek soi tini ek xaat 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS013M0052, best cost 44.551 + 3674.48 = 3719.03 over 498 frames.
+AS013M0052 xaat ek xaat tini xaat tini aath 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS013M0053, best cost 43.0545 + 3582.84 = 3625.89 over 498 frames.
+AS013M0053 aath nax nax saari nax paas dui 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS013M0054, best cost 45.0156 + 3714.29 = 3759.31 over 498 frames.
+AS013M0054 dui xaat soi dui aath paas tini 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS013M0055, best cost 43.2794 + 3644.38 = 3687.66 over 498 frames.
+AS013M0055 tini nax xaat saari dui ek ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS013M0056, best cost 40.1619 + 3632.43 = 3672.59 over 498 frames.
+AS013M0056 ek dui nax xunnyo ek dui dui 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS013M0057, best cost 42.6478 + 3736.83 = 3779.48 over 498 frames.
+AS013M0057 dui tini dui tini tini saari tini 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS013M0058, best cost 42.732 + 3718.07 = 3760.8 over 498 frames.
+AS013M0058 tini saari saari paas paas soi saari 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS013M0059, best cost 44.3782 + 3738.45 = 3782.83 over 498 frames.
+AS013M0059 aath aath aath xunnyo xunnyo xunnyo xunnyo 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS013M0060, best cost 44.1623 + 3745.95 = 3790.11 over 498 frames.
+AS013M0060 aath soi xaat aath aath nax xunnyo 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS013M0061, best cost 44.7386 + 3751.82 = 3796.56 over 498 frames.
+AS013M0061 xunnyo nax nax aath aath soi paas 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS013M0062, best cost 44.5025 + 3717.96 = 3762.47 over 498 frames.
+AS013M0062 paas saari tini dui ek xunnyo aath 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS013M0063, best cost 43.4485 + 3756.53 = 3799.97 over 498 frames.
+AS013M0063 aath nax xaat paas tini ek xaat 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS013M0064, best cost 44.3877 + 3790.9 = 3835.29 over 498 frames.
+AS013M0064 xaat nax soi saari dui xunnyo soi 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS013M0065, best cost 45.4953 + 3827.93 = 3873.42 over 498 frames.
+AS013M0065 soi nax paas dui paas nax saari 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS013M0066, best cost 46.256 + 3771.28 = 3817.54 over 498 frames.
+AS013M0066 saari ek saari nax tini xunnyo tini 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS013M0067, best cost 42.1513 + 3741.5 = 3783.65 over 498 frames.
+AS013M0067 tini nax dui dui nax ek ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS013M0068, best cost 44.2142 + 3790.25 = 3834.46 over 498 frames.
+AS013M0068 ek nax xunnyo xunnyo xaat saari xunnyo 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS013M0069, best cost 42.5368 + 3858.18 = 3900.72 over 498 frames.
+AS013M0069 xunnyo ek xaat soi tini aath aath 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS013M0070, best cost 43.8024 + 3794.72 = 3838.52 over 498 frames.
+AS013M0070 aath paas ek soi dui soi aath 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS013M0071, best cost 44.4704 + 3742.42 = 3786.89 over 498 frames.
+AS013M0071 aath saari paas aath tini saari aath 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS013M0072, best cost 43.3261 + 3726.05 = 3769.37 over 498 frames.
+AS013M0072 aath dui tini xaat tini soi ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS013M0073, best cost 44.7963 + 3625.73 = 3670.53 over 498 frames.
+AS013M0073 ek paas xunnyo paas soi xaat dui 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS013M0074, best cost 44.8747 + 3670.54 = 3715.41 over 498 frames.
+AS013M0074 dui aath ek tini paas paas xaat 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS013M0075, best cost 42.9783 + 3694.18 = 3737.16 over 498 frames.
+AS013M0075 xaat ek dui xaat xunnyo dui saari 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS013M0076, best cost 40.6551 + 3731.56 = 3772.22 over 498 frames.
+AS013M0076 saari xaat aath xunnyo ek dui tini 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS013M0077, best cost 44.9972 + 3752.39 = 3797.39 over 498 frames.
+AS013M0077 tini tini saari soi xunnyo saari saari 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS013M0078, best cost 41.8215 + 3683.71 = 3725.53 over 498 frames.
+AS013M0078 saari paas soi soi xaat xaat aath 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS013M0079, best cost 42.9432 + 3609.48 = 3652.43 over 498 frames.
+AS013M0079 nax nax ek tini paas xaat nax 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS013M0080, best cost 41.1499 + 3721.83 = 3762.98 over 498 frames.
+AS013M0080 dui soi nax ek dui saari tini 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS014M0001, best cost 50.4857 + 4207.97 = 4258.46 over 498 frames.
+AS014M0001 xunnyo xunnyo nax aath xaat soi paas 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS014M0002, best cost 47.004 + 4295.13 = 4342.14 over 498 frames.
+AS014M0002 paas saari tini dui ek xunnyo ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS014M0003, best cost 48.5214 + 4146.91 = 4195.43 over 498 frames.
+AS014M0003 ek nax xaat paas tini ek dui 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS014M0004, best cost 43.9401 + 3800.82 = 3844.76 over 498 frames.
+AS014M0004 dui nax soi saari dui nax tini 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS014M0005, best cost 10.8897 + 3543.31 = 3554.2 over 498 frames.
+AS014M0005 aath 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS014M0006, best cost 48.5284 + 4287.43 = 4335.96 over 498 frames.
+AS014M0006 saari ek paas nax tini xunnyo soi 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS014M0007, best cost 47.6688 + 4041.93 = 4089.6 over 498 frames.
+AS014M0007 soi nax dui xaat nax ek aath 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS014M0008, best cost 47.2351 + 4046.72 = 4093.95 over 498 frames.
+AS014M0008 aath nax xunnyo aath soi tini saari 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS014M0009, best cost 49.9227 + 4140.78 = 4190.7 over 498 frames.
+AS014M0009 saari xunnyo xaat saari aath paas ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS014M0010, best cost 48.7309 + 4168.2 = 4216.93 over 498 frames.
+AS014M0010 ek xaat tini tini aath saari saari 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS014M0011, best cost 47.8715 + 4103.19 = 4151.06 over 498 frames.
+AS014M0011 saari xaat dui paas aath tini soi 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS014M0012, best cost 48.6445 + 4161.76 = 4210.4 over 498 frames.
+AS014M0012 soi aath dui aath ek soi dui 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS014M0013, best cost 47.1821 + 4081.31 = 4128.49 over 498 frames.
+AS014M0013 dui soi ek dui tini xaat ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS014M0014, best cost 49.1306 + 4167.4 = 4216.53 over 498 frames.
+AS014M0014 ek saari soi xunnyo saari paas xunnyo 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS014M0015, best cost 48.8044 + 3884.91 = 3933.72 over 498 frames.
+AS014M0015 xunnyo paas xaat xunnyo dui dui tini 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS014M0016, best cost 44.1497 + 3919.96 = 3964.11 over 498 frames.
+AS014M0016 tini paas soi xaat aath xunnyo ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS014M0017, best cost 47.7888 + 4001.32 = 4049.11 over 498 frames.
+AS014M0017 ek tini saari paas paas soi soi 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS014M0018, best cost 47.0572 + 3918.45 = 3965.51 over 498 frames.
+AS014M0018 soi xaat xaat aath aath nax nax 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS014M0019, best cost 47.5841 + 3959.62 = 4007.21 over 498 frames.
+AS014M0019 nax xunnyo ek ek dui ek xaat 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS014M0020, best cost 44.6481 + 3921.04 = 3965.69 over 498 frames.
+AS014M0020 xaat nax ek tini paas xaat nax 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS014M0021, best cost 43.4562 + 4037.83 = 4081.28 over 498 frames.
+AS014M0021 xunnyo xunnyo ek dui tini saari paas 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS014M0022, best cost 44.5865 + 3983.55 = 4028.14 over 498 frames.
+AS014M0022 paas soi xaat aath nax ek xunnyo 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS014M0023, best cost 48.4576 + 4141.03 = 4189.49 over 498 frames.
+AS014M0023 xunnyo dui saari soi aath dui xunnyo 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS014M0024, best cost 47.5021 + 4051.54 = 4099.04 over 498 frames.
+AS014M0024 xunnyo tini paas xaat nax tini xunnyo 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS014M0025, best cost 47.4909 + 3997.32 = 4044.81 over 498 frames.
+AS014M0025 xunnyo saari xaat saari xunnyo paas aath 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS014M0026, best cost 45.8271 + 3845.56 = 3891.39 over 498 frames.
+AS014M0026 aath paas xunnyo soi nax soi xunnyo 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS014M0027, best cost 48.4263 + 4030.55 = 4078.97 over 498 frames.
+AS014M0027 xunnyo xaat xaat xunnyo aath aath xunnyo 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS014M0028, best cost 44.1986 + 3971.08 = 4015.27 over 498 frames.
+AS014M0028 xunnyo nax nax xunnyo ek ek tini 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS014M0029, best cost 52.9154 + 4109.52 = 4162.44 over 498 frames.
+AS014M0029 tini soi ek saari aath ek paas xaat 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS014M0030, best cost 49.2335 + 4139.88 = 4189.11 over 498 frames.
+AS014M0030 paas nax dui paas saari ek soi 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS014M0031, best cost 48.3947 + 4081.44 = 4129.84 over 498 frames.
+AS014M0031 soi paas ek xaat soi dui soi 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS014M0032, best cost 46.0638 + 3921.77 = 3967.84 over 498 frames.
+AS014M0032 soi tini xaat ek aath tini aath 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS014M0033, best cost 47.1231 + 4113.46 = 4160.58 over 498 frames.
+AS014M0033 aath nax saari nax paas dui ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS014M0034, best cost 46.2181 + 3968.86 = 4015.07 over 498 frames.
+AS014M0034 ek nax xaat dui xaat paas tini 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS014M0035, best cost 51.3081 + 4095.64 = 4146.94 over 498 frames.
+AS014M0035 tini nax aath xaat tini ek dui ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS014M0036, best cost 47.7296 + 3961.18 = 4008.91 over 498 frames.
+AS014M0036 dui dui aath saari dui nax xunnyo 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS014M0037, best cost 44.7102 + 4019.47 = 4064.18 over 498 frames.
+AS014M0037 xunnyo ek dui tini dui tini tini 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS014M0038, best cost 45.3408 + 4053.64 = 4098.98 over 498 frames.
+AS014M0038 tini saari tini saari saari paas paas 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS014M0039, best cost 44.289 + 4047.7 = 4091.99 over 498 frames.
+AS014M0039 paas soi saari paas soi soi xaat 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS014M0040, best cost 45.5227 + 3963.5 = 4009.02 over 498 frames.
+AS014M0040 xaat aath soi xaat ek dui saari 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS014M0041, best cost 42.0672 + 3971.73 = 4013.79 over 498 frames.
+AS014M0041 xunnyo nax xunnyo ek dui tini saari 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS014M0042, best cost 45.554 + 3908.05 = 3953.61 over 498 frames.
+AS014M0042 saari paas soi xaat aath nax aath 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS014M0043, best cost 44.8584 + 3974.34 = 4019.2 over 498 frames.
+AS014M0043 aath nax dui saari soi xaat xaat 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS014M0044, best cost 45.9709 + 3877.95 = 3923.92 over 498 frames.
+AS014M0044 xaat xunnyo tini paas xaat nax soi 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS014M0045, best cost 49.3765 + 4105.97 = 4155.34 over 498 frames.
+AS014M0045 soi xunnyo saari xaat paas xunnyo paas 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS014M0046, best cost 48.3947 + 4076.85 = 4125.25 over 498 frames.
+AS014M0046 paas aath saari xunnyo soi nax tini 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS014M0047, best cost 48.2874 + 3936.2 = 3984.49 over 498 frames.
+AS014M0047 tini xunnyo xaat dui xunnyo aath ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS014M0048, best cost 44.7598 + 3934.3 = 3979.06 over 498 frames.
+AS014M0048 ek xunnyo xunnyo ek nax ek tini 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS014M0049, best cost 45.2189 + 4065.34 = 4110.56 over 498 frames.
+AS014M0049 tini soi ek saari aath dui paas 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS014M0050, best cost 46.9687 + 4078.15 = 4125.11 over 498 frames.
+AS014M0050 paas nax dui soi paas ek paas 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS014M0051, best cost 46.5389 + 3946.4 = 3992.94 over 498 frames.
+AS014M0051 paas saari ek soi tini ek xaat 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS014M0052, best cost 51.7489 + 4011.16 = 4062.91 over 498 frames.
+AS014M0052 xaat ek aath tini xaat tini aath xaat 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS014M0053, best cost 46.8879 + 3819.89 = 3866.78 over 498 frames.
+AS014M0053 aath nax nax saari nax paas dui 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS014M0054, best cost 45.7967 + 4079.81 = 4125.6 over 498 frames.
+AS014M0054 dui xaat soi dui aath paas tini 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS014M0055, best cost 51.2994 + 4100.52 = 4151.82 over 498 frames.
+AS014M0055 tini nax xaat saari dui ek ek ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS014M0056, best cost 47.3646 + 4049.14 = 4096.5 over 498 frames.
+AS014M0056 ek dui nax xunnyo ek dui dui xaat 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS014M0057, best cost 43.7263 + 3982.9 = 4026.63 over 498 frames.
+AS014M0057 dui tini dui tini tini saari tini 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS014M0058, best cost 44.8015 + 3979 = 4023.8 over 498 frames.
+AS014M0058 tini saari saari paas paas soi saari 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS014M0059, best cost 44.5586 + 3834.58 = 3879.14 over 498 frames.
+AS014M0059 aath aath aath xunnyo xunnyo nax xunnyo 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS014M0060, best cost 43.8507 + 4023.07 = 4066.92 over 498 frames.
+AS014M0060 aath soi xaat aath aath nax xunnyo 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS014M0061, best cost 45.803 + 3893.28 = 3939.09 over 498 frames.
+AS014M0061 xunnyo nax nax aath xaat soi paas 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS014M0062, best cost 46.6449 + 4118.92 = 4165.57 over 498 frames.
+AS014M0062 paas saari tini dui ek xunnyo aath 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS014M0063, best cost 43.1551 + 3887.99 = 3931.14 over 498 frames.
+AS014M0063 aath nax xaat paas tini ek xaat 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS014M0064, best cost 45.6122 + 3939.55 = 3985.16 over 498 frames.
+AS014M0064 xaat nax soi saari dui xunnyo soi 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS014M0065, best cost 51.9519 + 4093.89 = 4145.84 over 498 frames.
+AS014M0065 soi nax paas dui paas nax saari ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS014M0066, best cost 46.3663 + 4034.1 = 4080.46 over 498 frames.
+AS014M0066 saari ek saari nax tini xunnyo tini 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS014M0067, best cost 42.9163 + 3847.95 = 3890.87 over 498 frames.
+AS014M0067 tini nax dui dui nax ek ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS014M0068, best cost 45.1348 + 3967.3 = 4012.43 over 498 frames.
+AS014M0068 ek nax xunnyo xunnyo xaat saari xunnyo 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS014M0069, best cost 44.6161 + 3965.7 = 4010.32 over 498 frames.
+AS014M0069 xunnyo ek aath soi tini aath aath 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS014M0070, best cost 48.0427 + 3951.45 = 3999.49 over 498 frames.
+AS014M0070 aath paas ek soi dui soi aath 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS014M0071, best cost 43.6436 + 3948.35 = 3991.99 over 498 frames.
+AS014M0071 aath saari paas aath tini saari aath 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS014M0072, best cost 44.2539 + 3845.35 = 3889.6 over 498 frames.
+AS014M0072 aath dui tini xaat tini soi ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS014M0073, best cost 47.4401 + 3909.96 = 3957.4 over 498 frames.
+AS014M0073 ek paas xunnyo paas soi xaat dui 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS014M0074, best cost 46.5555 + 3900.01 = 3946.57 over 498 frames.
+AS014M0074 dui aath ek tini paas paas xaat 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS014M0075, best cost 46.2957 + 4101.6 = 4147.89 over 498 frames.
+AS014M0075 xaat ek dui xaat xunnyo dui saari 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS014M0076, best cost 42.7686 + 3926.66 = 3969.43 over 498 frames.
+AS014M0076 saari xaat aath xunnyo ek dui tini 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS014M0077, best cost 47.8488 + 3997.83 = 4045.68 over 498 frames.
+AS014M0077 tini tini saari soi xunnyo saari saari 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS014M0078, best cost 45.0544 + 3920.74 = 3965.79 over 498 frames.
+AS014M0078 saari paas soi soi xaat xaat aath 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS014M0079, best cost 44.3263 + 3851.94 = 3896.27 over 498 frames.
+AS014M0079 nax nax ek tini paas xaat nax 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS014M0080, best cost 41.2297 + 3880.8 = 3922.03 over 498 frames.
+AS014M0080 dui soi nax ek dui saari tini 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS015M0001, best cost 52.6818 + 5877.16 = 5929.85 over 698 frames.
+AS015M0001 xunnyo tini nax nax aath xaat soi paas 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS015M0002, best cost 45.5966 + 5946.32 = 5991.91 over 698 frames.
+AS015M0002 paas saari tini dui ek xunnyo ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS015M0003, best cost 44.5453 + 5720.54 = 5765.08 over 698 frames.
+AS015M0003 ek nax xaat paas tini ek dui 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS015M0004, best cost 48.7218 + 5930.62 = 5979.34 over 698 frames.
+AS015M0004 dui nax soi saari dui xunnyo tini 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS015M0005, best cost 53.3425 + 6047.81 = 6101.15 over 698 frames.
+AS015M0005 tini nax paas dui saari nax saari xaat 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS015M0006, best cost 47.1788 + 5902.96 = 5950.14 over 698 frames.
+AS015M0006 saari ek paas nax tini xunnyo soi 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS015M0007, best cost 46.993 + 5743.4 = 5790.4 over 698 frames.
+AS015M0007 soi nax ek dui xaat nax ek aath 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS015M0008, best cost 44.2921 + 5748.74 = 5793.04 over 698 frames.
+AS015M0008 aath nax nax aath soi tini saari 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS015M0009, best cost 47.8537 + 6046.32 = 6094.17 over 698 frames.
+AS015M0009 saari nax xaat saari aath paas ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS015M0010, best cost 47.4914 + 5787.04 = 5834.53 over 698 frames.
+AS015M0010 ek xaat tini tini aath saari saari 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS015M0011, best cost 47.9585 + 5831.1 = 5879.06 over 698 frames.
+AS015M0011 saari xaat dui paas aath tini soi 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS015M0012, best cost 52.889 + 5895.41 = 5948.3 over 698 frames.
+AS015M0012 soi aath dui aath ek soi dui aath 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS015M0013, best cost 42.525 + 5869.38 = 5911.9 over 698 frames.
+AS015M0013 dui soi ek dui tini xaat ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS015M0014, best cost 44.7482 + 5807.16 = 5851.91 over 698 frames.
+AS015M0014 ek saari soi nax saari paas nax 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS015M0015, best cost 45.7373 + 5841.17 = 5886.91 over 698 frames.
+AS015M0015 xunnyo paas xaat nax dui dui tini 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS015M0016, best cost 41.7348 + 5952.29 = 5994.03 over 698 frames.
+AS015M0016 tini paas soi xaat aath xunnyo ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS015M0017, best cost 46.1339 + 5837.46 = 5883.59 over 698 frames.
+AS015M0017 ek tini saari paas paas soi soi 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS015M0018, best cost 44.4987 + 5835.1 = 5879.6 over 698 frames.
+AS015M0018 soi xaat xaat aath aath nax nax 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS015M0019, best cost 44.5383 + 5663.06 = 5707.6 over 698 frames.
+AS015M0019 nax nax ek ek dui ek xaat 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS015M0020, best cost 46.5571 + 5718.02 = 5764.58 over 698 frames.
+AS015M0020 aath nax ek tini paas xaat nax 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS015M0021, best cost 41.7216 + 5759.35 = 5801.08 over 698 frames.
+AS015M0021 xunnyo nax ek dui tini saari paas 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS015M0022, best cost 42.4466 + 5806.16 = 5848.6 over 698 frames.
+AS015M0022 paas soi xaat aath nax ek xunnyo 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS015M0023, best cost 58.2777 + 5832.86 = 5891.14 over 698 frames.
+AS015M0023 xunnyo dui saari soi aath dui nax xaat ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS015M0024, best cost 44.4737 + 5808.27 = 5852.74 over 698 frames.
+AS015M0024 xunnyo tini paas xaat nax tini nax 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS015M0025, best cost 46.1681 + 5858.46 = 5904.63 over 698 frames.
+AS015M0025 xunnyo saari xaat saari xunnyo paas aath 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS015M0026, best cost 49.0017 + 5900.54 = 5949.55 over 698 frames.
+AS015M0026 aath paas nax soi soi soi xunnyo 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS015M0027, best cost 46.0949 + 5835.97 = 5882.07 over 698 frames.
+AS015M0027 xunnyo xaat xaat nax aath aath xunnyo 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS015M0028, best cost 42.9594 + 5826.28 = 5869.24 over 698 frames.
+AS015M0028 xunnyo nax nax xunnyo ek ek tini 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS015M0029, best cost 56.0522 + 5926.6 = 5982.65 over 698 frames.
+AS015M0029 tini soi ek saari aath ek paas xaat ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS015M0030, best cost 46.7551 + 5722.86 = 5769.62 over 698 frames.
+AS015M0030 paas soi dui paas saari ek soi 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS015M0031, best cost 46.1065 + 5848.79 = 5894.9 over 698 frames.
+AS015M0031 soi paas ek xaat soi dui soi 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS015M0032, best cost 45.1307 + 5915.32 = 5960.45 over 698 frames.
+AS015M0032 soi tini xaat ek aath tini aath 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS015M0033, best cost 43.893 + 5778.8 = 5822.69 over 698 frames.
+AS015M0033 aath nax saari nax paas dui ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS015M0034, best cost 52.013 + 5914.54 = 5966.55 over 698 frames.
+AS015M0034 ek nax xaat dui xaat paas tini dui 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS015M0035, best cost 44.4775 + 5946.67 = 5991.15 over 698 frames.
+AS015M0035 tini nax aath xaat tini ek dui 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS015M0036, best cost 45.7415 + 5767.37 = 5813.11 over 698 frames.
+AS015M0036 dui dui aath saari dui nax nax 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS015M0037, best cost 42.1821 + 5905.87 = 5948.05 over 698 frames.
+AS015M0037 xunnyo ek dui tini dui tini tini 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS015M0038, best cost 43.7961 + 5920.77 = 5964.56 over 698 frames.
+AS015M0038 tini saari tini saari saari paas paas 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS015M0039, best cost 46.1914 + 5875.74 = 5921.93 over 698 frames.
+AS015M0039 paas soi saari paas soi soi xaat 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS015M0040, best cost 46.0025 + 6111.87 = 6157.87 over 698 frames.
+AS015M0040 soi aath soi xaat ek dui saari 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS015M0041, best cost 40.7659 + 5822.63 = 5863.39 over 698 frames.
+AS015M0041 xunnyo nax xunnyo ek dui tini saari 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS015M0042, best cost 41.8196 + 5938.86 = 5980.68 over 698 frames.
+AS015M0042 saari paas soi xaat aath nax aath 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS015M0043, best cost 52.4775 + 6127.61 = 6180.09 over 698 frames.
+AS015M0043 aath xunnyo dui saari soi aath aath nax 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS015M0044, best cost 44.1611 + 5808.35 = 5852.51 over 698 frames.
+AS015M0044 xaat xunnyo tini paas xaat nax soi 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS015M0045, best cost 47.5385 + 5776.96 = 5824.5 over 698 frames.
+AS015M0045 soi nax saari xaat paas nax paas 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS015M0046, best cost 46.9746 + 5837.82 = 5884.79 over 698 frames.
+AS015M0046 paas aath saari nax soi nax tini 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS015M0047, best cost 45.1264 + 5786.22 = 5831.35 over 698 frames.
+AS015M0047 tini nax xaat dui xunnyo aath ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS015M0048, best cost 44.9896 + 5782.99 = 5827.98 over 698 frames.
+AS015M0048 ek xunnyo nax ek nax ek tini 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS015M0049, best cost 48.2376 + 6000.32 = 6048.55 over 698 frames.
+AS015M0049 tini soi ek saari aath dui paas 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS015M0050, best cost 45.3868 + 5827.41 = 5872.8 over 698 frames.
+AS015M0050 paas nax dui soi paas ek paas 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS015M0051, best cost 46.8268 + 5974.07 = 6020.9 over 698 frames.
+AS015M0051 paas saari ek soi tini ek xaat 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS015M0052, best cost 45.2845 + 5871.12 = 5916.41 over 698 frames.
+AS015M0052 xaat ek aath tini xaat tini aath 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS015M0053, best cost 42.6347 + 5662.76 = 5705.4 over 698 frames.
+AS015M0053 aath nax nax saari nax paas dui 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS015M0054, best cost 52.2839 + 5848.8 = 5901.08 over 698 frames.
+AS015M0054 dui xaat soi dui aath paas tini xaat 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS015M0055, best cost 45.0023 + 5776.58 = 5821.58 over 698 frames.
+AS015M0055 tini nax xaat saari dui ek ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS015M0056, best cost 53.1757 + 5905.61 = 5958.79 over 698 frames.
+AS015M0056 ek dui nax xunnyo ek dui dui aath tini 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS015M0057, best cost 44.5469 + 5880.92 = 5925.46 over 698 frames.
+AS015M0057 dui tini dui tini tini saari tini 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS015M0058, best cost 51.666 + 5742.18 = 5793.85 over 698 frames.
+AS015M0058 tini saari saari paas paas soi saari aath 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS015M0059, best cost 50.6524 + 5739.33 = 5789.98 over 698 frames.
+AS015M0059 aath aath aath xunnyo nax xunnyo xunnyo aath 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS015M0060, best cost 47.2793 + 5706.59 = 5753.87 over 698 frames.
+AS015M0060 aath soi xaat aath aath nax nax aath 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS015M0061, best cost 51.6671 + 5614.66 = 5666.33 over 698 frames.
+AS015M0061 xunnyo nax nax aath xaat soi paas aath 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS015M0062, best cost 48.467 + 5714.94 = 5763.41 over 698 frames.
+AS015M0062 paas saari tini dui ek xunnyo aath 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS015M0063, best cost 45.2055 + 5570.07 = 5615.27 over 698 frames.
+AS015M0063 aath nax xaat paas tini ek aath 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS015M0064, best cost 52.819 + 5684.01 = 5736.83 over 698 frames.
+AS015M0064 xaat nax soi saari dui xunnyo soi aath 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS015M0065, best cost 47.3682 + 5579.4 = 5626.77 over 698 frames.
+AS015M0065 soi nax paas dui paas nax aath 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS015M0066, best cost 54.1089 + 5650.25 = 5704.36 over 698 frames.
+AS015M0066 saari ek saari nax tini xunnyo tini aath 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS015M0067, best cost 51.8296 + 5702.22 = 5754.05 over 698 frames.
+AS015M0067 tini nax dui dui nax ek ek aath 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS015M0068, best cost 50.3413 + 5673.58 = 5723.92 over 698 frames.
+AS015M0068 ek nax xunnyo nax xaat saari nax aath 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS015M0069, best cost 45.2529 + 5714.06 = 5759.32 over 698 frames.
+AS015M0069 xunnyo ek aath soi tini aath aath 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS015M0070, best cost 52.8573 + 5662.71 = 5715.57 over 698 frames.
+AS015M0070 ek aath paas ek soi dui soi aath 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS015M0071, best cost 46.8987 + 5679.36 = 5726.26 over 698 frames.
+AS015M0071 aath saari paas aath tini saari aath 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS015M0072, best cost 53.1507 + 5624.91 = 5678.06 over 698 frames.
+AS015M0072 aath dui tini xaat tini soi ek ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS015M0073, best cost 52.9263 + 5615.46 = 5668.39 over 698 frames.
+AS015M0073 ek paas xunnyo paas soi xaat dui aath 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS015M0074, best cost 51.3603 + 5820.42 = 5871.78 over 698 frames.
+AS015M0074 dui aath ek tini paas paas xaat ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS015M0075, best cost 44.8305 + 5840.16 = 5884.99 over 698 frames.
+AS015M0075 aath ek dui xaat xunnyo dui saari 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS015M0076, best cost 42.0246 + 5696.52 = 5738.54 over 698 frames.
+AS015M0076 saari xaat aath xunnyo ek dui tini 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS015M0077, best cost 49.5626 + 6001.01 = 6050.58 over 698 frames.
+AS015M0077 tini tini saari soi xunnyo saari saari 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS015M0078, best cost 45.1811 + 5937.66 = 5982.84 over 698 frames.
+AS015M0078 saari paas soi soi xaat xaat aath 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS015M0079, best cost 44.6655 + 5797.06 = 5841.72 over 698 frames.
+AS015M0079 nax nax ek tini paas xaat nax 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS015M0080, best cost 43.5559 + 5868.42 = 5911.98 over 698 frames.
+AS015M0080 dui soi nax ek dui saari tini 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS016F0001, best cost 49.3169 + 5279.21 = 5328.53 over 698 frames.
+AS016F0001 xunnyo xunnyo nax aath xaat soi paas 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS016F0002, best cost 51.6703 + 5237.6 = 5289.27 over 698 frames.
+AS016F0002 paas saari tini dui ek xunnyo ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS016F0003, best cost 53.5518 + 5232.54 = 5286.09 over 698 frames.
+AS016F0003 ek nax xaat paas tini ek dui ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS016F0004, best cost 48.9871 + 5330.31 = 5379.3 over 698 frames.
+AS016F0004 dui nax soi saari dui xunnyo tini 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS016F0005, best cost 46.6148 + 5421.57 = 5468.19 over 698 frames.
+AS016F0005 tini nax paas dui saari nax saari 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS016F0006, best cost 49.7853 + 5276.25 = 5326.04 over 698 frames.
+AS016F0006 saari ek paas nax tini xunnyo soi 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS016F0007, best cost 44.1446 + 5308.27 = 5352.42 over 698 frames.
+AS016F0007 soi nax dui xaat nax ek aath 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS016F0008, best cost 45.1406 + 5340.38 = 5385.52 over 698 frames.
+AS016F0008 aath nax xunnyo aath soi tini saari 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS016F0009, best cost 49.2926 + 5474.93 = 5524.22 over 698 frames.
+AS016F0009 saari xunnyo xaat saari xaat paas ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS016F0010, best cost 47.9997 + 5316.77 = 5364.76 over 698 frames.
+AS016F0010 ek xaat tini tini aath saari saari 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS016F0011, best cost 50.2678 + 5368.87 = 5419.14 over 698 frames.
+AS016F0011 saari xaat dui paas aath tini soi 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS016F0012, best cost 56.1796 + 5247.64 = 5303.82 over 698 frames.
+AS016F0012 soi aath dui aath ek soi dui ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS016F0013, best cost 57.5948 + 5218.55 = 5276.15 over 698 frames.
+AS016F0013 dui soi ek dui tini xaat ek ek ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS016F0014, best cost 49.2737 + 5213.83 = 5263.1 over 698 frames.
+AS016F0014 ek saari soi xunnyo saari paas xunnyo 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS016F0015, best cost 48.6735 + 5249.56 = 5298.23 over 698 frames.
+AS016F0015 xunnyo paas xaat xunnyo dui dui tini 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS016F0016, best cost 47.6275 + 5147.89 = 5195.52 over 698 frames.
+AS016F0016 tini paas soi xaat aath xunnyo ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS016F0017, best cost 53.4838 + 5205.74 = 5259.23 over 698 frames.
+AS016F0017 ek tini saari paas paas soi soi ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS016F0018, best cost 46.6866 + 5184.21 = 5230.89 over 698 frames.
+AS016F0018 soi xaat xaat aath aath nax nax 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS016F0019, best cost 53.8203 + 5137.83 = 5191.65 over 698 frames.
+AS016F0019 nax xunnyo ek ek dui ek xaat ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS016F0020, best cost 52.0802 + 5112.76 = 5164.84 over 698 frames.
+AS016F0020 xaat nax ek tini paas xaat nax ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS016F0021, best cost 53.3738 + 5269.57 = 5322.94 over 698 frames.
+AS016F0021 xunnyo xunnyo ek dui tini saari paas ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS016F0022, best cost 57.8553 + 5142.43 = 5200.29 over 698 frames.
+AS016F0022 ek paas soi xaat aath nax ek xunnyo ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS016F0023, best cost 49.5393 + 5255.67 = 5305.2 over 698 frames.
+AS016F0023 xunnyo dui saari soi aath dui xunnyo 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS016F0024, best cost 57.5999 + 5167.1 = 5224.7 over 698 frames.
+AS016F0024 xunnyo tini paas xaat nax tini xunnyo ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS016F0025, best cost 65.459 + 5280.27 = 5345.73 over 698 frames.
+AS016F0025 ek xunnyo saari xaat saari xunnyo paas aath ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS016F0026, best cost 48.803 + 5236.22 = 5285.02 over 698 frames.
+AS016F0026 aath paas xunnyo soi nax soi xunnyo 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS016F0027, best cost 50.3385 + 5143.38 = 5193.72 over 698 frames.
+AS016F0027 xunnyo xaat xaat xunnyo aath aath xunnyo 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS016F0028, best cost 53.5681 + 5186.82 = 5240.39 over 698 frames.
+AS016F0028 xunnyo nax nax xunnyo ek ek tini ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS016F0029, best cost 55.9264 + 5246.37 = 5302.29 over 698 frames.
+AS016F0029 tini soi ek saari aath ek paas ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS016F0030, best cost 57.1315 + 5125.2 = 5182.33 over 698 frames.
+AS016F0030 paas nax dui paas saari ek soi ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS016F0031, best cost 49.5753 + 5195.49 = 5245.06 over 698 frames.
+AS016F0031 soi paas ek xaat soi dui soi 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS016F0032, best cost 56.7205 + 5115.96 = 5172.68 over 698 frames.
+AS016F0032 soi tini xaat ek aath tini aath ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS016F0033, best cost 55.567 + 5157.32 = 5212.88 over 698 frames.
+AS016F0033 aath nax saari nax paas dui ek ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS016F0034, best cost 57.2359 + 5118.98 = 5176.22 over 698 frames.
+AS016F0034 ek nax xaat dui xaat paas tini ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS016F0035, best cost 55.637 + 5202.63 = 5258.27 over 698 frames.
+AS016F0035 tini nax aath xaat tini ek dui ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS016F0036, best cost 55.1365 + 5209.43 = 5264.57 over 698 frames.
+AS016F0036 dui dui aath saari dui nax xunnyo ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS016F0037, best cost 44.567 + 5333.88 = 5378.45 over 698 frames.
+AS016F0037 xunnyo ek dui tini dui tini tini 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS016F0038, best cost 47.8493 + 5356.78 = 5404.63 over 698 frames.
+AS016F0038 tini saari tini saari saari paas paas 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS016F0039, best cost 45.984 + 5270.71 = 5316.69 over 698 frames.
+AS016F0039 paas soi saari paas soi soi xaat 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS016F0040, best cost 46.9043 + 5236.34 = 5283.24 over 698 frames.
+AS016F0040 xaat xaat soi xaat ek dui saari 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS016F0041, best cost 41.8987 + 5313.84 = 5355.74 over 698 frames.
+AS016F0041 xunnyo xunnyo ek dui tini saari 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS016F0042, best cost 53.6527 + 5159.3 = 5212.95 over 698 frames.
+AS016F0042 saari paas soi xaat aath nax aath ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS016F0043, best cost 48.37 + 5194.89 = 5243.26 over 698 frames.
+AS016F0043 aath xunnyo dui saari soi aath xaat 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS016F0044, best cost 50.5536 + 5223.29 = 5273.84 over 698 frames.
+AS016F0044 xaat xunnyo tini paas xaat nax soi 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS016F0045, best cost 60.4561 + 5204.62 = 5265.08 over 698 frames.
+AS016F0045 soi xunnyo saari xaat paas xunnyo paas ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS016F0046, best cost 47.9741 + 5297.45 = 5345.43 over 698 frames.
+AS016F0046 paas aath saari xunnyo soi nax tini 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS016F0047, best cost 50.9241 + 5270.69 = 5321.62 over 698 frames.
+AS016F0047 tini xunnyo xaat dui xunnyo aath ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS016F0048, best cost 55.3973 + 5234.88 = 5290.27 over 698 frames.
+AS016F0048 ek xunnyo xunnyo ek nax ek tini ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS016F0049, best cost 56.4553 + 5290.75 = 5347.2 over 698 frames.
+AS016F0049 tini soi ek saari aath dui paas ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS016F0050, best cost 47.6181 + 5258.28 = 5305.9 over 698 frames.
+AS016F0050 paas nax dui soi paas ek paas 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS016F0051, best cost 56.0006 + 5283.92 = 5339.92 over 698 frames.
+AS016F0051 paas saari ek soi tini ek xaat ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS016F0052, best cost 56.0365 + 5313.8 = 5369.84 over 698 frames.
+AS016F0052 xaat ek aath tini xaat tini aath ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS016F0053, best cost 58.7623 + 5304.38 = 5363.15 over 698 frames.
+AS016F0053 ek aath nax nax saari nax paas dui ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS016F0054, best cost 48.381 + 5257.7 = 5306.08 over 698 frames.
+AS016F0054 dui xaat soi dui aath paas tini 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS016F0055, best cost 49.394 + 5274.09 = 5323.48 over 698 frames.
+AS016F0055 tini nax xaat saari dui ek ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS016F0056, best cost 51.2214 + 5266.56 = 5317.78 over 698 frames.
+AS016F0056 ek dui nax xunnyo ek dui dui ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS016F0057, best cost 53.9078 + 5313.34 = 5367.24 over 698 frames.
+AS016F0057 dui tini dui tini tini saari tini ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS016F0058, best cost 55.4599 + 5400.78 = 5456.24 over 698 frames.
+AS016F0058 tini saari saari paas paas soi saari ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS016F0059, best cost 55.3841 + 5297.36 = 5352.75 over 698 frames.
+AS016F0059 aath aath aath xunnyo xunnyo xunnyo xunnyo ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS016F0060, best cost 52.703 + 5320.56 = 5373.26 over 698 frames.
+AS016F0060 aath soi xaat aath aath nax xunnyo ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS016F0061, best cost 47.7605 + 5307.29 = 5355.06 over 698 frames.
+AS016F0061 xunnyo nax nax aath paas soi paas 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS016F0062, best cost 57.188 + 5258.67 = 5315.86 over 698 frames.
+AS016F0062 paas saari tini dui ek xunnyo aath ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS016F0063, best cost 54.9132 + 5210.65 = 5265.57 over 698 frames.
+AS016F0063 aath nax xaat paas tini ek xaat ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS016F0064, best cost 61.586 + 5247.71 = 5309.3 over 698 frames.
+AS016F0064 ek xaat nax soi saari dui xunnyo soi ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS016F0065, best cost 62.356 + 5223.28 = 5285.64 over 698 frames.
+AS016F0065 ek soi nax paas dui paas nax saari ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS016F0066, best cost 56.7451 + 5270.64 = 5327.38 over 698 frames.
+AS016F0066 saari ek saari nax tini xunnyo tini ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS016F0067, best cost 52.6968 + 5185.19 = 5237.89 over 698 frames.
+AS016F0067 tini nax dui dui nax ek ek ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS016F0068, best cost 58.1184 + 5203.42 = 5261.54 over 698 frames.
+AS016F0068 ek nax xunnyo xunnyo xaat saari xunnyo ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS016F0069, best cost 57.0149 + 5269.37 = 5326.39 over 698 frames.
+AS016F0069 xunnyo ek aath soi tini aath aath ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS016F0070, best cost 57.2993 + 5252.95 = 5310.25 over 698 frames.
+AS016F0070 aath paas ek soi dui soi aath ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS016F0071, best cost 55.1696 + 5237.83 = 5293 over 698 frames.
+AS016F0071 aath saari paas aath tini saari aath ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS016F0072, best cost 56.6439 + 5133.09 = 5189.73 over 698 frames.
+AS016F0072 aath dui tini xaat tini soi ek ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS016F0073, best cost 56.5028 + 5203.01 = 5259.51 over 698 frames.
+AS016F0073 ek paas xunnyo paas soi xaat dui ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS016F0074, best cost 57.2036 + 5130.8 = 5188 over 698 frames.
+AS016F0074 dui aath ek tini paas paas xaat ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS016F0075, best cost 63.0715 + 5212.84 = 5275.91 over 698 frames.
+AS016F0075 ek xaat ek dui xaat xunnyo dui saari ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS016F0076, best cost 54.3268 + 5256.2 = 5310.53 over 698 frames.
+AS016F0076 saari xaat aath xunnyo ek dui tini ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS016F0077, best cost 62.1085 + 5263.7 = 5325.81 over 698 frames.
+AS016F0077 ek tini tini saari soi xunnyo saari saari ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS016F0078, best cost 60.3641 + 5207.82 = 5268.19 over 698 frames.
+AS016F0078 ek saari paas soi soi xaat xaat aath ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS016F0079, best cost 54.0931 + 5201.86 = 5255.95 over 698 frames.
+AS016F0079 nax nax ek tini paas xaat nax ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS016F0080, best cost 53.1353 + 5130.8 = 5183.93 over 698 frames.
+AS016F0080 dui soi nax ek dui saari tini ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS017M0001, best cost 52.6362 + 5786.29 = 5838.93 over 698 frames.
+AS017M0001 xunnyo xunnyo nax aath xaat soi paas 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS017M0002, best cost 52.2635 + 5651.73 = 5703.99 over 698 frames.
+AS017M0002 paas saari tini dui ek xunnyo ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS017M0003, best cost 50.5541 + 5579.59 = 5630.14 over 698 frames.
+AS017M0003 ek nax xaat paas tini ek dui 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS017M0004, best cost 54.0394 + 5853.09 = 5907.13 over 698 frames.
+AS017M0004 dui nax soi saari dui xunnyo tini 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS017M0005, best cost 51.9643 + 5605.32 = 5657.28 over 698 frames.
+AS017M0005 tini nax paas dui saari nax saari 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS017M0006, best cost 52.4704 + 5525.59 = 5578.06 over 698 frames.
+AS017M0006 saari ek paas nax tini xunnyo soi 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS017M0007, best cost 48.7827 + 5430.52 = 5479.3 over 698 frames.
+AS017M0007 soi nax dui xaat nax ek aath 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS017M0008, best cost 49.6917 + 5742.94 = 5792.64 over 698 frames.
+AS017M0008 aath nax xunnyo aath soi tini saari 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS017M0009, best cost 52.5149 + 5546.41 = 5598.92 over 698 frames.
+AS017M0009 saari xunnyo xaat saari aath paas ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS017M0010, best cost 52.3412 + 5548.68 = 5601.02 over 698 frames.
+AS017M0010 ek xaat tini tini aath saari saari 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS017M0011, best cost 59.0299 + 5575.95 = 5634.98 over 698 frames.
+AS017M0011 xaat saari xaat dui paas aath tini soi 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS017M0012, best cost 51.9501 + 5557.73 = 5609.68 over 698 frames.
+AS017M0012 soi aath dui aath ek soi dui 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS017M0013, best cost 49.7669 + 5516.4 = 5566.17 over 698 frames.
+AS017M0013 dui soi ek dui tini xaat ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS017M0014, best cost 52.579 + 5709.87 = 5762.45 over 698 frames.
+AS017M0014 ek saari soi xunnyo saari paas xunnyo 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS017M0015, best cost 52.2416 + 5533.79 = 5586.03 over 698 frames.
+AS017M0015 xunnyo paas xaat xunnyo dui dui tini 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS017M0016, best cost 48.3759 + 5478.82 = 5527.2 over 698 frames.
+AS017M0016 tini paas soi xaat aath xunnyo ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS017M0017, best cost 49.3988 + 5514.57 = 5563.97 over 698 frames.
+AS017M0017 ek tini saari paas paas soi soi 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS017M0018, best cost 49.7925 + 5629.64 = 5679.44 over 698 frames.
+AS017M0018 soi xaat xaat aath aath nax nax 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS017M0019, best cost 50.2705 + 5467.82 = 5518.09 over 698 frames.
+AS017M0019 nax xunnyo ek ek dui ek xaat 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS017M0020, best cost 48.7018 + 5562.18 = 5610.88 over 698 frames.
+AS017M0020 xaat nax ek tini paas xaat nax 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS017M0021, best cost 48.762 + 5510.51 = 5559.27 over 698 frames.
+AS017M0021 xunnyo xunnyo ek dui tini saari paas 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS017M0022, best cost 48.3346 + 5557.03 = 5605.36 over 698 frames.
+AS017M0022 paas soi xaat aath nax ek xunnyo 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS017M0023, best cost 54.0839 + 5659.04 = 5713.13 over 698 frames.
+AS017M0023 xunnyo dui saari soi aath dui xunnyo 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS017M0024, best cost 51.6951 + 5598.34 = 5650.04 over 698 frames.
+AS017M0024 xunnyo tini paas xaat nax tini xunnyo 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS017M0025, best cost 54.5286 + 5741.85 = 5796.38 over 698 frames.
+AS017M0025 xunnyo saari xaat saari xunnyo paas aath 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS017M0026, best cost 51.9819 + 5620.88 = 5672.86 over 698 frames.
+AS017M0026 aath paas xunnyo soi nax soi xunnyo 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS017M0027, best cost 54.0001 + 5666.23 = 5720.23 over 698 frames.
+AS017M0027 xunnyo xaat xaat xunnyo aath aath xunnyo 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS017M0028, best cost 48.9148 + 5478.72 = 5527.63 over 698 frames.
+AS017M0028 xunnyo nax nax xunnyo ek ek tini 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS017M0029, best cost 52.0265 + 5604.09 = 5656.12 over 698 frames.
+AS017M0029 tini soi ek saari aath ek paas 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS017M0030, best cost 52.714 + 5465.02 = 5517.74 over 698 frames.
+AS017M0030 paas nax dui paas saari ek soi 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS017M0031, best cost 53.2849 + 5516.61 = 5569.9 over 698 frames.
+AS017M0031 soi paas ek xaat soi dui soi 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS017M0032, best cost 51.8866 + 5434.77 = 5486.66 over 698 frames.
+AS017M0032 soi tini xaat ek aath tini aath 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS017M0033, best cost 50.2994 + 5433.02 = 5483.32 over 698 frames.
+AS017M0033 aath nax saari nax paas dui ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS017M0034, best cost 51.6985 + 5399.59 = 5451.29 over 698 frames.
+AS017M0034 ek nax xaat dui xaat paas tini 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS017M0035, best cost 50.9035 + 5451.55 = 5502.46 over 698 frames.
+AS017M0035 tini nax aath xaat tini ek dui 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS017M0036, best cost 52.7476 + 5423.33 = 5476.08 over 698 frames.
+AS017M0036 dui dui aath saari dui nax xunnyo 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS017M0037, best cost 49.0153 + 5463.75 = 5512.77 over 698 frames.
+AS017M0037 xunnyo ek dui tini dui tini tini 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS017M0038, best cost 51.3688 + 5472.44 = 5523.81 over 698 frames.
+AS017M0038 tini saari tini saari saari paas paas 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS017M0039, best cost 51.1322 + 5412.73 = 5463.86 over 698 frames.
+AS017M0039 paas soi saari paas soi soi xaat 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS017M0040, best cost 50.2419 + 5636.44 = 5686.68 over 698 frames.
+AS017M0040 xaat aath soi xaat ek dui saari 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS017M0041, best cost 47.8919 + 5415.84 = 5463.73 over 698 frames.
+AS017M0041 xunnyo nax xunnyo ek dui tini saari 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS017M0042, best cost 48.2629 + 5458.67 = 5506.93 over 698 frames.
+AS017M0042 saari paas soi xaat aath nax aath 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS017M0043, best cost 53.0193 + 5418.67 = 5471.69 over 698 frames.
+AS017M0043 aath xunnyo dui saari soi aath xaat 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS017M0044, best cost 51.0607 + 5516.17 = 5567.23 over 698 frames.
+AS017M0044 xaat xunnyo tini paas xaat nax soi 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS017M0045, best cost 55.4422 + 5529.99 = 5585.43 over 698 frames.
+AS017M0045 soi xunnyo saari xaat paas xunnyo paas 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS017M0046, best cost 52.7165 + 5496.64 = 5549.35 over 698 frames.
+AS017M0046 paas aath saari xunnyo soi nax tini 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS017M0047, best cost 53.9791 + 5584.65 = 5638.63 over 698 frames.
+AS017M0047 tini xunnyo xaat dui xunnyo aath ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS017M0048, best cost 49.1588 + 5333.58 = 5382.74 over 698 frames.
+AS017M0048 ek xunnyo xunnyo ek nax ek tini 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS017M0049, best cost 52.018 + 5483.73 = 5535.75 over 698 frames.
+AS017M0049 tini soi ek saari aath dui paas 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS017M0050, best cost 51.9498 + 5461.6 = 5513.55 over 698 frames.
+AS017M0050 paas nax dui soi paas ek paas 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS017M0051, best cost 52.9483 + 5557.19 = 5610.13 over 698 frames.
+AS017M0051 paas saari ek soi tini ek xaat 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS017M0052, best cost 51.7802 + 5617.19 = 5668.97 over 698 frames.
+AS017M0052 xaat ek aath tini xaat tini aath 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS017M0053, best cost 49.6874 + 5356.32 = 5406.01 over 698 frames.
+AS017M0053 aath nax nax saari nax paas dui 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS017M0054, best cost 52.9937 + 5528.41 = 5581.41 over 698 frames.
+AS017M0054 dui xaat soi dui aath paas tini 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS017M0055, best cost 51.4036 + 5400.77 = 5452.17 over 698 frames.
+AS017M0055 tini nax xaat saari dui ek ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS017M0056, best cost 48.387 + 5329.87 = 5378.26 over 698 frames.
+AS017M0056 ek dui nax xunnyo ek dui dui 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS017M0057, best cost 49.7663 + 5513.37 = 5563.13 over 698 frames.
+AS017M0057 dui tini dui tini tini saari tini 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS017M0058, best cost 51.6916 + 5523.16 = 5574.85 over 698 frames.
+AS017M0058 tini saari saari paas paas soi saari 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS017M0059, best cost 51.1151 + 5492.09 = 5543.2 over 698 frames.
+AS017M0059 aath aath aath xunnyo xunnyo xunnyo xunnyo 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS017M0060, best cost 48.7402 + 5571.61 = 5620.35 over 698 frames.
+AS017M0060 aath soi xaat aath aath nax xunnyo 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS017M0061, best cost 51.3522 + 5474.34 = 5525.7 over 698 frames.
+AS017M0061 xunnyo nax nax aath xaat soi paas 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS017M0062, best cost 53.4837 + 5468.97 = 5522.46 over 698 frames.
+AS017M0062 paas saari tini dui ek xunnyo aath 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS017M0063, best cost 50.8837 + 5493.22 = 5544.11 over 698 frames.
+AS017M0063 aath nax xaat paas tini ek xaat 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS017M0064, best cost 53.7451 + 5519.82 = 5573.57 over 698 frames.
+AS017M0064 xaat nax soi saari dui xunnyo soi 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS017M0065, best cost 51.9666 + 5350.48 = 5402.44 over 698 frames.
+AS017M0065 soi nax paas dui paas nax saari 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS017M0066, best cost 53.3984 + 5410.7 = 5464.1 over 698 frames.
+AS017M0066 saari ek saari nax tini xunnyo tini 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS017M0067, best cost 50.0328 + 5362.16 = 5412.2 over 698 frames.
+AS017M0067 tini nax dui dui nax ek ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS017M0068, best cost 53.6091 + 5412.09 = 5465.7 over 698 frames.
+AS017M0068 ek nax xunnyo xunnyo xaat saari xunnyo 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS017M0069, best cost 50.5826 + 5566.19 = 5616.78 over 698 frames.
+AS017M0069 xunnyo ek aath soi tini aath aath 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS017M0070, best cost 51.5119 + 5546.24 = 5597.76 over 698 frames.
+AS017M0070 aath paas ek soi dui soi aath 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS017M0071, best cost 51.0983 + 5511.5 = 5562.6 over 698 frames.
+AS017M0071 aath saari paas aath tini saari aath 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS017M0072, best cost 51.0592 + 5361.15 = 5412.21 over 698 frames.
+AS017M0072 aath dui tini xaat tini soi ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS017M0073, best cost 51.3522 + 5412.74 = 5464.09 over 698 frames.
+AS017M0073 ek paas xunnyo paas soi xaat dui 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS017M0074, best cost 51.9045 + 5478.53 = 5530.43 over 698 frames.
+AS017M0074 dui aath ek tini paas paas xaat 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS017M0075, best cost 52.5037 + 5437.19 = 5489.69 over 698 frames.
+AS017M0075 xaat ek dui xaat xunnyo dui saari 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS017M0076, best cost 55.4222 + 5503.13 = 5558.55 over 698 frames.
+AS017M0076 saari xaat aath xunnyo ek dui tini ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS017M0077, best cost 54.3422 + 5496.13 = 5550.48 over 698 frames.
+AS017M0077 tini tini saari soi xunnyo saari saari 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS017M0078, best cost 50.8801 + 5434.39 = 5485.27 over 698 frames.
+AS017M0078 saari paas soi soi xaat xaat aath 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS017M0079, best cost 50.3547 + 5429.5 = 5479.86 over 698 frames.
+AS017M0079 nax nax ek tini paas xaat nax 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS017M0080, best cost 50.1834 + 5474.59 = 5524.77 over 698 frames.
+AS017M0080 dui soi nax ek dui saari tini 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS018F0001, best cost 52.9933 + 5494.3 = 5547.3 over 698 frames.
+AS018F0001 xunnyo xunnyo nax ek aath xaat soi paas 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS018F0002, best cost 46.7584 + 5534.35 = 5581.11 over 698 frames.
+AS018F0002 paas saari tini dui ek xunnyo ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS018F0003, best cost 48.6735 + 5528.57 = 5577.25 over 698 frames.
+AS018F0003 ek nax xaat paas tini ek dui 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS018F0004, best cost 49.5691 + 5331.09 = 5380.66 over 698 frames.
+AS018F0004 dui nax soi saari dui xunnyo tini 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS018F0005, best cost 47.1355 + 5323.85 = 5370.99 over 698 frames.
+AS018F0005 tini nax paas dui saari nax saari 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS018F0006, best cost 50.3857 + 5434.18 = 5484.57 over 698 frames.
+AS018F0006 saari ek paas nax tini xunnyo soi 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS018F0007, best cost 44.6815 + 5293.4 = 5338.08 over 698 frames.
+AS018F0007 soi nax dui xaat nax ek aath 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS018F0008, best cost 46.1641 + 5308.13 = 5354.3 over 698 frames.
+AS018F0008 aath nax xunnyo aath soi tini saari 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS018F0009, best cost 50.2851 + 5342.62 = 5392.91 over 698 frames.
+AS018F0009 saari xunnyo xaat saari aath paas ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS018F0010, best cost 48.7803 + 5240.47 = 5289.25 over 698 frames.
+AS018F0010 ek xaat tini tini aath saari saari 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS018F0011, best cost 49.8151 + 5318.25 = 5368.07 over 698 frames.
+AS018F0011 saari xaat dui paas aath tini soi 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS018F0012, best cost 46.2764 + 5314.96 = 5361.24 over 698 frames.
+AS018F0012 soi aath dui aath ek soi dui 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS018F0013, best cost 45.813 + 5279.67 = 5325.48 over 698 frames.
+AS018F0013 dui soi ek dui tini xaat ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS018F0014, best cost 53.2118 + 5503.39 = 5556.6 over 698 frames.
+AS018F0014 ek saari soi xunnyo saari paas xunnyo ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS018F0015, best cost 48.6198 + 5269.84 = 5318.46 over 698 frames.
+AS018F0015 xunnyo paas aath xunnyo dui dui tini 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS018F0016, best cost 43.6592 + 5275.14 = 5318.8 over 698 frames.
+AS018F0016 tini paas soi xaat aath xunnyo ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS018F0017, best cost 46.1308 + 5272.39 = 5318.52 over 698 frames.
+AS018F0017 ek tini saari paas paas soi soi 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS018F0018, best cost 43.8409 + 5295.86 = 5339.7 over 698 frames.
+AS018F0018 soi xaat xaat aath aath nax nax 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS018F0019, best cost 46.7478 + 5587.96 = 5634.7 over 698 frames.
+AS018F0019 nax xunnyo ek ek dui ek xaat 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS018F0020, best cost 47.4016 + 5315.86 = 5363.26 over 698 frames.
+AS018F0020 xaat nax ek tini paas aath nax 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS018F0021, best cost 44.8332 + 5306.48 = 5351.31 over 698 frames.
+AS018F0021 xunnyo xunnyo ek dui tini saari paas 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS018F0022, best cost 43.0926 + 5300.44 = 5343.54 over 698 frames.
+AS018F0022 paas soi xaat aath nax ek xunnyo 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS018F0023, best cost 48.391 + 5401.62 = 5450.01 over 698 frames.
+AS018F0023 xunnyo dui saari soi aath dui xunnyo 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS018F0024, best cost 49.116 + 5387.97 = 5437.08 over 698 frames.
+AS018F0024 xunnyo tini paas aath nax tini xunnyo 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS018F0025, best cost 51.0033 + 5453.56 = 5504.56 over 698 frames.
+AS018F0025 xunnyo saari xaat saari xunnyo paas aath 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS018F0026, best cost 46.9353 + 5315.1 = 5362.03 over 698 frames.
+AS018F0026 aath paas xunnyo soi nax soi xunnyo 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS018F0027, best cost 55.0477 + 5497.02 = 5552.07 over 698 frames.
+AS018F0027 xunnyo xaat xaat xunnyo aath aath xunnyo dui 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS018F0028, best cost 43.1633 + 5171.78 = 5214.95 over 698 frames.
+AS018F0028 xunnyo nax nax xunnyo ek ek tini 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS018F0029, best cost 46.5997 + 5278.94 = 5325.54 over 698 frames.
+AS018F0029 tini soi ek saari aath ek paas 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS018F0030, best cost 46.409 + 5321.74 = 5368.15 over 698 frames.
+AS018F0030 paas nax dui paas saari ek soi 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS018F0031, best cost 47.2884 + 5287.22 = 5334.51 over 698 frames.
+AS018F0031 soi paas ek xaat soi dui soi 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS018F0032, best cost 46.9532 + 5337.33 = 5384.29 over 698 frames.
+AS018F0032 soi tini xaat ek aath tini aath 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS018F0033, best cost 44.2578 + 5246.06 = 5290.32 over 698 frames.
+AS018F0033 aath nax saari nax paas dui ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS018F0034, best cost 46.1362 + 5342.87 = 5389.01 over 698 frames.
+AS018F0034 ek nax xaat dui xaat paas tini 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS018F0035, best cost 47.5728 + 5321.87 = 5369.44 over 698 frames.
+AS018F0035 tini nax aath xaat tini ek dui 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS018F0036, best cost 45.8555 + 5272.93 = 5318.79 over 698 frames.
+AS018F0036 dui dui aath saari dui nax xunnyo 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS018F0037, best cost 50.232 + 5352.43 = 5402.66 over 698 frames.
+AS018F0037 xunnyo ek dui tini dui tini tini ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS018F0038, best cost 46.6514 + 5317.95 = 5364.6 over 698 frames.
+AS018F0038 tini saari tini saari saari paas paas 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS018F0039, best cost 44.4588 + 5246.03 = 5290.49 over 698 frames.
+AS018F0039 paas soi saari paas soi soi xaat 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS018F0040, best cost 44.7236 + 5308.27 = 5353 over 698 frames.
+AS018F0040 xaat aath soi xaat ek dui saari 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS018F0041, best cost 43.2253 + 5294.06 = 5337.29 over 698 frames.
+AS018F0041 xunnyo nax xunnyo ek dui tini saari 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS018F0042, best cost 44.7894 + 5304.92 = 5349.71 over 698 frames.
+AS018F0042 saari paas soi xaat aath nax aath 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS018F0043, best cost 47.3712 + 5376.88 = 5424.25 over 698 frames.
+AS018F0043 aath xunnyo dui saari soi aath xaat 
+LOG (lattice-scale[5.5]:main():lattice-scale.cc:107) Done 640 lattices.
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS018F0044, best cost 47.6329 + 5356.14 = 5403.77 over 698 frames.
+AS018F0044 xaat xunnyo tini paas xaat nax soi 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS018F0045, best cost 49.2438 + 5393.2 = 5442.45 over 698 frames.
+AS018F0045 soi xunnyo saari xaat paas nax paas 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS018F0046, best cost 46.3581 + 5250.85 = 5297.2 over 698 frames.
+AS018F0046 paas aath saari xunnyo soi nax tini 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS018F0047, best cost 47.6364 + 5276.18 = 5323.82 over 698 frames.
+AS018F0047 tini xunnyo xaat dui xunnyo aath ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS018F0048, best cost 44.2689 + 5242.57 = 5286.84 over 698 frames.
+AS018F0048 ek xunnyo xunnyo ek nax ek tini 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS018F0049, best cost 47.7802 + 5406.73 = 5454.51 over 698 frames.
+AS018F0049 tini soi ek saari aath dui paas 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS018F0050, best cost 46.6253 + 5355.12 = 5401.74 over 698 frames.
+AS018F0050 paas nax dui soi paas ek paas 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS018F0051, best cost 46.1491 + 5346.65 = 5392.8 over 698 frames.
+AS018F0051 paas saari ek soi tini ek xaat 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS018F0052, best cost 47.1072 + 5342.44 = 5389.54 over 698 frames.
+AS018F0052 xaat ek aath tini xaat tini aath 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS018F0053, best cost 44.53 + 5116.37 = 5160.9 over 698 frames.
+AS018F0053 aath nax nax saari nax paas dui 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS018F0054, best cost 46.3983 + 5259.61 = 5306 over 698 frames.
+AS018F0054 dui xaat soi dui aath paas tini 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS018F0055, best cost 51.5869 + 5466.23 = 5517.81 over 698 frames.
+AS018F0055 tini nax xaat saari dui ek ek ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS018F0056, best cost 42.807 + 5365.85 = 5408.66 over 698 frames.
+AS018F0056 ek dui nax xunnyo ek dui dui 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS018F0057, best cost 46.839 + 5361.9 = 5408.73 over 698 frames.
+AS018F0057 dui tini dui tini tini saari tini 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS018F0058, best cost 45.4682 + 5520.41 = 5565.87 over 698 frames.
+AS018F0058 tini saari saari paas paas soi saari 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS018F0059, best cost 44.1797 + 5327.3 = 5371.48 over 698 frames.
+AS018F0059 aath aath aath xunnyo xunnyo xunnyo xunnyo 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS018F0060, best cost 43.179 + 5325.26 = 5368.44 over 698 frames.
+AS018F0060 aath soi xaat aath aath nax xunnyo 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS018F0061, best cost 50.1972 + 5364.86 = 5415.06 over 698 frames.
+AS018F0061 xunnyo nax nax ek aath xaat soi paas 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS018F0062, best cost 41.1885 + 5302 = 5343.19 over 698 frames.
+AS018F0062 paas saari tini dui ek xunnyo 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS018F0063, best cost 45.2506 + 5333.94 = 5379.19 over 698 frames.
+AS018F0063 aath nax xaat paas tini ek xaat 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS018F0064, best cost 47.2114 + 5349.75 = 5396.96 over 698 frames.
+AS018F0064 xaat nax soi saari dui xunnyo soi 
+LOG (lattice-add-penalty[5.5]:main():lattice-add-penalty.cc:62) Done adding word insertion penalty to 640 lattices.
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS018F0065, best cost 46.4214 + 5430.8 = 5477.22 over 698 frames.
+AS018F0065 soi nax paas dui paas nax saari 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS018F0066, best cost 47.6759 + 5319.11 = 5366.78 over 698 frames.
+AS018F0066 saari ek saari nax tini xunnyo tini 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS018F0067, best cost 43.5091 + 5311.04 = 5354.55 over 698 frames.
+AS018F0067 tini nax dui dui nax ek ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS018F0068, best cost 46.9049 + 5341.22 = 5388.12 over 698 frames.
+AS018F0068 ek nax xunnyo xunnyo xaat saari xunnyo 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS018F0069, best cost 44.4607 + 5323.23 = 5367.69 over 698 frames.
+AS018F0069 xunnyo ek aath soi tini aath aath 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS018F0070, best cost 45.1014 + 5396.28 = 5441.38 over 698 frames.
+AS018F0070 aath paas ek soi dui soi aath 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS018F0071, best cost 45.2949 + 5340.68 = 5385.97 over 698 frames.
+AS018F0071 aath saari paas aath tini saari aath 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS018F0072, best cost 46.1227 + 5291.8 = 5337.92 over 698 frames.
+AS018F0072 aath dui tini xaat tini soi ek 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS018F0073, best cost 50.7237 + 5331.91 = 5382.63 over 698 frames.
+AS018F0073 ek paas soi nax paas aath xaat dui 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS018F0074, best cost 46.8628 + 5481.52 = 5528.38 over 698 frames.
+AS018F0074 dui aath ek tini paas paas aath 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS018F0075, best cost 45.3807 + 5376.09 = 5421.47 over 698 frames.
+AS018F0075 xaat ek dui xaat xunnyo dui saari 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS018F0076, best cost 44.8468 + 5395.36 = 5440.2 over 698 frames.
+AS018F0076 saari xaat aath xunnyo ek dui tini 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS018F0077, best cost 47.9767 + 5551.05 = 5599.03 over 698 frames.
+AS018F0077 tini tini saari soi xunnyo saari saari 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS018F0078, best cost 45.9213 + 5353.89 = 5399.81 over 698 frames.
+AS018F0078 saari paas soi soi xaat xaat aath 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS018F0079, best cost 46.8807 + 5317.94 = 5364.83 over 698 frames.
+AS018F0079 nax nax ek tini paas aath nax 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:99) For utterance AS018F0080, best cost 44.5437 + 5538.73 = 5583.28 over 698 frames.
+AS018F0080 dui soi nax ek dui saari tini 
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:124) Overall cost per frame is 8.18551 = 0.0744035 [graph] + 8.1111 [acoustic] over 415720 frames.
+LOG (lattice-best-path[5.5]:main():lattice-best-path.cc:128) Done 640 lattices, failed for 0
+# Accounting: time=2 threads=1
+# Ended (code 0) at Sun Aug 22 17:32:15 IST 2021, elapsed time 2 seconds
