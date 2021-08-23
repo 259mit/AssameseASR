@@ -1,0 +1,319 @@
+[H[2J[3JMon Aug 23 20:29:22 IST 2021
+Mon Aug 23 20:29:23 IST 2021
+============================================================================
+                   Training 2 -gram LM               	        
+============================================================================
+utils/prepare_lang.sh --num-sil-states 3 data/local/dict !SIL data/local/lang_bigram data/lang_bigram
+Checking data/local/dict/silence_phones.txt ...
+--> reading data/local/dict/silence_phones.txt
+--> text seems to be UTF-8 or ASCII, checking whitespaces
+--> text contains only allowed whitespaces
+--> data/local/dict/silence_phones.txt is OK
+
+Checking data/local/dict/optional_silence.txt ...
+--> reading data/local/dict/optional_silence.txt
+--> text seems to be UTF-8 or ASCII, checking whitespaces
+--> text contains only allowed whitespaces
+--> data/local/dict/optional_silence.txt is OK
+
+Checking data/local/dict/nonsilence_phones.txt ...
+--> reading data/local/dict/nonsilence_phones.txt
+--> text seems to be UTF-8 or ASCII, checking whitespaces
+--> text contains only allowed whitespaces
+--> data/local/dict/nonsilence_phones.txt is OK
+
+Checking disjoint: silence_phones.txt, nonsilence_phones.txt
+--> disjoint property is OK.
+
+Checking data/local/dict/lexicon.txt
+--> reading data/local/dict/lexicon.txt
+--> text seems to be UTF-8 or ASCII, checking whitespaces
+--> text contains only allowed whitespaces
+--> data/local/dict/lexicon.txt is OK
+
+Checking data/local/dict/lexiconp.txt
+--> reading data/local/dict/lexiconp.txt
+--> text seems to be UTF-8 or ASCII, checking whitespaces
+--> text contains only allowed whitespaces
+--> data/local/dict/lexiconp.txt is OK
+
+Checking lexicon pair data/local/dict/lexicon.txt and data/local/dict/lexiconp.txt
+--> lexicon pair data/local/dict/lexicon.txt and data/local/dict/lexiconp.txt match
+
+Checking data/local/dict/extra_questions.txt ...
+--> data/local/dict/extra_questions.txt is empty (this is OK)
+--> SUCCESS [validating dictionary directory data/local/dict]
+
+fstaddselfloops data/lang_bigram/phones/wdisambig_phones.int data/lang_bigram/phones/wdisambig_words.int 
+prepare_lang.sh: validating output directory
+utils/validate_lang.pl data/lang_bigram
+Checking existence of separator file
+separator file data/lang_bigram/subword_separator.txt is empty or does not exist, deal in word case.
+Checking data/lang_bigram/phones.txt ...
+--> text seems to be UTF-8 or ASCII, checking whitespaces
+--> text contains only allowed whitespaces
+--> data/lang_bigram/phones.txt is OK
+
+Checking words.txt: #0 ...
+--> text seems to be UTF-8 or ASCII, checking whitespaces
+--> text contains only allowed whitespaces
+--> data/lang_bigram/words.txt is OK
+
+Checking disjoint: silence.txt, nonsilence.txt, disambig.txt ...
+--> silence.txt and nonsilence.txt are disjoint
+--> silence.txt and disambig.txt are disjoint
+--> disambig.txt and nonsilence.txt are disjoint
+--> disjoint property is OK
+
+Checking sumation: silence.txt, nonsilence.txt, disambig.txt ...
+--> found no unexplainable phones in phones.txt
+
+Checking data/lang_bigram/phones/context_indep.{txt, int, csl} ...
+--> text seems to be UTF-8 or ASCII, checking whitespaces
+--> text contains only allowed whitespaces
+--> 5 entry/entries in data/lang_bigram/phones/context_indep.txt
+--> data/lang_bigram/phones/context_indep.int corresponds to data/lang_bigram/phones/context_indep.txt
+--> data/lang_bigram/phones/context_indep.csl corresponds to data/lang_bigram/phones/context_indep.txt
+--> data/lang_bigram/phones/context_indep.{txt, int, csl} are OK
+
+Checking data/lang_bigram/phones/nonsilence.{txt, int, csl} ...
+--> text seems to be UTF-8 or ASCII, checking whitespaces
+--> text contains only allowed whitespaces
+--> 60 entry/entries in data/lang_bigram/phones/nonsilence.txt
+--> data/lang_bigram/phones/nonsilence.int corresponds to data/lang_bigram/phones/nonsilence.txt
+--> data/lang_bigram/phones/nonsilence.csl corresponds to data/lang_bigram/phones/nonsilence.txt
+--> data/lang_bigram/phones/nonsilence.{txt, int, csl} are OK
+
+Checking data/lang_bigram/phones/silence.{txt, int, csl} ...
+--> text seems to be UTF-8 or ASCII, checking whitespaces
+--> text contains only allowed whitespaces
+--> 5 entry/entries in data/lang_bigram/phones/silence.txt
+--> data/lang_bigram/phones/silence.int corresponds to data/lang_bigram/phones/silence.txt
+--> data/lang_bigram/phones/silence.csl corresponds to data/lang_bigram/phones/silence.txt
+--> data/lang_bigram/phones/silence.{txt, int, csl} are OK
+
+Checking data/lang_bigram/phones/optional_silence.{txt, int, csl} ...
+--> text seems to be UTF-8 or ASCII, checking whitespaces
+--> text contains only allowed whitespaces
+--> 1 entry/entries in data/lang_bigram/phones/optional_silence.txt
+--> data/lang_bigram/phones/optional_silence.int corresponds to data/lang_bigram/phones/optional_silence.txt
+--> data/lang_bigram/phones/optional_silence.csl corresponds to data/lang_bigram/phones/optional_silence.txt
+--> data/lang_bigram/phones/optional_silence.{txt, int, csl} are OK
+
+Checking data/lang_bigram/phones/disambig.{txt, int, csl} ...
+--> text seems to be UTF-8 or ASCII, checking whitespaces
+--> text contains only allowed whitespaces
+--> 4 entry/entries in data/lang_bigram/phones/disambig.txt
+--> data/lang_bigram/phones/disambig.int corresponds to data/lang_bigram/phones/disambig.txt
+--> data/lang_bigram/phones/disambig.csl corresponds to data/lang_bigram/phones/disambig.txt
+--> data/lang_bigram/phones/disambig.{txt, int, csl} are OK
+
+Checking data/lang_bigram/phones/roots.{txt, int} ...
+--> text seems to be UTF-8 or ASCII, checking whitespaces
+--> text contains only allowed whitespaces
+--> 16 entry/entries in data/lang_bigram/phones/roots.txt
+--> data/lang_bigram/phones/roots.int corresponds to data/lang_bigram/phones/roots.txt
+--> data/lang_bigram/phones/roots.{txt, int} are OK
+
+Checking data/lang_bigram/phones/sets.{txt, int} ...
+--> text seems to be UTF-8 or ASCII, checking whitespaces
+--> text contains only allowed whitespaces
+--> 16 entry/entries in data/lang_bigram/phones/sets.txt
+--> data/lang_bigram/phones/sets.int corresponds to data/lang_bigram/phones/sets.txt
+--> data/lang_bigram/phones/sets.{txt, int} are OK
+
+Checking data/lang_bigram/phones/extra_questions.{txt, int} ...
+--> text seems to be UTF-8 or ASCII, checking whitespaces
+--> text contains only allowed whitespaces
+--> 9 entry/entries in data/lang_bigram/phones/extra_questions.txt
+--> data/lang_bigram/phones/extra_questions.int corresponds to data/lang_bigram/phones/extra_questions.txt
+--> data/lang_bigram/phones/extra_questions.{txt, int} are OK
+
+Checking data/lang_bigram/phones/word_boundary.{txt, int} ...
+--> text seems to be UTF-8 or ASCII, checking whitespaces
+--> text contains only allowed whitespaces
+--> 65 entry/entries in data/lang_bigram/phones/word_boundary.txt
+--> data/lang_bigram/phones/word_boundary.int corresponds to data/lang_bigram/phones/word_boundary.txt
+--> data/lang_bigram/phones/word_boundary.{txt, int} are OK
+
+Checking optional_silence.txt ...
+--> reading data/lang_bigram/phones/optional_silence.txt
+--> data/lang_bigram/phones/optional_silence.txt is OK
+
+Checking disambiguation symbols: #0 and #1
+--> data/lang_bigram/phones/disambig.txt has "#0" and "#1"
+--> data/lang_bigram/phones/disambig.txt is OK
+
+Checking topo ...
+
+Checking word_boundary.txt: silence.txt, nonsilence.txt, disambig.txt ...
+--> data/lang_bigram/phones/word_boundary.txt doesn't include disambiguation symbols
+--> data/lang_bigram/phones/word_boundary.txt is the union of nonsilence.txt and silence.txt
+--> data/lang_bigram/phones/word_boundary.txt is OK
+
+Checking word-level disambiguation symbols...
+--> data/lang_bigram/phones/wdisambig.txt exists (newer prepare_lang.sh)
+Checking word_boundary.int and disambig.int
+--> generating a 55 word/subword sequence
+--> resulting phone sequence from L.fst corresponds to the word sequence
+--> L.fst is OK
+--> generating a 77 word/subword sequence
+--> resulting phone sequence from L_disambig.fst corresponds to the word sequence
+--> L_disambig.fst is OK
+
+Checking data/lang_bigram/oov.{txt, int} ...
+--> text seems to be UTF-8 or ASCII, checking whitespaces
+--> text contains only allowed whitespaces
+--> 1 entry/entries in data/lang_bigram/oov.txt
+--> data/lang_bigram/oov.int corresponds to data/lang_bigram/oov.txt
+--> data/lang_bigram/oov.{txt, int} are OK
+
+--> data/lang_bigram/L.fst is olabel sorted
+--> data/lang_bigram/L_disambig.fst is olabel sorted
+--> SUCCESS [validating lang directory data/lang_bigram]
+LOGFILE:/dev/null
+$bin/ngt -i="$inpfile" -n=$order -gooout=y -o="$gzip -c > $tmpdir/ngram.${sdict}.gz" -fd="$tmpdir/$sdict" $dictionary $additional_parameters >> $logfile 2>&1
+$scr/build-sublm.pl $verbose $prune $prune_thr_str $smoothing "$additional_smoothing_parameters" --size $order --ngrams "$gunzip -c $tmpdir/ngram.${sdict}.gz" -sublm $tmpdir/lm.$sdict $additional_parameters >> $logfile 2>&1
+arpa2fst - 
+LOG (arpa2fst[5.5]:Read():arpa-file-parser.cc:94) Reading \data\ section.
+LOG (arpa2fst[5.5]:Read():arpa-file-parser.cc:149) Reading \1-grams: section.
+LOG (arpa2fst[5.5]:Read():arpa-file-parser.cc:149) Reading \2-grams: section.
+remove_oovs.pl: removed 1 lines.
+fstisstochastic data/lang_bigram/G.fst 
+0.00306773 -4.50586e-07
+Mon Aug 23 20:29:25 IST 2021
+Mon Aug 23 20:29:25 IST 2021
+=======================================================================
+                 tri2 : LDA + MLLT Training                    
+=======================================================================
+steps/align_si.sh --nj 2 --cmd run.pl data/train data/lang_bigram exp/tri1 exp/tri1_ali
+steps/align_si.sh: feature type is delta
+steps/align_si.sh: aligning data in data/train using model from exp/tri1, putting alignments in exp/tri1_ali
+steps/diagnostic/analyze_alignments.sh --cmd run.pl data/lang_bigram exp/tri1_ali
+steps/diagnostic/analyze_alignments.sh: see stats in exp/tri1_ali/log/analyze_alignments.log
+steps/align_si.sh: done aligning data.
+steps/train_lda_mllt.sh --cmd run.pl --splice-opts --left-context=4 --right-context=4 2000 16000 data/train data/lang_bigram exp/tri1_ali exp/tri2
+steps/train_lda_mllt.sh: Accumulating LDA statistics.
+steps/train_lda_mllt.sh: Accumulating tree stats
+steps/train_lda_mllt.sh: Getting questions for tree clustering.
+steps/train_lda_mllt.sh: Building the tree
+steps/train_lda_mllt.sh: Initializing the model
+steps/train_lda_mllt.sh: Converting alignments from exp/tri1_ali to use current tree
+steps/train_lda_mllt.sh: Compiling graphs of transcripts
+Training pass 1
+Training pass 2
+steps/train_lda_mllt.sh: Estimating MLLT
+Training pass 3
+Training pass 4
+steps/train_lda_mllt.sh: Estimating MLLT
+Training pass 5
+Training pass 6
+steps/train_lda_mllt.sh: Estimating MLLT
+Training pass 7
+Training pass 8
+Training pass 9
+Training pass 10
+Aligning data
+Training pass 11
+Training pass 12
+steps/train_lda_mllt.sh: Estimating MLLT
+Training pass 13
+Training pass 14
+Training pass 15
+Training pass 16
+Training pass 17
+Training pass 18
+Training pass 19
+Training pass 20
+Aligning data
+Training pass 21
+Training pass 22
+Training pass 23
+Training pass 24
+Training pass 25
+Training pass 26
+Training pass 27
+Training pass 28
+Training pass 29
+Training pass 30
+Aligning data
+Training pass 31
+Training pass 32
+Training pass 33
+Training pass 34
+steps/diagnostic/analyze_alignments.sh --cmd run.pl data/lang_bigram exp/tri2
+steps/diagnostic/analyze_alignments.sh: see stats in exp/tri2/log/analyze_alignments.log
+3 warnings in exp/tri2/log/init_model.log
+1 warnings in exp/tri2/log/lda_acc.*.log
+1 warnings in exp/tri2/log/build_tree.log
+599 warnings in exp/tri2/log/update.*.log
+34 warnings in exp/tri2/log/acc.*.*.log
+12 warnings in exp/tri2/log/align.*.*.log
+exp/tri2: nj=2 align prob=-34.00 over 1.15h [retry=0.2%, fail=0.2%] states=208 gauss=16038 tree-impr=3.17 lda-sum=17.62 mllt:impr,logdet=1.68,4.77
+steps/train_lda_mllt.sh: Done training system with LDA+MLLT features in exp/tri2
+=======================================================================
+                 tri2 : LDA + MLLT Decoding                
+=======================================================================
+tree-info exp/tri2/tree 
+tree-info exp/tri2/tree 
+fstminimizeencoded 
+fstpushspecial 
+fstdeterminizestar --use-log=true 
+fsttablecompose data/lang_bigram/L_disambig.fst data/lang_bigram/G.fst 
+fstisstochastic data/lang_bigram/tmp/LG.fst 
+0.000279145 0.000106699
+fstcomposecontext --context-size=3 --central-position=1 --read-disambig-syms=data/lang_bigram/phones/disambig.int --write-disambig-syms=data/lang_bigram/tmp/disambig_ilabels_3_1.int data/lang_bigram/tmp/ilabels_3_1.86036 data/lang_bigram/tmp/LG.fst 
+fstisstochastic data/lang_bigram/tmp/CLG_3_1.fst 
+0.000279145 0
+make-h-transducer --disambig-syms-out=exp/tri2/graph_test_bigram/disambig_tid.int --transition-scale=1.0 data/lang_bigram/tmp/ilabels_3_1 exp/tri2/tree exp/tri2/final.mdl 
+fsttablecompose exp/tri2/graph_test_bigram/Ha.fst data/lang_bigram/tmp/CLG_3_1.fst 
+fstdeterminizestar --use-log=true 
+fstminimizeencoded 
+fstrmsymbols exp/tri2/graph_test_bigram/disambig_tid.int 
+fstrmepslocal 
+fstisstochastic exp/tri2/graph_test_bigram/HCLGa.fst 
+0.000476187 -0.000474417
+add-self-loops --self-loop-scale=0.1 --reorder=true exp/tri2/final.mdl exp/tri2/graph_test_bigram/HCLGa.fst 
+steps/decode.sh --nj 2 --cmd run.pl exp/tri2/graph_test_bigram data/test exp/tri2/decode_test_bigram
+decode.sh: feature type is lda
+steps/diagnostic/analyze_lats.sh --cmd run.pl exp/tri2/graph_test_bigram exp/tri2/decode_test_bigram
+steps/diagnostic/analyze_lats.sh: see stats in exp/tri2/decode_test_bigram/log/analyze_alignments.log
+Overall, lattice depth (10,50,90-percentile)=(1,1,1) and mean=1.0
+steps/diagnostic/analyze_lats.sh: see stats in exp/tri2/decode_test_bigram/log/analyze_lattice_depth_stats.log
+local/score.sh --cmd run.pl data/test exp/tri2/graph_test_bigram exp/tri2/decode_test_bigram
+local/score.sh: scoring with word insertion penalty=0.0,0.5,1.0
+exp/tri2/decode_test_bigram/wer_10_0.0:%WER 0.33 [ 15 / 4480, 2 ins, 10 del, 3 sub ]
+exp/tri2/decode_test_bigram/wer_10_0.5:%WER 0.33 [ 15 / 4480, 2 ins, 10 del, 3 sub ]
+exp/tri2/decode_test_bigram/wer_10_1.0:%WER 0.33 [ 15 / 4480, 2 ins, 10 del, 3 sub ]
+exp/tri2/decode_test_bigram/wer_11_0.0:%WER 0.33 [ 15 / 4480, 2 ins, 10 del, 3 sub ]
+exp/tri2/decode_test_bigram/wer_11_0.5:%WER 0.33 [ 15 / 4480, 2 ins, 10 del, 3 sub ]
+exp/tri2/decode_test_bigram/wer_11_1.0:%WER 0.33 [ 15 / 4480, 2 ins, 10 del, 3 sub ]
+exp/tri2/decode_test_bigram/wer_12_0.0:%WER 0.33 [ 15 / 4480, 2 ins, 10 del, 3 sub ]
+exp/tri2/decode_test_bigram/wer_12_0.5:%WER 0.33 [ 15 / 4480, 2 ins, 10 del, 3 sub ]
+exp/tri2/decode_test_bigram/wer_12_1.0:%WER 0.33 [ 15 / 4480, 2 ins, 10 del, 3 sub ]
+exp/tri2/decode_test_bigram/wer_13_0.0:%WER 0.33 [ 15 / 4480, 2 ins, 10 del, 3 sub ]
+exp/tri2/decode_test_bigram/wer_13_0.5:%WER 0.33 [ 15 / 4480, 2 ins, 10 del, 3 sub ]
+exp/tri2/decode_test_bigram/wer_13_1.0:%WER 0.33 [ 15 / 4480, 2 ins, 10 del, 3 sub ]
+exp/tri2/decode_test_bigram/wer_14_0.0:%WER 0.33 [ 15 / 4480, 2 ins, 10 del, 3 sub ]
+exp/tri2/decode_test_bigram/wer_14_0.5:%WER 0.33 [ 15 / 4480, 2 ins, 10 del, 3 sub ]
+exp/tri2/decode_test_bigram/wer_14_1.0:%WER 0.31 [ 14 / 4480, 1 ins, 10 del, 3 sub ]
+exp/tri2/decode_test_bigram/wer_15_0.0:%WER 0.33 [ 15 / 4480, 2 ins, 10 del, 3 sub ]
+exp/tri2/decode_test_bigram/wer_15_0.5:%WER 0.31 [ 14 / 4480, 1 ins, 10 del, 3 sub ]
+exp/tri2/decode_test_bigram/wer_15_1.0:%WER 0.31 [ 14 / 4480, 1 ins, 10 del, 3 sub ]
+exp/tri2/decode_test_bigram/wer_16_0.0:%WER 0.31 [ 14 / 4480, 1 ins, 10 del, 3 sub ]
+exp/tri2/decode_test_bigram/wer_16_0.5:%WER 0.31 [ 14 / 4480, 1 ins, 10 del, 3 sub ]
+exp/tri2/decode_test_bigram/wer_16_1.0:%WER 0.31 [ 14 / 4480, 1 ins, 10 del, 3 sub ]
+exp/tri2/decode_test_bigram/wer_17_0.0:%WER 0.31 [ 14 / 4480, 1 ins, 10 del, 3 sub ]
+exp/tri2/decode_test_bigram/wer_17_0.5:%WER 0.31 [ 14 / 4480, 1 ins, 10 del, 3 sub ]
+exp/tri2/decode_test_bigram/wer_17_1.0:%WER 0.31 [ 14 / 4480, 1 ins, 10 del, 3 sub ]
+exp/tri2/decode_test_bigram/wer_7_0.0:%WER 0.33 [ 15 / 4480, 3 ins, 9 del, 3 sub ]
+exp/tri2/decode_test_bigram/wer_7_0.5:%WER 0.31 [ 14 / 4480, 2 ins, 9 del, 3 sub ]
+exp/tri2/decode_test_bigram/wer_7_1.0:%WER 0.33 [ 15 / 4480, 2 ins, 10 del, 3 sub ]
+exp/tri2/decode_test_bigram/wer_8_0.0:%WER 0.31 [ 14 / 4480, 2 ins, 9 del, 3 sub ]
+exp/tri2/decode_test_bigram/wer_8_0.5:%WER 0.33 [ 15 / 4480, 2 ins, 10 del, 3 sub ]
+exp/tri2/decode_test_bigram/wer_8_1.0:%WER 0.33 [ 15 / 4480, 2 ins, 10 del, 3 sub ]
+exp/tri2/decode_test_bigram/wer_9_0.0:%WER 0.33 [ 15 / 4480, 2 ins, 10 del, 3 sub ]
+exp/tri2/decode_test_bigram/wer_9_0.5:%WER 0.33 [ 15 / 4480, 2 ins, 10 del, 3 sub ]
+exp/tri2/decode_test_bigram/wer_9_1.0:%WER 0.33 [ 15 / 4480, 2 ins, 10 del, 3 sub ]
+Mon Aug 23 20:43:50 IST 2021
+Mon Aug 23 20:43:50 IST 2021
