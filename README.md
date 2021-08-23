@@ -2,6 +2,11 @@
 ASR on Assamese Language using Kaldi
 
 ## Number Syster WERs
+
+System Configuration - MacOS, 8GB RAM, i5
+
+Run on CPU
+
 | Best Model Name | Pass | WER | Error | ins | del | sub | Time (s) |
 | --------------- | --------------- | --------------- | --------------- | --------------- | --------------- | --------------- | --------------- |
 | Monophone | 15_1.0 | 4.46 | 200 / 4480 | 92 | 18 | 90 | - |
